@@ -5,9 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="Cache-control" content="no-cache">
 		<title>{% block title %}{% endblock %}</title>
-		<link rel="stylesheet" href="/css/normalize.css" />
-		<link rel="stylesheet" href="/css/basscss.css" />
-		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/styles/main.css" />
     <!-- typekit fonts -->
     <script src="//use.typekit.net/aha4qzk.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
