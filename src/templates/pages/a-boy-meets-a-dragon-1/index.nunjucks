@@ -1,0 +1,104 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}Meetings and Wanderers | A Boy Meets a Dragon | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">A Boy Meets a Dragon</h1>
+    <h3 class="mb1">Chapter 1</h3>
+    <h2 class="mb8">Meetings and Wanderers</h2>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Listen to the audio version:</div>
+      <div id="jplayer_abmad_chap1" class="jp-jplayer"></div>
+      <div id="jplayer_abmad_chap1_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/audio/a-boy-meets-a-dragon/chapter-1/a-boy-meets-a-dragon-chapter-1.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-1/xlarge.jpg" media="(min-width: 1800px)"><!-- 2560 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-1/large.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-1/mediun.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-1/small.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images/a-boy-meets-a-dragon/chapter-1/large.jpg" alt="The Curtain">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+    Illustration by David Miranda
+  </div>
+  <div class="main-text-container">
+    <p>Eeo takes off his helmet and steps onto the Golden Pathway. He can see far ahead into the distance where the sun is scorching the high towers and the purple ferns are swaying slumberously. He takes his shoulder blade out of its holster and steps forward, one step at a time, gingerly, suspectfully.</p>
+    <p>There are mice scurrying at his feet and green grass bleeding between stones that are covered in gold dust. He’s tempted to run where he wants to go, but he doesn’t want his head to get sliced open by one of those wire traps that are set up along this path sometimes. So instead, he steps slowly forward, disturbing the golden dust at his feet as little as possible, searching ahead of himself with his shoulder blade.</p>
+    <p>Eeo comes to a river passing before he was expecting one, but it’s fresh water, so he’s hopeful he’s still going in the right direction. The river runs straight through his pathway, over the bouldering rocks, and down the hill to his right. It’s not easy to ford the river, but he works at it slowly, pushing his body into the water and then grabbing from one stone to the next.</p>
+    <p>He’s halfway across when the rocks under his feet shift and collapse and his right big toe gets stuck and pins him there. At first, he stands there noiselessly, pulling gently, waiting for maybe the rushing water to shift the stones again. Then he pulls harder and harder, trying to free himself, but the crevice only seems to tighten around his whole foot. He twists it and turns his whole body, but the stones shift with him, pulling him down further, so that even his chest starts to submerge beneath the water.</p>
+    <p>Eeo figures these must be magic stones, somehow trapping him here with their damnable magic spells. Eeo doesn’t like magic, never has, but he knows how to undo it. He waits and then takes a deep breath and brings himself under the water. He whispers to the rocks in bubbles: &ldquo;Oh precious stones of light and love, I love you dearly, but I need my foot, please be kind and let me free and I’ll love you like you love me.&rdquo;</p>
+    <p>The stones shift and let him go and he lifts his foot free from them. He reaches down into the depths of the water, which is still rushing around him, and he’s presented with a small stone in the palm of his hand. He lifts it up and holds it before his eyes.</p>
+    <p>Curious, he realizes it’s a shimmering stone, one of the four most powerful kinds of magic stones. He pockets it and keeps walking out of the river. He feels the rocks start to shift underneath him again before he realizes something he’s forgotten.</p>
+    <p>He turns and speaks down into the river: &ldquo;Oh, dear stones, I’m sorry.&rdquo; He takes the rock out of his pocket and kisses it and then he speaks a promise out loud to it: &ldquo;I’ll take you where you need to go, wherever it is in this whole wide world.&rdquo; The stones stop shifting beneath him, and, when he steps forward, it seems like there are stones to meet his feet. He takes them easily, step by step, until he’s free of the water.</p>
+    <p>Once Eeo is out of the river, he asks the stone, &ldquo;Dear stone, where do you want to go?&rdquo;</p>
+    <p>When he holds the stone up to his ear, it whispers back to him in a barely audible voice, &ldquo;Anywhere, dear traveler, except back in that river. Please take me with you, far away from here.&rdquo;</p>
+    <p>Eeo is curious to hear this and wants to know more. He asks the stone, &ldquo;What do you most want from this world, dear stone, if not to be cooed and cradled by a cooling river?&rdquo;</p>
+    <p>The stone replies, in a dead whisper: &ldquo;To be cradled by the sun and melted into the eggs I carry in my stomach, the birthplace of a thousand new worlds.&rdquo;</p>
+    <p>&ldquo;Can it be?&rdquo; thinks Eeo, &ldquo;Not only a shimmering stone, something that reflects light and reveals masks and ancient secrets, but also a world bearer, a stone that can harness the power of fire to birth new worlds into this one, crash and cradle new worlds through the aether, through the dreamtime, into this one waking world?&rdquo;</p>
+    <p>The stone replies: &ldquo;That exactly.&rdquo;</p>
+    <p>Eeo tosses her away onto the path with fright and the river behind him wiles and rages. The stone cries out, &ldquo;Not again, not again!&rdquo;</p>
+    <p>And the river cries out with loud cries of anguish. And there are voices that bubble up from the depths of the river and claw out into the sunshine: &ldquo;She is mine! Let her be miiiine!&rdquo;</p>
+    <p>The river turns red, bright red, and starts washing over the gold-lined pathway, but Eeo rushes just ahead of it, picks up the stone, and turns and skips away beyond its grasp.</p>
+    <p>The river eventually retreats and turns back to clear liquid. It stops crying, stops rushing and raging, and Eeo asks the stone, &ldquo;Did you just read what I was thinking?&rdquo;</p>
+    <p>The stone whispers: &ldquo;No, it was painted on your face. I can read faces well, that is all. Let’s go, let’s go! We have treasure to find, don’t let that river get ahold of me again!&rdquo;</p>
+    <p>Eeo walks forward with the stone in his hand until he comes to a grove. It is the Grove of Forgetting and it’s a very dangerous place. He asks the stone if she’s heard of this place and the stone tells him that she has and that they shouldn’t go into it because it’s protected by strong magic and fire guardians and ancient grimm maligners. Eeo tells the stone that he doesn’t have a choice, that he has to push forward, has to explore new territory, has to find his way to the other side of this place.</p>
+    <p>The stone tells him: &ldquo;All is known, the earth and the stones have known everything for centuries, there’s no more knowing you can have that we haven’t already found. Let’s find a quiet place and I will tell you of the world.&rdquo; But Eeo knows he has to press forward, there is something calling him, some dark magic pulling at his soul inside this grove. So he steps forward.</p>
+    <p>The stone is silent. The last words the stone whisper are, &ldquo;Please let me be found by someone who will know my power but not befriend himself to it.&rdquo;</p>
+    <p>The grove leads into a jungle that is dark and deep and has existed since the beginning of time. The darkness in this jungle smells like darkness, devoid of all color and movement, and the leaves and the pines smell like sulfur. Eeo steps into it with abandon, having just tasted the exclamations of the Grove of Forgetting, which took all they could of the memories from his mind. He wants not for anything but to get out of that place and into a new land full of wonder beyond these parts. The leaves on the trees and the bushes are large and supine and creased with long dark lines. And the pines are willowed and hollow and small.</p>
+    <p>Eeo asks the stone, &ldquo;Where are we now?&rdquo;</p>
+    <p>But the stone doesn’t reply. The stone is empty. Eeo feels her in his hand and can tell that the stone is not a birthing stone anymore, all her inner worlds captured from her. But then the stone utters a small sound, a distant sound, &ldquo;I am here, but I know not where, what happened to my babies?&rdquo;</p>
+    <p>&ldquo;Remember?&rdquo; Eeo says, &ldquo;We gave them to the travelers on the road back there, we gave them away so we could be safe. We gave them to the dark travelers who wanted to take my soul.&rdquo;</p>
+    <p>&ldquo;Your soul,&rdquo; the stone whispers. And then she starts yelling as loudly as she can, which sounds like someone talking hoarsely at a normal volume: &ldquo;YOUR SOUL!? MY SOUL SPANNED CENTURIES!! And you gave it away in exchange for your own! What were you thinking! Tiny person, please go back and retrieve my babies. You know not what you have done.&rdquo;</p>
+    <p>Eeo feels bad, so he goes back into the Grove of Forgetting and the grove tells him the same words it told him the last time he was there, which have all become vague recollections by this point.</p>
+    <p>It tells him, &ldquo;You are useless, be my slave.&rdquo; Over and over again.</p>
+    <p>And it tells him, &ldquo;There is nothing worth remembering more than my name, I am the Crulwich Witch of Lamberton Swoom, call me a race track and call me a loon but sooner or later it’ll all come too soon when the liars and dead men wear walruses for hats and the eels and tarantulas call out for more bones.&rdquo;</p>
+    <p>And it tells him, &ldquo;We are lost, we are lost, aren’t we? Far beyond where we were meant to be wandering. It’s always dangerous wandering alone at night. It’s always dangerous to be out wandering. Where did your home go, young boy, where did your home go?&rdquo;</p>
+    <p>And it tells him, &ldquo;There’s no more echoes, there’s no more toys, there’s no more light, there’s no more lies, there is only this, this land of wandering, wander here into eternity.&rdquo;</p>
+    <p>And it seems to be saying all of these things at once, in a million voices, over and over again, filling up his whole body with its lies. Eeo can feel his consciousness struggling to hold on before it simply evaporates, reappearing a few moments later.</p>
+    <p>He struggles to hang on.</p>
+    <p>Eeo suddenly remembers why he had tried to be rid of this place once and for all. He remembers why he liked being in the jungle that was trillions of years old and wanted him dead instead of empty.</p>
+    <p>But, all the same, he finds the travelers that smell like death and he shows them the small empty rock and they shake their heads and open their mouths, showing him the endless tunnels they’ve supposedly forced the newborn worlds into.</p>
+    <p>Eeo sheds a tear, struggling to maintain his balance and hold onto his consciousness. He points to his heart and then he bows to them and holds out the rock to them, so they can take her if they want to. He offers them everything: his body, mind, and soul. But they are so terrified of this prospect that they immediately return the rock’s memories and her eggs and her soul, which were all tangled up in their rotting skin.</p>
+    <p>Eeo, with the stone clasped in his hand, heads back to the jungle.</p>
+    <p>When they reach the jungle, there's a freshly painted wall blocking their entrance, one that wasn't there before. They look at the top of it and there's a cross, a small silver cross, and in the middle of the cross there's a circle within a circle and a heart inside the smaller circle, a pulsing human heart that looks like it's over-full because it looks like it's bulging and about to burst. And then, quietly, without him noticing how or why it changes, the wall isn’t a wall any more, but is instead a very large curtain.</p>
+    <p>Eeo pulls on the curtain until it ruffles and comes apart and spreads aside and, finally, opens before him. He tears at it. He pulls at it. He pulls it aside and then he walks further and further into it. And while he's doing this, he holds the stone up at chest height and the stone glows for him and shows him the way because they are friends now, in this world untouched by life.</p>
+    <p>Finally, they find their way through the dark, maze-like curtain and to the other side. When they get there, there's a very large, green and brown dragon lying in front of them, with his left eye open and pointed straight at them.</p>
+    <p>&ldquo;Don’t be frightened, child,&rdquo; the dragon says. As he speaks, he lifts his head. &ldquo;I’m here to help. What do you come here seeking?&rdquo;</p>
+    <p>Eeo is brave. He starts right up: &ldquo;The end of the world.&rdquo;</p>
+    <p>&ldquo;Oh.&rdquo; the dragon says, &ldquo;You mean the place where it all comes to a standstill, where eternity meets with time and space and the whole thing collapses in on itself?&rdquo;</p>
+    <p>&ldquo;Yes, sorta, but not just something like a super giant black hole that eats up everything just in order to spit it out again later. I mean the once and for all. I need the place where the universe ends and doesn’t keep going. I need to find the place that will terrify me to my bones because I know it’s real by the way it looks and shakes its painted fist at me.&rdquo;</p>
+    <p>&ldquo;I know the place you’re talking about,&rdquo; says the dragon. &ldquo;It’s been a long time since any of us dragons figured to expect one of you to come along and seek it out… It will not be easy to find.&rdquo;</p>
+    <p>The dragon looks at him piercingly. &ldquo;Or, perhaps it will be easy to find in your case, but only because it’s not really what you’re looking for. You see, it’s closer than you think.&rdquo;</p>
+    <p>&ldquo;What do you mean, it’s not what I’m looking for? It’s the only place I need to find! I need to see where it is. Please, for my family, for my honor, for my curiosity!&rdquo;</p>
+    <p><a href="/a-boy-meets-a-dragon-chapter-2/"><i class="fa fa-angle-double-right"></i> Continue to Chapter 2</a></p>
+  </div>
+</div>
+{% endblock %}
