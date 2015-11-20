@@ -1,0 +1,206 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}Lumberjack Graves Dug Deep in the Ocean Floor | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">Lumberjack Graves Dug Deep in the Ocean Floor</h1>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Listen to the audio version:</div>
+      <div id="jplayer_lumberjack_graves" class="jp-jplayer"></div>
+      <div id="jplayer_lumberjack_graves_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/download?filePath=/audio/lumberjack-graves.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images/maple-and-marcoreous-xl.jpg" media="(min-width: 1800px)"><!-- 2560 -->
+    <source srcset="/images/maple-and-marcoreous-l.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images/maple-and-marcoreous-m.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images/maple-and-marcoreous-s.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images/maple-and-marcoreous-l.jpg" alt="Maple and Marcoreous">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+    Illustration by <a href="http://www.ryannotbrian.com/">Ryan Shaw</a>
+  </div>
+  <div class="main-text-container">
+    <p>&ldquo;Okay, so now the elephants are trampling all the fruit flowers and the water mills, too. What are we going to do about all this destruction?!&rdquo;</p>
+    <p>&ldquo;Mephie, look around you. The whole project is coming down sooner or later, and I think it’s going to be sooner. Look at the rage scooners at the edge of the barroway. They want three dice rolled for every child lost. We can’t cover that. We’re going to have to run.&rdquo;</p>
+    <p>&ldquo;The elephants are right here, right now. This is something we can do something about, but the barroway . . . .&rdquo;</p>
+    <p>&ldquo;It won’t matter, Mephie. If the barroway collapses, then it all simply won’t matter. Can’t you see that?&rdquo;</p>
+    <p>&ldquo;No, Maple, you’re wrong this time. The barroway we can lose, but if we lose the water mills, then we’ll have nothing to drink. No one will have anything to drink. How would you feel about that? Wouldn’t you feel responsible?&rdquo;</p>
+    <p>&ldquo;Okay, okay, we stay and help. And I guess we just see what happens to us down the line. Can we at least send a conciliatory pastry or two to the rage scooners? It might appease them for a while. And the derailers are trying hard to get me to jump ship. They want me to go with them.&rdquo;</p>
+    <p>&ldquo;We’ve talked about them before. Pay them no mind. You’re not listening to them again, are you? Oh, Maple, how terrible! What did you promise them? What did you say? If the derailers take charge, you know the first thing they’ll do is destroy the water barracks. Water is life, Maple, you know that. We <em>cannot</em> survive without water.&rdquo;</p>
+    <p>&ldquo;I promised them nothing, but I told them we might consider sending ten barrels over.&rdquo;</p>
+    <p>&ldquo;Ten barrels! You might as well starve half the village with that kind of generosity.&rdquo;</p>
+    <p>&ldquo;They’re people too, Mephie. And I know you think it does, but it doesn’t matter if they ally with him or whom, it’s only a sign of their desperation. But if we can do something for them now, it might be remembered. Or better yet, they might even help us build a couple rage scooners of our own.&rdquo;</p>
+    <p>Mephie went silent. She hates rage scooners. It was rage scooners who had taken her first family. She didn’t even know if any of them were still alive, and that’s how rage scooners liked it &mdash; right in the middle of uncertainty so all you could do was wonder endlessly.</p>
+    <p>&ldquo;Listen, Mephie, I was thinking we could use the scooners to build a new river moat. Just a river moat, and then we’d disassemble them in a jiffy. Come on, what do you say?&rdquo;</p>
+    <p>If I kept this pace she wouldn’t talk to me for a long time, weeks maybe. &ldquo;Mephie, I heard some of the elephant men recruited a new boy the other day. His name’s Jan; he’s from the Far East. Isn’t that good news?&rdquo;</p>
+    <p>&ldquo;I heard about Jan &mdash; that was, what, a week ago? Have you been saving that news?&rdquo;</p>
+    <p>&ldquo;I only heard yesterday. Listen, what do you want me to do?&rdquo;</p>
+    <p>&ldquo;Go out there and knock on all the rabbit doors. Find Mr. Rabbit. Tell him we need him to call a constable meeting. Then, at the constable meeting, you need to pay off the tortoises so you can legally rope in one of the elephants and make an example of him. Nothing too bad, but we can’t have violent elephants running around.&rdquo;</p>
+    <p>&ldquo;I’d have more luck talking with Mr. Elephant himself.&rdquo;</p>
+    <p>&ldquo;Okay, then do that.&rdquo; I was getting deeper and deeper into the mystery of this ramshackle town, and all because of Mephie. I walked out the front door and got on my motorbike. I trailed down to the local mart and bought a pack of cigarettes. Towns are lonely when you have no one to talk to except someone who’s mad at you.</p>
+    <p>I went to visit Mr. Elephant. <em>Knock, knock, knock</em> on his hard wooden door.</p>
+    <p>&ldquo;COOOMME INNN,&rdquo; he responded. His voice was boisterous and bellowed like an iron drum. I walked inside and saw that he was reading, as usual, laying the book on his lap as I entered.</p>
+    <p>&ldquo;Hey, what are you reading these days?&rdquo;</p>
+    <p>&ldquo;What do you care, <em>boy</em>? Why haven’t you left this town yet?&rdquo;</p>
+    <p>&ldquo;Marcoreus,&rdquo; I cut straight to the point, &ldquo;I could use your help with a minor problem.&rdquo;</p>
+    <p>&ldquo;Yes, yes, the rage runners scared up an elephant cub and now he’s coming your way. Threatens the waterways and all that. Am I right?&rdquo;</p>
+    <p>&ldquo;You know more than me.&rdquo;</p>
+    <p>&ldquo;What do you want me to do? Power comes from authority, and you know I have no authority. I obey the law. That’s why I read so much, Maple, to learn more about the law.&rdquo;</p>
+    <p>&ldquo;But things are <em>happening!</em>&rdquo;</p>
+    <p>&ldquo;Maple, things are always happening. It’s nothing to get concerned about. Things are going to continue happening for a long time after we both disappear. Now and forever you’ve always had a choice to make: go swimming with the fishes or stand here on solid ground. If you want to stand here, you have to follow some law or don’t expect not to get caught up in the tangle. The Law will always be here if you need somewhere to recover and something to take solace in. I’ve told you that before.&rdquo;</p>
+    <p>I thought about Mephie. I thought about the first day I met her, back when she used to leave the house at night, back when it was safe to leave the house at night. She wore motorcycle glasses, and her eyes burned with a calm fury. Her every movement seemed to scream at me: <em>There is no other world but this one.</em></p>
+    <p>&ldquo;So you’re telling me you can’t do anything to help?&rdquo; I tried to stand up, but I faltered slightly. I sat back down again. Marcoreus raised his voice.</p>
+    <p>&ldquo;There will be none of that today! Sit down and help me read through this passage. It’s an old passage, about what things were like when things were simple. Back when the rabbits didn’t multiply with such non-hesitation. And elephants would never, ever disrupt a waterway. Here, I’ll read it to you.&rdquo;</p>
+    <p>He read slowly.</p>
+    <p>&ldquo;Trafails wanked shilisters uphill nottingdale winters. Taramay forrester coughingjay wishester marlamay. Fig trim dully wags. Fig trim red noses. Tallamay.&rdquo;</p>
+    <p>When he asked me to translate, I hesitated for a moment before telling him I thought it meant something like this: &ldquo;When the ocean was calmed by the moon instead of disturbed by its longing, there were moonlit bulbs that illuminated the ocean floor and led to underground palaces. There were great ships then, bigger than cities, which scooped up all of the manna from the depths of the ocean and sent it far into the heavens. The sweetness of this betrothal passed on to the land in happy faces and a dull afternoon glow. And the sweetness of this betrothal passed on to the land in new growth and patient faces. That was how our great ship Earth passed through the night sky of the ocean abyss.&rdquo;</p>
+    <p>&ldquo;And what do you think it really means?&rdquo; he said.</p>
+    <p>&ldquo;I think it means, honestly, that there was a time when things were a lot better. And to read that kind of stuff now is just rubbing it in our faces.&rdquo;</p>
+    <p>&ldquo;Boy, learn some <em>respect</em>. There are two ways out of the mess you’re in. You live silent and die a small blip on the radar screen, or you start building something that makes sense. You’ve got no sense in you. Don’t you want to start building one of the new ships that could travail the winters that are coming in? They will be long winters, many lifetimes long, and it’s about time you started preparing, because right now, as I’m saying this, the consensus says you’re stuck with us here on Planet Earth.&rdquo;</p>
+    <p>&ldquo;That’s not your decision.&rdquo;</p>
+    <p>&ldquo;No, it’s yours. So say something like you mean it for once.&rdquo;</p>
+    <p>&ldquo;I . . . I . . . can’t. I still don’t know where I stand with . . . .&rdquo;</p>
+    <p>&ldquo;What about Mephie?&rdquo;</p>
+    <p>&ldquo;We make a safe home together, but long term? She’s killing me.&rdquo;</p>
+    <p>&ldquo;You’re a dead man, then, either way?&rdquo;</p>
+    <p>&ldquo;Feels like it, but when I see a new pair of eyes lighting up the world, it makes me think: maybe things could be brighter someday. Maybe, if we got the right ingredients, things could be brighter a lot sooner than anyone expects. I just don’t think it’s going to be through some old myth.&rdquo;</p>
+    <p>&ldquo;Why don’t you let me worry about that part. Go on. You were speaking.&rdquo;</p>
+    <p>&ldquo;That’s where I stop, every time, at the edge of uncertainty. I feel like a leader leading people into darkness, and it doesn’t feel right. Every time someone turns to me and says, ‘Is it worth it?’ with their eyes, I answer, ‘I’m not sure,’ but that’s not what a leader needs to do. I need to be sure, but I’m not. It’s just darkness up ahead. What am I supposed to say: ‘Looks great, let’s go!’?&rdquo;</p>
+    <p>&ldquo;You do what you feel, Maple; no one can judge you except for that.&rdquo;</p>
+    <p>&ldquo;Well, then, can you get the elephant cub to back down?&rdquo;</p>
+    <p>&ldquo;<em>No</em>.&rdquo;</p>
+    <p>&ldquo;Then we have nothing, and I mean literally <em>nothing</em> to talk about.&rdquo;</p>
+    <p>&ldquo;Don’t say that with such fervor. It’s my hope you’ll feel different someday.&rdquo;</p>
+    <p>&ldquo;Maybe. Maybe if you’d come outside and look around every once in a while instead of hiding in this cave, Mr. Elephant.&rdquo;</p>
+    <p>I left.</p>
+    <p>I went home to Mephie, screaming inside my head. I didn’t know how to make sense of what was happening, but I was coming to some sort of idea about what I wanted to do. Maybe tackle a project or two . . . long-term stuff. But this elephant cub? I was going to have to let Nature work on that.</p>
+    <div class="story-section-separator"></div>
+    <p>I found myself in the Red Cherry Groves the next morning. A young rabbit boy woke me up. &ldquo;Mister Maple, can you forget about what happened last night? Momma says to remind you there’s no reason to rush! The mischief maker cat-of-hats stole your sleeve and hid it in the orange groves, but tomorrow will take care of itself &mdash; right, Mr. Maple?&rdquo;</p>
+    <p>I didn’t remember last night, the boy was right. I stood up and cleared my face from debris.</p>
+    <p>&ldquo;Where are the roundabout silencers? I forgot my wand this morning.&rdquo; I had the advantage that all the rabbits thought I had magic powers.</p>
+    <p>&ldquo;The silencers moved out hours ago. They’ve gone to pick some fruit in the orchard like everyone else. They’ll be back before dark. Whydayawantem?&rdquo; I wasn’t sure yet. Morning was just starting to have its effect on me. I wasn’t quite awake yet.</p>
+    <p>I looked down at my shirt and saw my sleeve was torn. The rabbit boy must be right about what that cat-of-hats monster had done. It was hard to see him coming, every time, because he disguised himself as so many different types of creatures. Sometimes he’d be an octopus just to mess with your heart for a moment. To see an octopus on dry land again &mdash; oh, what a dream that would be! &ldquo;Little Tuff, can you do me a favor and grab me a dustpan and a broom?&rdquo;</p>
+    <p>He brought them right away, and I cleaned the pile of gravel where I had fallen last night. &ldquo;Please apologize to your momma for me, would you please?&rdquo;</p>
+    <p>&ldquo;Yes sir, and where are you going to go?&rdquo;</p>
+    <p>&ldquo;I’m going out to the orchards. I’m going to see what happened to my sleeve.&rdquo;</p>
+    <p>&ldquo;Can I come with you, Mister Maple?&rdquo;</p>
+    <p>&ldquo;Ask your momma first and bring a weapon if you dare. There’s magic out there that I can’t control.&rdquo; That was certainly true. I could use a second pair of eyes and ears, too. I waited for the boy by the livestock penned up near his mother’s house.</p>
+    <p>&ldquo;I can come! I can come!&rdquo; He romped out of his house and brought a broom with him, a broom that was taller than he was.</p>
+    <p>&ldquo;Are you sure that’s going to be enough?&rdquo; I laughed as I looked at him. He frowned.</p>
+    <p>&ldquo;Momma says it’s enchanted with anti-witching spells. She says that’s why you can’t touch it. Here, try.&rdquo; He handed it to me before I could refuse. He was right, it was burning hot to the touch.</p>
+    <p>&ldquo;Alright, alright, please don’t burn me!&rdquo; I laughed.</p>
+    <p>We walked along the path into the orchards that spanned out for miles. This was certainly going to be some kind of adventure.</p>
+    <p class="divider">
+        <span class="line"></span>
+        <span class="diamond"></span>
+    </p>
+    <p>Two hours down the main path and we still hadn’t found anyone. The trees were picked clean of fruit, but that was really no surprise. We kept walking.</p>
+    <p>&ldquo;Mister Maple, sir, can I be a tree when I grow up?&rdquo;</p>
+    <p>&ldquo;Young Mr. Tuff, of course you can, but why would you want to be a tree?&rdquo;</p>
+    <p>&ldquo;I want to be like you, an explorer, going out into the wide world where there are monsters and having no fear because your roots are planted deep. I wish I had roots. I have to hop around everywhere, and I get tired, like I’m always reaching up and never quite coming down to ground.&rdquo;</p>
+    <p>&ldquo;You’re wise for a little rabbit, but I’ll have you know there’s no form of life better than another. We all have different advantages; we balance each other. That balance is off right now, which is why I have to go on so many adventures, but believe me when I tell you I’d rather just stay home like a good tree.&rdquo;</p>
+    <p>&ldquo;What do you mean, Mr. Maple? Momma says you’re a hero!&rdquo;</p>
+    <p>&ldquo;Ya, well, I can be sometimes. I know my way around these parts, but if you put me way out beyond the orchards, believe me, I’d be just as scared as anyone else. I’d probably be begging you to defend me with that weapon you have there. I can’t move very fast, see.&rdquo; I show him how my sneakers tug and strain to lift more than a few centimeters above the ground. &ldquo;Us trees, we have to move slowly, in time with the earth, or else we lose touch with the water that runs through our veins. There’s been a few times I’ve gotten in trouble because I’ve lost touch.&rdquo;</p>
+    <p>&ldquo;I don’t even know what roots feels like, Mr. Maple! How do you get to become a tree?&rdquo;</p>
+    <p>&ldquo;The same way anyone becomes anything: practice at it. It took a lot of practice and I wasn’t always good at it. Like any tree, I had to do lots of travelling and sightseeing. The water flows all over the land in different patterns, so I had to follow it for a long time before my feet got accustomed. I guess at first I didn’t even know what I was doing. It just came naturally.&rdquo;</p>
+    <p>&ldquo;What did you use to be? Before you was a tree?&rdquo;</p>
+    <p>&ldquo;Oh, come now, that’s a silly question, little rabbit. What did you use to be, young Master Tuff, before you was a wabbit? We all come from the ground, however many lifetimes it takes. We all grow out of the egg we planted at the end of our last lifetime.&rdquo;</p>
+    <p>&ldquo;That’s not what Momma told me. Momma told me that we, me and my brothers and my sister too, she says we came out of her belly.&rdquo;</p>
+    <p>&ldquo;Oh, but then where did her belly come from? I suppose I could have been a rabbit before, mind you, it’s really all the same to me. Rabbits all the way down, tortoises all the way down, eggs all the way down, it’s whatever way you’ll have it, young master. Old Mr. Elephant says we all came from the ocean.&rdquo;</p>
+    <p>&ldquo;Do you believe him?&rdquo;</p>
+    <p>&ldquo;I believe what I see and I haven’t seen anything come out of the ocean in a long time. I think we’d better start focusing on solid ground again, though.&rdquo; My roots had started to come up a little more easily just talking that talk and I was getting concerned I might have to start heading back soon. I wanted to find someone, <em>anyone</em>, before that happened, but the water was getting thin and my sneakers weren’t holding it in like they used to. I wondered where the orchard mongers were, and the orchard pickers, and the orchard willowers.</p>
+    <p class="divider">
+        <span class="line"></span>
+        <span class="diamond"></span>
+    </p>
+    <p>We walked for ten more minutes before I started getting really tired.</p>
+    <p>&ldquo;Ooh, look, Mr. Maple! It’s a geeseling!&rdquo; It certainly was &mdash; one that had flown from the castle kingdom, I supposed, from way up in the clouds. It was almost grown into a child Tuff’s age now, and golden brown, but around these parts it was illegal to feed or touch such a thing.</p>
+    <p>&ldquo;Let’s turn around now, young Tuff, we’ll see if we can see anyone on our way back, okay?&rdquo;</p>
+    <p>&ldquo;But what about the geeseling? We can’t just leave him out here! He can’t even reach the fruit in the trees! He’ll staaarve.&rdquo;</p>
+    <p>&ldquo;Either that or someone <em>else</em> will rescue him. Do you know what kind of trouble we could get in with the cloud kingdom if we helped him? Come. I don’t even want to think about it.&rdquo; He didn’t budge. &ldquo;Please, young master,&rdquo; I said, &ldquo;let’s turn around.&rdquo;</p>
+    <p>Tuff had no way of comprehending the import of what was happening. I felt a chill in the air as the wind gusted by. The cloud creatures would be looking for this bird &mdash; that was for sure. Maybe that’s why the orchards were cleared out. &ldquo;Please, Tuff, let’s go.&rdquo; A storm was brewing &mdash; I could feel it &mdash; but Tuff was still staring, quite enchanted with the young, shiny thing.</p>
+    <p>&ldquo;Hello, you!&rdquo; he said.</p>
+    <p>&ldquo;Hello, you,&rdquo; said the young geeseling. It was old enough to talk. I turned around and started heading back home, feeling trouble in the air.</p>
+    <p>&ldquo;Mister Maple, where are you going?&rdquo; I could hear it in his voice &mdash; young Tuff was starting to turn into a little fox. We couldn’t use a fox at the village, but geeselings could do that to you. I kept walking, I didn’t turn around.</p>
+    <p>I stopped thirty paces from where we’d encountered the bird and said, without looking, &ldquo;Young Mister Tuff, come along please.&rdquo; I spoke in my sweetest, most direct voice, hoping he’d listen to me this one last time. My roots were starting to come out of the ground altogether. The wind was sweeping across the orchard, and I could feel the water drying up beneath me. Soon it would be too dry, and I’d have to start running to keep up with it. I’d worry about Tuff seeing a tree run if I didn’t already think he was lost.</p>
+    <p>&ldquo;Wait, Maple, I’m coming.&rdquo; He was a fox now. I could hear it in his voice. Now it was my choice: bring him along, or let him go. His mother wouldn’t want him by the time we got back, so he’d have to stay with Mephie and me &mdash; another rescued stray.</p>
+    <p>I didn’t turn around, but I stopped in my tracks and let my roots start digging into the soil again, seeking for a drip. I closed my eyes. I closed my eyes shut, and I breathed calmly. I felt my roots dig through my sneakers and into the soil and then recede again. I took off my sneakers with my eyes closed and tried again. The soil felt good on my bare feet and my roots dug deeper.</p>
+    <p>Above me, someone stopped in the air. I could feel him staring at me: &ldquo;Who are you, traveler?&rdquo;</p>
+    <p>I kept my eyes closed and ignored him. I felt my roots dig a little deeper. I thought about Mephie and our spaceship home that we’d made into a garden home. My roots receded. Then I thought about nothing; I thought about just being here, breathing. My roots grew deeper. The wind stopped spinning around me. I felt the flying creature leave the air in front of me in the direction of the geeseling.</p>
+    <p>&ldquo;Come here, young Master Tuff, let’s go home.&rdquo; I opened my eyes and turned around, finally. He was a rabbit boy again, and he was crying. </p>
+    <p>&ldquo;You <em>are</em> magic! I knew you was magic, Mister Maple!&rdquo; he said through his tears, &ldquo;I was turning into a tree, and you stopped me!&rdquo;</p>
+    <p>&ldquo;Come along now, Tuff, or I’ll leave you here.&rdquo; The thought crossed his mind to threaten me with the broom, but then he ran up beside me and grabbed hold of my hand.</p>
+    <p>&ldquo;Mister Maple, why did you stop me? Why did that floating wizard stare at me for so long?&rdquo;</p>
+    <p>&ldquo;Tuff, just be quiet please. Once we get home, I’ll explain everything. For now, just close your eyes and walk beside me. Can you do that?&rdquo;</p>
+    <p>&ldquo;Yes.&rdquo;</p>
+    <p>I felt roots grow from the tops of my shoulders all the way through my body into the bottom of my heels, so the hard ground pressed against my heels with vigor and life force. The water started flowing back up through me, and the trees around me started shining a little brighter.</p>
+    <p>First project, I thought: start building an ozone around these parts of the country, or orchard picking is going to get pretty dangerous. During the walk home, I focused on the life energy beating through the heels of my feet and my breath coming and going through my nostrils. I couldn’t wait to get home.</p>
+    <p class="divider">
+        <span class="line"></span>
+        <span class="diamond"></span>
+    </p>
+    <p>&ldquo;It felt like being betrayed by my own kind, Mephie. I didn’t know if the sky was falling or if the backs of the trees would turn around to face me again. I felt utterly hopeless. Of course I thought about leaving the boy behind.&rdquo;</p>
+    <p>&ldquo;How . . . how could you? Then all of the rumors about you are true?&rdquo;</p>
+    <p>&ldquo;Yes,&rdquo; I said, holding her gaze.</p>
+    <p>&ldquo;Even the one about how you would bury your own mother in order to survive?&rdquo;</p>
+    <p>&ldquo;Mephie, come, this isn’t a survival game. This is life. Things grow. That’s the natural progression. I can’t choose if someone wants to be buried alive or not. But if you were to ask me ‘have you always tried to find new ways of growing, new ways of growing up into a human person?,’ I’d say, ‘Yes.’ I’ve always tried to reach over the limits and bring the sky down. Everywhere I go. So, what are you asking me?&rdquo;</p>
+    <p>&ldquo;What would you have done if little Tuff, poor little Tuff, had turned into a fox boy?&rdquo;</p>
+    <p>&ldquo;I can’t know that because it didn’t happen.&rdquo;</p>
+    <p>&ldquo;Play a game with me. Pretend. Tell me the truth.&rdquo;</p>
+    <p>&ldquo;I would have left him. Foxes are predators. They can’t resist tackling a geeseling, and you know how things are with the sky people right now. They want nothing to do with us.&rdquo;</p>
+    <p>&ldquo;<em>You</em> could change that.&rdquo;</p>
+    <p>&ldquo;You keep saying things like that, but I’m just one person. Do you know what it feels like to tip on the edge? It’s disgusting. It feels like you’re on an airship one minute and then all of a sudden you’re standing on nothing, flying through the emptiness of space with no control. It’s gotten to the point where I console myself with the thought that there will still be the feeling of solid ground for other people when I’m dead and gone from this Earth.&rdquo;</p>
+    <p>&ldquo;Yes, but the sky people love you. They love the thoughts you have about uniting the people.&rdquo;</p>
+    <p>&ldquo;The people . . . The People? Mephie, there’s no such thing. It’s a lie meant to scare us into submission. When I was out there in the field, do you think that witch cared about <em>The People</em>. No, we were just two things, out in the middle of an orchard.&rdquo;</p>
+    <p>&ldquo;Maple, I just want to understand you.&rdquo;</p>
+    <p>&ldquo;Mephie, I want to tell you all my secrets so we can help The People &mdash; these people &mdash; but it’s too much of a burden.&rdquo;</p>
+    <p>&ldquo;It’s the sky people’s fault. They keep making crazy promises and nothing changes!&rdquo; she says.</p>
+    <p>&ldquo;No, it’s no one’s fault. Everything is equal. Everything is the same, all the time.&rdquo; I glared at her. &ldquo;I’ve checked all the levels. I’ve taken my spaceship all around this globe, late at night, and I can tell you for certain: it’s all the same. The sky people, the cretins, the purists, the nightingales. Even the meaning eaters. It’s all the same. Everyone is hungry for something more, and believe me, they’re not hungry for ‘souls.’&rdquo;</p>
+    <p>&ldquo;Why do you keep going on knocking down souls? Don’t you believe in anything pure anymore?&rdquo;</p>
+    <p>&ldquo;No. I think souls are real. But we’ve got to start somewhere smaller: minds, hearts, legs, and these butts we sit on. We <em>all</em> sit on chairs and we <em>all</em> walk around.&rdquo; My roots were slipping out of the ground as I talked. I hoped Mephie wouldn’t notice.</p>
+    <p>&ldquo;This isn’t a philosophical discussion.&rdquo;</p>
+    <p>&ldquo;Yes. Yes, it is.&rdquo;</p>
+    <p>&ldquo;But what about the sky people? They never come down! And some of the people who live underground are buried so deep that they never want to come up again. It’s like they’re holding out for the whole world to collapse, and even then they’ll stay where it’s safe.&rdquo;</p>
+    <p>&ldquo;Yes, that’s all part of the discussion too. That’s how it happens. That’s how it needs to happen.&rdquo;</p>
+    <p>&ldquo;And what do you do to get someone out of a hole they’ve dug in the earth, one they never want to come out of?&rdquo;</p>
+    <p>&ldquo;I don’t know.&rdquo;</p>
+    <p>&ldquo;And what do you do to get the sky people to come down?&rdquo;</p>
+    <p>&ldquo;I don’t know.&rdquo;</p>
+    <p>&ldquo;Isn’t there anything else we can do? Because meanwhile, Maple, we’re stuck here on the ground, and we’re running out of water.&rdquo; She was near tears.</p>
+    <p>&ldquo;We’re not the only people running out of water, Mephie. We’re not The People just because we live on the ground.&rdquo;</p>
+    <p>&ldquo;Fine. Fine. But what can we do?&rdquo;</p>
+    <p>I needed to calm myself as much as I needed to calm her down. &ldquo;Sometimes it’s okay to just relax. Or take a walk. We’re making it for now. We’re saying with our every action: sky people, <em>stay and be at peace;</em> under-earthers, <em>stay and be at peace;</em> ground people, <em>stay and be at peace;</em> river people, <em>stay and be at peace.</em> Parts of this world can be used as weapons, but they don’t have to be. This world can get used to peace.&rdquo;</p>
+    <p>&ldquo;Okay. Okay, so just relax? That’s it?&rdquo;</p>
+    <p>&ldquo;Yes, and let’s do what we can, as we are, whatever we are.&rdquo;</p>
+    <p>&ldquo;Okay, so I’ve been wondering &mdash; who are you, anyway?&rdquo;</p>
+  </div>
+</div>
+{% endblock %}

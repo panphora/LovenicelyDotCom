@@ -38,40 +38,32 @@
 
     {% block head %}{% endblock %}
   </head>
-  <body class="{% block bodyClass %}{% endblock %}">
-    <div class="stretch-header"></div>
-    <div class="catchphrase-bg"></div>
-    <div class="container clearfix">
-      <div class="clearfix header-container">
-        <span class="stripe-container">
-          <span class="stripe"></span>
-        </span>
-        <a href="/" class="wide-logo no-underline">Love Nicely</a>
-        <div class="logo-text-container">
-          <a href="/" class="logo-text no-underline">love nicely</a>
-          <span class="logo-text-mobile">love nicely</span>
-        </div>
-        <ul class="main-menu">
-          <li><a href="/submissions">Submissions</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/">Home</a></li>
-        </ul>
+  <body class="chapter-story">
+    <div class="container">
+      <div class="top-bar mt2 mb1 clearfix">
+        <a class="right block p1" href="/submissions">Submissions</a>
+        <a class="right block p1" href="/about">About</a>
+        <a class="right block p1" href="/">Home</a>
       </div>
-      <div class="clearfix catchphrase-container">
-        <div class="col col-12 catchphrase">
-          <span class="subtitle-text"></span>
-          <i class="fa fa-refresh refresh-icon"></i>
-        </div>
+    </div>
+    <div class="center site-logo-container-story-page">
+      <img src="../images/lovenicely-medium.png" alt="Love nicely logo large" />
+    </div>
+    <div class="container">
+      <div class="center mb5">
+        <h2 class="main-site-header">Love nicely.</h2>
       </div>
-      <h3 class="stories-header"></h3>
-      <div class="clearfix main-content">
-        {% block content %}{% endblock %}
-        <div class="clearfix footer">
-          <div class="col col-12">
-            <div class="footer-img"></div>
-            <div class="license">This website is in the Public Domain.</div>
-            <div style="margin-top: 5px;"><a href="http://eepurl.com/044zn">Subscribe for updates</a></div>
-          </div>
+      <div class="center mb5">
+        <img src="/images/separator.png">
+      </div>
+    </div>
+    {% block content %}{% endblock %}
+    <div class="container">
+      <div class="clearfix footer">
+        <div class="col col-12">
+          <div class="footer-img"></div>
+          <div class="license">This story is in the Public Domain.</div>
+          <div style="margin-top: 5px;"><a href="http://eepurl.com/044zn">Subscribe for updates</a></div>
         </div>
       </div>
     </div>
