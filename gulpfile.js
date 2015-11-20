@@ -41,7 +41,7 @@ gulp.task('images', function () {
 });
 
 gulp.task('favicon', function () {
-	return gulp.src('src/favicon/**/*')
+	return gulp.src('src/favicon/**/*.*')
 		.pipe(gulp.dest('dist'))
 		.pipe(reload());
 });
