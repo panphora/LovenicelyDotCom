@@ -1,0 +1,84 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}A Dream About Gems | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">A Dream About Gems</h1>
+  </div>
+</div>
+<div class="container">
+  <div class="main-text-container">
+    <p>I had a dream about a girl who goes to work on a farm with an old lady. Their job is to harvest gems from a waterfall, all day, every day, while skiing on the water near the waterfall's edge.</p>
+    <div>
+      <picture>
+        <source srcset="/images/gems/01.jpg" media="(min-width: 1400px)">
+        <source srcset="/images/gems/01-l.jpg" media="(min-width: 700px)">
+        <source srcset="/images/gems/01-m.jpg" media="(min-width: 400px)">
+        <source srcset="/images/gems/01-s.jpg" media="(min-width: 200px)">
+        <img class="fit" srcset="/images/gems/01-l.jpg" alt="Finding a job">
+      </picture>
+    </div>
+    <p>At first the girl likes holding onto the gems because they're so colorful and bright, but the longer she holds onto a gem the more it determines the flow of her life. She knows this, it's part of the deal.</p>
+    <p>She starts looking at the old woman, looking for guidance about which gems are best to hold onto and which ones are best to throw away as quickly as possible.</p>
+    <p>But the old woman doesn't pay any attention to her. She just keeps picking up one gem at a time: she looks at it closely and then she throws it away.</p>
+    <p>The girl decides to do the same, but she's still not sure what she even wants from the gems. They're all different colors and they're all so beautiful in their own ways.</p>
+    <p>But she starts getting the impression that the longer she holds onto them the duller they get. Their color fades. Their warmth fades.</p>
+    <div>
+      <picture>
+        <source srcset="/images/gems/02.jpg" media="(min-width: 1400px)">
+        <source srcset="/images/gems/02-l.jpg" media="(min-width: 700px)">
+        <source srcset="/images/gems/02-m.jpg" media="(min-width: 400px)">
+        <source srcset="/images/gems/02-s.jpg" media="(min-width: 200px)">
+        <img class="fit" srcset="/images/gems/02-l.jpg" alt="Finding a job">
+      </picture>
+    </div>
+    <p>At one point, by sheer luck, her and the old woman happen to get a really similar looking gem. They both have a bright purple color that shimmers throughout. They're utterly beautiful.</p>
+    <p>The girl is really excited and starts thinking: "This is it, this must be it, this must be what we've been searching for!!" </p>
+    <div>
+      <picture>
+        <source srcset="/images/gems/03.jpg" media="(min-width: 1400px)">
+        <source srcset="/images/gems/03-l.jpg" media="(min-width: 700px)">
+        <source srcset="/images/gems/03-m.jpg" media="(min-width: 400px)">
+        <source srcset="/images/gems/03-s.jpg" media="(min-width: 200px)">
+        <img class="fit" srcset="/images/gems/03-l.jpg" alt="Finding a job">
+      </picture>
+    </div>
+    <p>She looks at the old woman, but the old woman just tosses it away like all the other ones without even looking up.</p>
+    <div>
+      <picture>
+        <source srcset="/images/gems/04.jpg" media="(min-width: 1400px)">
+        <source srcset="/images/gems/04-l.jpg" media="(min-width: 700px)">
+        <source srcset="/images/gems/04-m.jpg" media="(min-width: 400px)">
+        <source srcset="/images/gems/04-s.jpg" media="(min-width: 200px)">
+        <img class="fit" srcset="/images/gems/04-l.jpg" alt="Finding a job">
+      </picture>
+    </div>
+    <p>Finally, the girl gets totally fed up and starts picking up and tossing gems really quickly without even bothering to really look at them first.</p>
+    <p>A funny thing happens. Her eyes start to feel really good, like they got a burst of sweet lychee juice shot into them. Somehow she can see things more clearly for a moment.</p>
+    <p>So she starts looking at the gems, appreciating them quickly for what they are and tossing them just as quickly.</p>
+    <p>The old woman starts to smile a little and then she starts to laugh. She's bubbling over with excitement.</p>
+    <div>
+      <picture>
+        <source srcset="/images/gems/05.jpg" media="(min-width: 1400px)">
+        <source srcset="/images/gems/05-l.jpg" media="(min-width: 700px)">
+        <source srcset="/images/gems/05-m.jpg" media="(min-width: 400px)">
+        <source srcset="/images/gems/05-s.jpg" media="(min-width: 200px)">
+        <img class="fit" srcset="/images/gems/05-l.jpg" alt="Finding a job">
+      </picture>
+    </div>
+    <p>All of a sudden they start walking faster together on top of the water. And then, quite naturally, they're just running together right on the edge of the waterfall, laughing together, looking at each other, looking at the gems, and tossing them away.</p>
+    <div>
+      <picture>
+        <source srcset="/images/gems/06.jpg" media="(min-width: 1400px)">
+        <source srcset="/images/gems/06-l.jpg" media="(min-width: 700px)">
+        <source srcset="/images/gems/06-m.jpg" media="(min-width: 400px)">
+        <source srcset="/images/gems/06-s.jpg" media="(min-width: 200px)">
+        <img class="fit" srcset="/images/gems/06-l.jpg" alt="Finding a job">
+      </picture>
+    </div>
+    <p>And the girl cannot believe how good it feels to be running.</p>
+  </div>
+</div>
+{% endblock %}
