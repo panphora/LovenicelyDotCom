@@ -1,0 +1,129 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}Save Your Heart | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">Save Your Heart</h1>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Listen to the audio version:</div>
+      <div id="jplayer_save_your_heart" class="jp-jplayer"></div>
+      <div id="jplayer_save_your_heart_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/audio/save-your-heart.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images/save-your-heart/xlarge.jpg" media="(min-width: 1800px)"><!-- 2560 -->
+    <source srcset="/images/save-your-heart/large.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images/save-your-heart/medium.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images/save-your-heart/small.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images/save-your-heart/large.jpg" alt="Mera">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+    Illustration by David Miranda
+  </div>
+  <div class="main-text-container">
+    <p>Mera and I had been going to school together since we were children. She would impress the teachers. I would doodle in my notebook. But, every day after class, she would set herself free, as if she didn't remember anything we were learning about.</p>
+    <p>It was a scary time for both of us, growing up and all, but I was just glad to have found her. Hers was one of the few voices I could hear through the static all around us.</p>
+    <p>One night, Mera invited me to her grandfather's house, out in the country. He was asleep upstairs in a corner room as we sat in front of his fireplace.</p>
+    <div class="story-section-separator"></div>
+    <p>&ldquo;I've recently discovered a small piece of magic, and I've been wanting to try it out,&rdquo; Mera told me.</p>
+    <p>&ldquo;You know how much I love magic,&rdquo; I said, &ldquo;but I just have one question: is it worth it?&rdquo;</p>
+    <p>&ldquo;I'm not sure, but here, let me show it to you.&rdquo; Mera held out her hand. In it, there was a small puddle of water with a fiery glow at its  center. A white light that was faintly glimmering, hardly visible.</p>
+    <p>&ldquo;Wow, that's beautiful. That's so beautiful.&rdquo;</p>
+    <p>&ldquo;I know,&rdquo; she said.</p>
+    <p>&ldquo;It's so clear... and bright. There's no way it's from this planet. Where did you get it?&rdquo;</p>
+    <p>&ldquo;You're not going to believe me,&rdquo; she said.</p>
+    <p>&ldquo;I will.&rdquo; I protested.</p>
+    <p>&ldquo;I was at the stream again. You know, like last time. Except this time, I went alone. I know how scary last time was for you &mdash; but we were just doing it wrong. Anyways, this time, I did it, and I did it alone. It was pretty simple, really.&rdquo;</p>
+    <p>&ldquo;Are you serious?&rdquo; I asked. She nodded.</p>
+    <p>&ldquo;I sat down in the stream. I put my head back. No one else was around. I put my head back and let my hair be pulled back into the water. Then I let my legs relax onto the rocks, and I let my back touch the bottom.</p>
+    <p>&ldquo;I closed my eyes and let my head drift under. As soon as my head went under, I felt this rushing sensation, like the stream had turned into a powerful river that was pushing me effortlessly forwards, without tumbling or resistance. I knew I wasn't actually moving, but when I brought my head above the water again, I felt like I had been transported far away. Like my old self had been left behind, miles away, years away. And when I looked around at where I was, everything was new &mdash; and I found a stone, a golden opening stone, placed neatly in my hand.&rdquo;</p>
+    <p>&ldquo;What?! Those take weeks, months, years to find! We've been to that stream a thousand times &mdash;&rdquo;</p>
+    <p>&ldquo;I know,&rdquo; she said.</p>
+    <p>&ldquo;Okay, go on.&rdquo;</p>
+    <p>&ldquo;You know how some dreams feel more real than real life?&rdquo;</p>
+    <p>&ldquo;Uh huh.&rdquo;</p>
+    <p>&ldquo;Well, that's what this was like. The stone was in my hand, and I just knew what to do with it. I started with my heel, and I dragged it up the back of my leg and around my back, and my skin unzipped wherever it touched. Everything was effortless. I came undone completely. I got so carried away in the act that I almost drowned: I let in so much water. I just let it all in. I could barely drag myself onto the shore afterwards. But when I did, all of a sudden, I could feel my heart like it was something living and breathing inside of me. It was beating so fast. And then I looked up, and I could see it right there in front of me: a warm, pulsing, red ruby crystal suspended on top of a pillar of ice. I was inside myself.&rdquo;</p>
+    <p>&ldquo;Wow.&rdquo;</p>
+    <p>&ldquo;Everything was bright. And it wasn't a place. There were no walls or corridors or floors or ceilings. It was just a space I could walk around in. I  was glowing. I still had hands and feet, but my skin was bright. I have no idea where my actual body was at that point &mdash; probably coughing up water &mdash; but I didn't care. Every time I took a step, everything shifted. Even my heart. Sometimes, from the corner of my eye, I could see that my heart, my real heart, was actually a giant beast, a hunchbacked wolf that walks on its hind legs and has a sickly smile full of sharp white teeth, fierce and ferocious. It wanted to devour me.... Imagine that: My own heart wants to devour me. And at other times, it was just a sack of blood hanging by wires from the ceiling, little sea creatures swimming around inside of it. I don't even know how I'm describing all of this because it felt like an instant. It felt like I was there for just an instant, but I saw everything.&rdquo;</p>
+    <p>Mera took a breath and then asked, &ldquo;Do you want to hear more?&rdquo;</p>
+    <p>&ldquo;Yes! Of course!&rdquo; I said.</p>
+    <p>&ldquo;Do you believe me?&rdquo;</p>
+    <p>&ldquo;I've never experienced anything like that before, but yes, Mera, I believe you. I want to believe you...&rdquo; I hesitated... &ldquo;I believe you.&rdquo;</p>
+    <p>&ldquo;Well, there was one thing that kind of freaked me out. And I don't mean like it was ordinary scary, like my heart wanting to devour me or whatever. There was this one place that I didn't walk toward and that I hardly looked at. I'm surprised I even noticed it. I had walked over to my heart, which was now a fountain gushing water into a bowl. And I bowed my head to drink and wash my face in its water, and it felt so cold and refreshing, like the water just seeped through my bright skin and made my whole body burn with laughter. </p>
+    <p>&ldquo;When I lifted my head, I felt like I was waking up. Every moment I was there, I felt like I was waking up again, but this time, it was different.... For the first time, I felt like there was something wrong &mdash; I stood up straight, looked over my shoulder, and I noticed there was a wall behind me. There was no shadow or darkness in this place, but there was something dark about that wall. And the more I looked at it, the closer it seemed to approach me. And then, for an instant, I felt like there were walls surrounding me, enclosing me from every direction, like there was nothing I could do or say or be &mdash; I would always be trapped in that place. It felt, for a second, like I was always going to be trapped inside myself. And then the feeling went away. And the wall with it.&rdquo;</p>
+    <p>&ldquo;Huh, weird.&rdquo;</p>
+    <p>&ldquo;Yeah, but, the thing is, I still kind of felt it. I still kind of felt like maybe the wall was still there, but I was just ignoring it. Like I said, I avoided going over to where it had been. And sometimes, I'm not sure, but I think sometimes it would appear in the corner of my eye. But I can't be sure. That may have just been my fear. I'm not sure. It made me want to examine the whole place &mdash; everything &mdash; to try to find out what the hell was going on. I wanted to make sure there weren't other walls hiding out in other places inside myself.&rdquo;</p>
+    <p>&ldquo;Yeah, huh... But you never went over to where you had just seen the wall?&rdquo;</p>
+    <p>&ldquo;No &mdash;&rdquo;</p>
+    <p>&ldquo;Do you want to?&rdquo;</p>
+    <p>&ldquo;I'm not sure... Not really, I guess. I mean, that was the worst fear I've felt. Like, ever. You know the fear of death and nothingness, right? That's some twisted stuff that I don't really know anything about, but it was nothing like this fear. This fear didn't want to crush me and it didn't want to own me and it didn't want to show me its power. It wanted to become me. It wanted to control my entire damn life, even as I was resisting it &mdash; especially as I was resisting it. I don't know how to deal with that. For all I know, it's controlling me right now. Seriously, it makes me feel like an empty sack of air or something.&rdquo;</p>
+    <p>&ldquo;So, where'd you get the magical glowing water?&rdquo;</p>
+    <p>&ldquo;Heh. Oh, well, that's the best part....&rdquo;</p>
+    <p>&ldquo;Ya?&rdquo;</p>
+    <p>&ldquo;Well, after I woke up, I was still kind of out of it. I don't know why, but I took the opening stone that was still in my hand and, somehow, put the whole thing in my mouth. I'm not really sure how it fit, but it went in really slowly and just kind of dissolved into nothing. I don't think I could've done anything else, really. After I did that, I kind of just woke up and came back to myself. </p>
+    <p>&ldquo;And the glowing water? Well, after I came back to myself, I felt like a barricade trying to hold back a flood. Is there a feeling for that? There should be a name for that. I wasn't angry to the point of rage, but I was. I wasn't mind-numbingly sad, but I was. And I wasn't completely and utterly joyful, but I was. I was just kind of, you know, overwhelmed. And I started crying. Except the tears didn't come out my eyes &mdash; they came out of my hands instead. And these are them. These are my tears after I opened myself up with an opening stone and dissolved the same stone in my mouth.&rdquo;</p>
+    <p>&ldquo;Wow,&rdquo; I said. &ldquo;And what did you say when we first sat down here? That you'd found a little piece of magic or something?&rdquo;</p>
+    <p>&ldquo;Yeah... I don't even know what these would do. But if I had to guess about what they are, they have the same feeling to them as the water that was in the fountain of my heart. Strange, huh? I mean, we're taught that that world doesn't really cross over to this one, but here they are. Like, really, these are the tears of my heart. And,&rdquo; she paused to make sure I held her gaze, &ldquo;I want you to drink them.&rdquo;</p>
+    <p>&ldquo;Um... okay? Are you serious? I mean, I'd love to, but... are you sure? I mean, are you really sure?&rdquo;</p>
+    <p>&ldquo;Look, Dale, I wouldn't ask you if I wasn't sure. These are for you. But you have to drink them out of my hand. And you have to promise me not to judge me for what happens afterwards.&rdquo;</p>
+    <p>&ldquo;What's going to happen?&rdquo;</p>
+    <p>&ldquo;Well, I'm not sure, really, but I get a feeling. Like usual with these things, parts of you will die and fall away and parts of you will grow. It's not going to be fun, but it'll definitely be interesting. And I'll be here the whole time to guide you through. It's definitely not going to be the same experience I just had.&rdquo;</p>
+    <p>I looked down at her hand and then back up at her face. Right then, she was the most beautiful girl I'd ever seen. Pure, honest love painted on her face. I imagined every woman in the history of mankind doing the same thing for their own lovers, and it made my heart glow. I thought, &ldquo;What's this happening right now? Who am I right now? Are there any choices left at all? Do I care?&rdquo; I was simply there, with her, in that moment, bending down on my knees, sinking my mouth into the cup of her hand, sipping the water of her soul.</p>
+    <p>My tongue licked the last drop from her hand, and my head rolled into her palm. She caressed the back of my head, supporting its weight, and let me drop to the floor.</p>
+    <p>But I kept going. I sunk past the floor into darkness, tried to take a breath and found no air. I was invisible. There was nothing. There was everything. I was in the center of it all: in the middle of infinite space, without stars or planets or light, nowhere to move, nowhere to be. I thought: &ldquo;Where are my eyes? Where are my hands?&rdquo; But I didn't care. I didn't have a face or a body, and in that moment, I realized I had never had a face or a body.</p>
+    <p>Then, all of a sudden, I couldn't breathe. I needed to breathe, but I couldn't find my mouth. I needed to reach out, but I couldn't control my arms. I was invisible and helpless and blind. I reached up violently. I reached up to the sky and I kept reaching. I felt the darkness all around me, caressing me, whispering to me, seeping into my skin and my eyes and my brain.</p>
+    <div class="story-section-separator"></div>
+    <p>I wake up flailing. I wake up, but I have no idea where I am or what I was just doing. Am I in the world? The <em>real</em> world?</p>
+    <p>Where am I?</p>
+    <p>I'm walking on a city street. I'm sleeping over a friend's house. I'm kissing a girl, another girl, another girl. I'm talking, I'm listening, I'm talking. I realize I'm talking about nothing. I realize I'm not actually doing any of this. I'm not talking, I'm not kissing, I'm not walking. I feel like I'm waking up in someone else's body every day, exercising someone else's body. Where am I? I try to remind myself. I'm here. <i>I'm right here.</i> I'm talking right now. I'm listening right now. </p>
+    <p>I'm trying my best to focus on my breathing, but I keep losing track of things.</p>
+    <p>Years pass.</p>
+    <p>I wake up again with a gasp. Where am I?</p>
+    <p>I'm here. I'm sitting in a wooden chair at a table made of wood. There's a bright lamp shining next to me. There are shadows in the corner of the room. It's very late at night.</p>
+    <p>I wake up again, much later, sitting on a porch, in the silence between two thoughts of a conversation I'm having with a friend. What are we talking about?</p>
+    <p>I wake up again, kissing some girl I just met. Who is she? What am I doing here? But I'm still kissing her, I keep kissing her, I fall back into it. Fall back into the story.</p>
+    <p>I wake up again. What happened? What happened to Mera? I remember her. What ever happened to her? My brain is telling me: &ldquo;She's just a dream, a memory. The past doesn't exist. She doesn't exist. She was never real. She was just a dream.&rdquo;</p>
+    <p>I wake up again. I'm in a room that isn't real and I'm naked and I'm looking in front of me at a ghost.</p>
+    <p>&ldquo;Mera? Is that you?&rdquo;</p>
+    <p>&ldquo;Hi. I'm just a ghost,&rdquo; she says.</p>
+    <p>&ldquo;What happened? I'm sorry, it's just my head is still spinning. It's funny, I thought that was just an expression until the last few years came along, but really, my head has just been spinning ever since... ever since I drank the tears of your heart. What happened? <em>What happened?</em>&rdquo;</p>
+    <p>&ldquo;Anything I say can and will be used against me, but I'm just a ghost. Both you and I know that, so stop trying to get me to speak. I'm just a ghost. Not even just looking at me can satisfy you.&rdquo;</p>
+    <p>&ldquo;No, no, no! I know you're there! I see you! You're right there! What do you mean you're a ghost? What the heck is going on, Mera? I thought I knew you. Stop playing. I need this. I need something <i>from</i> you. I need some reassurance that this isn't life. This isn't what it's like, is it? Is this some kind of sick joke? A wake-up call? Oh, hey, you've been asleep, but I'm going to wake you up with eternal abiding love and then run away? Where did you go? Where did you <em>go</em>?&rdquo;</p>
+    <p>&ldquo;I told you, I'm not here. Perhaps I'm doing something with someone else. Perhaps I'll speak to you again in a few years. Perhaps you'll always feel alone. We were in love. I was in love with you. You were in love with me. It was pure and clean and wonderful, but this is life, the same life everyone is living. We must always come back to it. We must always return to it. You have to know this by now.&rdquo;</p>
+    <p>&ldquo;Yes, yes, well.... Yes. I don't know what I expect from you. Your magic is for another person now, I suppose? And the magic of your voice and your soul? Yes, those too. How strange, the concept of love. How strange that you could twist it so!&rdquo;</p>
+    <p>&ldquo;Don't be childish. I am not the keeper of your love. You own your love yourself. You own your own soul and your own freedom.&rdquo;</p>
+    <p>&ldquo;I know that!&rdquo;</p>
+    <p>&ldquo;Well, why should you expect anything from me?&rdquo;</p>
+    <p>&ldquo;Listen, I don't know how this stuff works, okay? I really don't. I'm fine with not expecting everything from you, but you've gotta be fine with the fact that I've been through hell with this.&rdquo;</p>
+    <p>&ldquo;Goodbye.&rdquo; she says, and starts to fade.</p>
+    <p>&ldquo;Goodbye! Goodbye? How many times am I going to have to remember this? How many more stories am I going to have to tell myself? When will you be done with me? You've had your way! I'm only human. I'm only human! What do you expect from me? I drank your tears, for God's sake! Were there no promises made there? Are there no promises anywhere, in the whole world? I look under every stone and I dig up every root, and you're telling me no matter how far I go or how far I travel, I'm never going to find one promise this world gives and actually keeps? There's no such thing?! Is that what you're telling me?!&rdquo;</p>
+  </div>
+</div>
+{% endblock %}
