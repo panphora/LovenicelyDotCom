@@ -9,7 +9,7 @@
   </div>
   <div class="mb6 audio-container">
     <div>
-      <div class="audio-callout text-center">Listen to the audio version:</div>
+      <div class="audio-callout text-center">Audio version:</div>
       <div id="jplayer_lumberjack_graves" class="jp-jplayer"></div>
       <div id="jplayer_lumberjack_graves_container" class="jp-flat-audio">
         <div class="jp-play-control jp-control">

@@ -41,9 +41,9 @@
   <body class="chapter-story">
     <div class="container">
       <div class="top-bar mt2 mb1 clearfix">
-        <a class="right block p1" href="/submissions">Submissions</a>
-        <a class="right block p1" href="/about">About</a>
-        <a class="right block p1" href="/">Home</a>
+        <a class="right block p1 mlpoint5" href="/submissions">Submissions</a>
+        <a class="right block p1 mlpoint5" href="/about">About</a>
+        <a class="right block p1 mlpoint5" href="/">Home</a>
       </div>
     </div>
     <div class="center site-logo-container-story-page">
