@@ -11,7 +11,7 @@
   </div>
   <div class="mb6 audio-container">
     <div>
-      <div class="audio-callout text-center">Listen to the audio version:</div>
+      <div class="audio-callout text-center">Audio version:</div>
       <div id="jplayer_abmad_chap1" class="jp-jplayer"></div>
       <div id="jplayer_abmad_chap1_container" class="jp-flat-audio">
         <div class="jp-play-control jp-control">
@@ -98,7 +98,7 @@
     <p>&ldquo;I know the place you’re talking about,&rdquo; says the dragon. &ldquo;It’s been a long time since any of us dragons figured to expect one of you to come along and seek it out… It will not be easy to find.&rdquo;</p>
     <p>The dragon looks at him piercingly. &ldquo;Or, perhaps it will be easy to find in your case, but only because it’s not really what you’re looking for. You see, it’s closer than you think.&rdquo;</p>
     <p>&ldquo;What do you mean, it’s not what I’m looking for? It’s the only place I need to find! I need to see where it is. Please, for my family, for my honor, for my curiosity!&rdquo;</p>
-    <p><a href="/a-boy-meets-a-dragon-chapter-2/"><i class="fa fa-angle-double-right"></i> Continue to Chapter 2</a></p>
+    <p><a href="/a-boy-meets-a-dragon-2/"><i class="fa fa-angle-double-right"></i> Continue to Chapter 2</a></p>
   </div>
 </div>
 {% endblock %}

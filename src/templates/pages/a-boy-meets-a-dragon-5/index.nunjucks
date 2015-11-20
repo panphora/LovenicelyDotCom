@@ -1,0 +1,104 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}In which Mr. Scrummy returns from the brink | A Boy Meets a Dragon | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">A Boy Meets a Dragon</h1>
+    <h3 class="mb1">Chapter 5</h3>
+    <h2 class="mb8">In which Mr. Scrummy returns from the brink</h2>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Audio version:</div>
+      <div id="jplayer_abmad_chap5" class="jp-jplayer"></div>
+      <div id="jplayer_abmad_chap5_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/audio/a-boy-meets-a-dragon/chapter-5/a-boy-meets-a-dragon-chapter-5.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-5/xlarge.jpg" media="(min-width: 1800px)"><!-- 2560 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-5/large.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-5/medium.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-5/small.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images/a-boy-meets-a-dragon/chapter-5/large.jpg" alt="Eeo plugging Thursday's nose">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+    Illustration by David Miranda
+  </div>
+  <div class="main-text-container">
+    <p style="color: #999;">/// 3 hours later ///</p>
+    <p>Eeo comes back from a scavenger hunt through the forest. He got lost and almost ended up back in the Grove of Forgetting.</p>
+    <p>&ldquo;Who’re you?&rdquo;</p>
+    <p>Rish explains: &ldquo;This used to be Theodore, now it’s Thursday. He’s magic but he’s not very sure of himself yet. He says he feels like he’s floating away.&rdquo;</p>
+    <p>&ldquo;Hi,&rdquo; says Thursday, &ldquo;Nice to see you again Eeo.&rdquo;</p>
+    <p>&ldquo;You seem weird to me.&rdquo; Eeo says. &ldquo;There’s something funny about you.&rdquo; He looks at Thursday and then walks behind him and touches his back, along his spine. Thursday thinks about stopping Eeo, he feels very weird about people touching him, and he starts to turn, but Eeo says: &ldquo;Ahh, I’ve found something.&rdquo;</p>
+    <p>His hand is just under Thursday’s right shoulder-blade. Thursday could swear he felt something there too, almost as if a leftover dragon scale was still protruding from his skin.</p>
+    <p>&ldquo;Hold your breath,&rdquo; Eeo says. Then Eeo gently sinks his hand into Thursday’s back and finds a twisted knife buried deep under the skin. Eeo has to fish around beneath the skin to get all the broken shards of the knife. Some of the pieces are under the skin near the top of the back of Thursday’s skull. The biggest piece is lodged in his lower back, right where his back meets his legs. Eeo has to jiggle his hand back and forth a little bit in order to get it free.</p>
+    <p>As he drags it out from under the skin, Thursday’s right leg slowly reattaches itself to his body, coming back from being a little separated. When at last the shards of the knife come out altogether, Thursday sinks back gently onto the floor and becomes more substantial, less ethereal.</p>
+    <p>&ldquo;Wow, that feels much better. I still feel a little light-headed, but not so disturbed by everything around me. It was getting to the point I was starting to distrust everything and every one. Things were feeling hot to look at, like they burned my eyes. I wanted to float up into the sky, into the wind, and I wanted to become one with the earth at the same time. It was the weirdest feeling, like running away and dying at the same time, over and over again. And yet I felt so aware of everything.&rdquo;</p>
+    <p>He pauses. &ldquo;I guess that’s what getting stabbed in the back is like.</p>
+    <p>&ldquo;Who did that to you?&rdquo; Eeo asks.</p>
+    <p>&ldquo;I &mdash; I don’t know, myself I guess.&rdquo; Thursday says, trying to sound nonchalant.</p>
+    <p>Eeo pauses for a moment. &ldquo;No,&rdquo; he says, &ldquo;someone did that to you. Someone that needs to be forgiven.&rdquo;</p>
+    <p>&ldquo;Why do you say that?&rdquo; Thursday asks.</p>
+    <p>&ldquo;Because your eyes are turning black. You’re suffering from death sickness. You are killing off parts of yourself that you don’t trust anymore. You don’t trust them because they let themselves get stabbed. You’re blaming yourself. You’re blaming something. But you need to find a way to see and feel these parts of you again. The memories are probably locked away inside your bones.&rdquo;</p>
+    <p>&ldquo;Well, let them stay locked!&rdquo; Thursday rages. Smoke starts coming out of his nostrils, but Eeo plugs Thursday’s nostrils with two fingers.</p>
+    <p>&ldquo;Not so fast. Listen to me. We’ve got to figure this out or you might as well disintegrate right here. You’re withering. Can't you feel it? Now, who was it who stabbed you.&rdquo;</p>
+    <p>&ldquo;It was... a lover. I only remember vaguely. No, it was a friend, I remember clearly now. Oh wait, no, it was, it was all of them. It was everyone I knew back when I was human. They all betrayed me. They broke up the pieces of that knife and spread them through my body with their meticulous, tiny little hands. They didn’t know how to fix me, so they just kept making things worse. They kept betraying me. I feel so... alone now. Please, Eeo, help me.&rdquo;</p>
+    <p>Eeo uses a stick to unzip the top of Thursday’s head and he rubs on a black spot that’s been forming near the top. While he’s rubbing, he asks Thursday to try to think: What was it? Who did it to you? What was happening?</p>
+    <p>Crying, Thursday says, &ldquo;It was my mother. She gave the order for them to take me away. And it was because she needed me to die, to go away. She needed me to stop asking questions. So she shut me down in the best way she knew how: betrayal and pitying love. Over and over and over again.&rdquo; Thursday is taking in sharp gulps of air and whimpering a little.</p>
+    <p>&ldquo;It’s okay,&rdquo; says Rish, &ldquo;calm down. You can tell it to us slow, so it all makes sense.&rdquo;</p>
+    <p>Thursday looks up at her through eyes full of tears and says, &ldquo;okay, but I hardly remember it now. It was eons and ages ago.&rdquo;</p>
+    <p>&ldquo;It’s okay,&rdquo; Rish says, &ldquo;Just tell us what you remember.&rdquo;</p>
+    <p>Thursday sits down on the ground, among the leaves of the forest, and tells them his story. Eeo, meanwhile, has found a thread at the top of Thursday’s head that wraps around his whole body and he starts to disentangle it from Thursday’s skin, one section at a time, making sure not to unzip Thursday at the same time.</p>
+    <p>Thursday begins: &ldquo;I remember there was a secret. There was a secret about the way time works. Or was it about how energy works? I think it was a secret about how to tell someone’s future by looking in their eyes. My mother told me about it when we were both scared together. We were running from something evil, some dark presence, and she told me how to look into someone’s eyes and get sight of their soul, like you could see all the darkness and all the light within them and why they were on the path they were on. And when she told me this, I realized why my mother had always seemed to exist outside of time. She could see the roadblocks coming before they arose because she could see why people made the decisions they made. She could see the ugliness that latches onto a soul. She was good at releasing it for people.&rdquo;</p>
+    <p>Thursday takes a breath. &ldquo;But the problems arose when she got pushed too far. You see, she could only entrust this secret to me because we were both being chased by the same thing, the same evil darkness. But we couldn’t talk about it with other people, or at least it wouldn’t make sense to them, because this darkness was one of those things that changes shape based on the way you interpret it. It was all in the setup, you see. If you didn’t approach someone with an open heart, then you wouldn’t be able to see their own darkness inside of them. You needed to clear away all of the debris to see it clearly. And that’s why the dark spirit was chasing us, because we had managed to clear our own hearts from all the muck. But there was a deeper darkness in our hearts that we didn’t know about. It’s what caused my mother to betray me.</p>
+    <p>&ldquo;I was sitting on the river’s edge down by our castle one day and a young fawn named Winto came up beside me. She was pretty and sprightly and she greeted me shyly. She asked if I wanted to run through the forest, so we did. We ran until we made it to a big clearing, a big field, and then we laid down, exhausted. She rolled on top of me and spoke these words, &ldquo;Osi, son of Orion, come to my forest kingdom deep in the woods and be mine. I will treat you to the best fair and you will be treated like a prince.&rdquo;</p>
+    <p>But I could see in her eyes that she meant to trick me. She had hardly any blockages between her eyes and her soul, so I slipped deep inside her quick. I could see into the deep parts of her soul. And what I saw made me shiver. She was a slave to my father and she wanted to escape his chains, but she needed a reason for him to release her. She was planning to turn me into a living tree. Then she was going to wait until search parties were sent out in search for me. When they returned home without word of me, she would offer to find me in exchange for her freedom. If my father agreed, she would go out and transform me back into a living person.&rdquo;</p>
+    <p>&ldquo;At the time, I didn’t know my father had slaves, so I was distracted by this revelation. I couldn’t see why he would keep this fawn captive when she had so much love and so much grace to share with the world. But I could also see that her darkness was tied to his own in another way.</p>
+    <p>&ldquo;There was a bond between her family and his family that went back generations. And she had been sworn into servitude even before she was born. It was a terrible thing to imagine. It led me to question some basic assumptions I had about the way the world works. I had thought before that my father was king because he deserved it. I thought he was a fair and just ruler and that’s why he was elected to rule.</p>
+    <p>&ldquo;But the more I looked into her darkness, the more I saw that he held a dark power over other families, and that his family had ruled over them, in one way or another, for generations. And in the modern day it was simply explained away by custom and circumstance. And this girl, this young fawn, wasn’t a person to them, she was a symbol. She was a symbol of the power that my father held over the other families. To hold something so free in his grasp gave him the ability to wield other, darker, powers. Because this girl loved the forest so much, and she had been born in the forest, she was bound to it. She was born to feel this kind of freedom in her heart.</p>
+    <p>&ldquo;And I saw that this had all been planned, in a very logical and merciless way. I saw clearly, not in her eyes, but in my soul, that it had been planned for her to rebel. It had been planned that she would feel forsaken and anxious and desperately hungry for freedom, true freedom. It had been planned that she would be found out, perhaps by me, perhaps by a spy, and put at the mercy of my father. She would be branded a traitor and a servant of the crown, but her life would be spared, although I didn’t know what they’d do to her.</p>
+    <p>&ldquo;I also saw, briefly, that if I were older, I wouldn’t care so much for a creature I hardly knew, simply because her energy shined bright. I would take refuge in the more practical feeling of loyalty to my family. But I ignored this insight because I was still angry at my father for owning slaves while pretending to revile the practice.</p>
+    <p>&ldquo;What hadn’t been planned was that she would use me as a hostage in her act of rebellion. And what hadn’t been planned was that I’d be able to see so deeply into her soul as to unravel the basis for my family’s power. My father’s family had been breeding and training slaves who would know the smell and touch of freedom intimately just so they could be entangled in the politics of the kingdom again and he could gain even more power by showing them mercy despite their foolishness.</p>
+    <p>&ldquo;When I saw all of this, I was sick, but I didn’t say anything. I let her lead me on. I could see in my head the place she was thinking about casting me into a tree. It was near a carving stone that my father’s mason used for sharpening spears, right on the edge of the forest. As she showed me to the spot, I looked her in the eyes and said, &ldquo;Dear Winto, please make me a thick birch tree so I can weather the coming winter and the summer too, for that is how long they will search for me.&rdquo;</p>
+    <p>“At these words she cast me down to the ground and threw strands of lightning at my eyes. I whispered a melody that caught the lightning and pushed it into the ground, but some of it still entangled itself around my head and tightened there. 'Please, let me speak.' I said.</p>
+    <p>&ldquo;And she told me, 'Speak demon, before I kill you.' She looked at me viciously as claws extended from her fingertips.</p>
+    <p>&ldquo;I told her that I knew her purpose and that I didn’t want to harm her. I told her that I couldn’t let her turn me into a tree because that would just keep this stupid cycle going: a desperate search for freedom, followed by the ultimate betrayal. I told her I could free her from the darkness that tied her to my father, but that she would have to run far away if I did. She would have to become one with the forest and hide in the mountains and survive off what the forest offered. Eventually, she would no longer recognize herself as a creature deserving of dignity and respect. She would be all animal, but free.</p>
+    <p>&ldquo;She agreed and I cast the same spell on her that my mother had used to free my heart from the darkness, but I didn’t know the consequences then. I didn’t know that it would help the dark energy that had been pursuing us to grow and expand and infest the forest. If I had known that at the time, I wouldn’t have upset the balance, I wouldn’t have betrayed my family. I would have trusted that things have their natural cycles, even forest spirits that are enslaved to human beings.</p>
+    <p>&ldquo;When my mother found out what I had done, she cursed me. She cursed me because I had let the darkness spread, she cursed me because I had let some of Winto’s darkness out into the world to infest the forest, and she cursed me because I had caused our family to bear the hatred of the other families by freeing Winto. She tried to hide me from my father at first, but when he found out she handed me over willingly. He cast me in front of the town, naked, alone, empty, and everyone scorned me. They even found Winto and brought her back and she spit on me. She told me she was happy living in the town, as long as she could be with other people. And she cursed me for casting her out like an animal. They drove me from the town into the forest, where I ran and ran and ran.&rdquo; Thursday looks at the sky as if he wants to float away.</p>
+    <p>&ldquo;Wow,&rdquo; says Rish, &ldquo;That’s quite a tale. I’m sorry you’ve suffered so much. It sounds like you haven’t had it easy at the hands of other people.&rdquo;</p>
+    <p>&ldquo;Well, it was getting betrayed by my own family that scarred me the most. I guess they felt betrayed by me first though. It was so strange to me, at the time, how easily the whole world seemed to turn upside down. It was only days before my encounter with Winto that the whole town threw a birthday celebration for me. We went hunting with a lot of the villagers and they cooked a wolf that we brought back from the hunt on an open fire. We met just outside the town, near the river creek, and two councilors of the town gave me a giant green wreath to hang around my neck. Everyone seemed genuinely proud of me. But all it took was a few scandalous words from my father and the whole place was in a rage against me.&rdquo;</p>
+    <p>&ldquo;Ya,&rdquo; says Eeo, &ldquo;they didn’t take it easy on you. I bet it was because you were reading other people’s eyes when you weren’t supposed to. I think you might have uncovered a deeper secret than you thought you did, something the townspeople weren’t even willing to admit to themselves. You put them in a position between choosing between you and your father, and a lot of them already had very real, very deep relationships with him.</p>
+    <p>&ldquo;If the circumstances were different, if you had been one of them, for example, your actions might have started a revolution. But since you were your father’s son, you simply got exiled and humiliated. I’m sure both your parents feel bad about what happened. Have you ever thought about going back to see them?&rdquo;</p>
+    <p>&ldquo;Oh no, I don’t think so. This was thousands of years ago. They’re long dead now. Dragons age very slowly, you see. I guess I could go visit the kingdom and see if it’s still standing. Might be interesting to see what their offspring’s offspring have done with the place. Maybe some of them look like me. Maybe that town’s still cursed with that ancient slave blood curse.&rdquo;</p>
+    <p>&ldquo;Well, if it is, we could set it straight.&rdquo; says Rish.</p>
+    <p>Eeo finishes pulling the thread out from Thursday’s skin, just above his eye, and touches his forehead with the stick to seal it back up.</p>
+    <p>&ldquo;Let’s be on our way now,&rdquo; says Thursday.</p>
+  </div>
+</div>
+{% endblock %}

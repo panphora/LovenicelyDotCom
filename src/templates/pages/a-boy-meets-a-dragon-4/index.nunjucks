@@ -1,0 +1,103 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}Gather your popcorn | A Boy Meets a Dragon | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">A Boy Meets a Dragon</h1>
+    <h3 class="mb1">Chapter 4</h3>
+    <h2 class="mb8">Gather your popcorn</h2>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Audio version:</div>
+      <div id="jplayer_abmad_chap4" class="jp-jplayer"></div>
+      <div id="jplayer_abmad_chap4_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/audio/a-boy-meets-a-dragon/chapter-4/a-boy-meets-a-dragon-chapter-4.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images//a-boy-meets-a-dragon/chapter-4/xlarge.jpg" media="(min-width: 1800px)"><!-- 2560 -->
+    <source srcset="/images//a-boy-meets-a-dragon/chapter-4/large.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images//a-boy-meets-a-dragon/chapter-4/medium.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images//a-boy-meets-a-dragon/chapter-4/small.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images//a-boy-meets-a-dragon/chapter-4/large.jpg" alt="Pickled onions">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+    Illustration by David Miranda
+  </div>
+  <div class="main-text-container">
+    <p>&ldquo;Now we just need to convince old Theodore that he wants to come along too.&rdquo; Rish says.</p>
+    <p>&ldquo;Theodore?&rdquo;</p>
+    <p>&ldquo;The dragon we’ve been staying with for the last 3 weeks…&rdquo;</p>
+    <p>&ldquo;Oh.&rdquo; Eeo says. &ldquo;Well, how are we planning to convince him that he wants to come along?&rdquo;</p>
+    <p>&ldquo;That’s your job, Mr. Scrummy.&rdquo;</p>
+    <p>&ldquo;Mr. Scrummy?&rdquo; Eeo says with detached amusement.</p>
+    <p>&ldquo;Ya, I like giving nicknames to all of my friends.&rdquo;</p>
+    <p style="color: #999;">/// 3 hours later ///</p>
+    <p>&ldquo;Hey Theodore, we’re going to be leaving on our journey soon, like, probably in a few days.&rdquo; Eeo says.</p>
+    <p>&ldquo;Oh ya? I’ll miss ya.&rdquo; Theo says, eyes closed, resting.</p>
+    <p>&ldquo;Well,&rdquo; says Eeo, &ldquo;you can come along if you want ta.&rdquo;</p>
+    <p>&ldquo;No, no, I don’t think that’s a good idea. I need to guard the time crystals and make sure that any promising magicians make it out of this damn forest alive.&rdquo;</p>
+    <p>&ldquo;We could set traps for them, you know, like friendly traps. And then we could teach them our ways with a guided practice program. I’m sure the ants and the butterflies would love to help with that. I know how to get them to walk along specified paths and it doesn’t involve cutting out their organs.&rdquo;</p>
+    <p>&ldquo;That’s a good idea, but really, I’ve made a home here and I don’t think it’s the right time for me to go out trollopsing with some fine young folk.&rdquo;</p>
+    <p>&ldquo;Okay, well, if you change your mind, just let me know. We’re not leaving for a few more days.&rdquo;</p>
+    <p style="color: #999;">/// Two days later ///</p>
+    <p>&ldquo;Hey Theo,&rdquo; says Rish, &ldquo;What’s your style?&rdquo;</p>
+    <p>&ldquo;Hankey Po, as per usual miss princess.&rdquo;</p>
+    <p>&ldquo;Well, what say you we go out wandering through the forest and come upon some adventures together?&rdquo;</p>
+    <p>&ldquo;I’d need myself a wishin stone before that kinda thing would happen again, miss princess.&rdquo;</p>
+    <p>&ldquo;A wishin stone you say? Well, let me go fetch one.&rdquo; </p>
+    <p style="color: #999;">/// The princess goes on an epic journey that takes 3 days and gets a wishin stone and brings it back to the dragon. ///</p>
+    <p>&ldquo;No. Way. Princess. Princess… You. Are. Amazing! Where did you get that??&rdquo;</p>
+    <p>&ldquo;I walked to the top of the nearest mountain, hailed down a stork bird, asked it to lend me its back tip feathers, got those, waved them around in the wind, recruited some devious sprites to help me, let them into my throat, sung a song of harmony with the wind, flagged down a travelling witch, she gave me spices, scorched the sky with pepper-jack seasoning, spun around three times just for fun, climbed down to the bottom of the mountain again, found a ground shaper, asked to borrow his eyes, he let them go unwillingly, took the spices the witch gave me and mixed them into the sand, hoped upon a miracle, watched a mini volcano spring up from the ground and birth a wishin stone.&rdquo;</p>
+    <p>&ldquo;Well that’s quite some fancy work you did there. That’s something pretty nice.&rdquo;</p>
+    <p>Theodore takes the wishin stone from her hand and goes into the forest. He comes back with a large excavating pick with a string attached to it. He pushes the pick softly against the stone until the stone gradually gives way like hardened putty being warmed. It starts to turn inside out like a big, amorphous bubble.</p>
+    <p>He stops pushing the pick through it and waits for the stone to solidify again at its now larger size. Then he pushes the pick in a little further. This time it pierces it and reaches the other side of the expanding bubble. He pushes down on the place on the stone where the pick is protruding from, and it meshes and bleeds around the pick.</p>
+    <p>Then it reforms itself around the thread at the end of the pick as he drags it through. He takes the thread and puts it around his neck and it transforms into a giant chain with chain links. The chain links harden and the wishin stone glows blue like a gemstone on an over-sized necklace.</p>
+    <p>The entire necklace shrinks and shrinks until it becomes a small purple amulet in the shape of an ovular disk and, as it shrinks, the dragon shrinks too. First he shrinks really small: into a small rabbit who hiccups briefly and then into a cheetah and then he flies up into the air as a swift, small bird.</p>
+    <p>Then his neck stretches back to the ground and sinks lopsided to the sand and he becomes a giraffe. And then he turns into a little glass jar full of pickled onions. Finally, the glass jar of onions starts shaking. It shakes slowly at first and then it starts rocking back and forth. It tips over and spills the onions and the amulet spills out of the jar onto the ground.</p>
+    <p>A full human body, full of light, rises up through the ground. It's lying upright so the amulet is lying on its chest. Its hair is long and its face is smooth, but it's impossible to tell if it's a girl or a boy. The body solidifies and stands upright, the amulet lightly tying itself around the body’s neck. It opens its eyes and opens its mouth and speaks: &ldquo;I’m free.&rdquo;</p>
+    <p>The new person takes the amulet and the string that was around it and pulls it over and off its head. The amulet glows with a bright, rambunctious, purple color.</p>
+    <p>&ldquo;Hello,&rdquo; says the new person.</p>
+    <p>Princess Rish is overwhelmed for a moment, but eventually she says: &ldquo;Hello.&rdquo;</p>
+    <p>&ldquo;My name is Thursday. I’ve been trapped in dragon scales for millennia. Thank you for freeing me.&rdquo;</p>
+    <p>&ldquo;Oh ya, no problem. What happened to Theodore?&rdquo;</p>
+    <p>Thursday looks down at the onions spilled on the ground and then back at Rish. He winks and coughs up some fire. &ldquo;I don’t know, but he’s somewhere &mdash; somewhere between me and the onions.&rdquo;</p>
+    <p>Rish looks again and she can see that there are two eye holes and the shape of a muzzle burned into the ground next to where Thursday is standing. She doesn’t quite understand what's happened, but guesses that it must be something like an unraveling. She imagines the dragon she knew was like a second skin around this Thursday and he’s just gotten burned off. She can’t help but feel bad for poor Theodore, nothing more than a puff of smoke now.</p>
+    <p>Thursday looks at her straight in the eyes and she can see his eyes are burning red like fire. They're lit up.</p>
+    <p>&ldquo;What are you?&rdquo; she asks.</p>
+    <p>Thursday sits down on the ground and pushes himself back up again really fast so he kinda looks like he bounces off the ground. And then he floats in the air right above where he was standing, briefly, before floating back down.</p>
+    <p>&ldquo;I’m a forest sprite. I used to be a prince, but my human eyes got transformed into eyes of fire because I spent so much time in this forest. I’ve been here for so long, doing the same things, it’s worn on my soul. It’s made me a little out of touch. That’s why the onions had to be spilled: there was too much juice in them. Now I feel new, but somehow a little too light on my feet, like I might float away if I don’t keep my hold on the ground.&rdquo; Thursday leans a little to one side.</p>
+    <p>&ldquo;I think that’s why I like you, princess: you’re very in touch with the ground. As far as I go, I’m afraid. I’m afraid of floating away. Big chunks of who I was and why I was put in the forest just floated away. I almost feel purposeless. I almost feel like the wind could guide me in any direction. I’m glad I found you and Eeo because I need friends right now.</p>
+    <p>&ldquo;You know what, I could really use a hug. I’ve spent a long time in this forest trying to manipulate it to my will and right now I just want to lie down and have the earth caress me into its womb. I wouldn’t mind if ants crawled all over my skin. I don’t think they’d even tickle too much. My skin feels airy and light. I feel like I’m floating away right now. I feel like I’m just starting to notice a lot of things in my life... have been pointing in this direction, like I’ve been preparing for feeling this separate from everything, but I’m not actually ready.</p>
+    <p>&ldquo;Please, princess…&rdquo; He doesn't say this last part out loud, but rather with his eyes, although she swears she can hear it on the wind.</p>
+    <p>Rish walks over to Thursday and gently tugs him to the ground and gives him a hug. He falls into her and squeezes her tight and then lets go, moving slightly away. Little tendrils of light, like centipede legs, start coming out of his arms and prod at her sweater.</p>
+    <p>&ldquo;Okay, I think that’s enough,&rdquo; Thursday says, &ldquo;I’ve barely found myself. I don’t want to start attaching myself to you.&rdquo;</p>
+    <p><a href="/a-boy-meets-a-dragon-5/"><i class="fa fa-angle-double-right"></i> Continue to Chapter 5</a></p>
+  </div>
+</div>
+{% endblock %}

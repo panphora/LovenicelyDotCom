@@ -1,0 +1,116 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}Where is the flood? | A Boy Meets a Dragon | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">A Boy Meets a Dragon</h1>
+    <h3 class="mb1">Chapter 2</h3>
+    <h2 class="mb8">Where is the flood?</h2>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Audio version:</div>
+      <div id="jplayer_abmad_chap2" class="jp-jplayer"></div>
+      <div id="jplayer_abmad_chap2_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/audio/a-boy-meets-a-dragon/chapter-2/a-boy-meets-a-dragon-chapter-2.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-2/xlarge.jpg" media="(min-width: 1800px)"><!-- 2560 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-2/large.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-2/medium.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-2/small.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images/a-boy-meets-a-dragon/chapter-2/large.jpg" alt="A Butterly Flutters to a Blade">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+    Illustration by David Miranda
+  </div>
+  <div class="main-text-container">
+    <p>&ldquo;There is one thing you must do before you are worthy to see this place. You must renounce all your attachment to this world and become a wizard. I can make you a wizard, especially since you seem to have tamed Esmerelda, founder of worlds, corkscrew of the faith travelers that haunt these lands.&rdquo;</p>
+    <p>Eeo looks toward Esmerelda, held tightly in his hand. &ldquo;If I must, I will.&rdquo;</p>
+    <p>&ldquo;You must.&rdquo;</p>
+    <p>The dragon stands on his hind legs, stretches his long and tired back, and reaches for a branch high above. He breaks the branch off its tree and hands it to Eeo and Eeo feels the immense power coursing through it. Esmerelda, newly named, doesn’t like the branch, so she hops into Eeo’s pocket. The branch glows with a longing to be reunited to its tree and that’s what gives it its power. It's so powerful that it glows at its tip with a soft white fire.</p>
+    <p>&ldquo;Show me what you would do with this branch, young wizard,&rdquo; says the dragon.</p>
+    <p>Eeo can feel the branch pulling him upward, as if it wants to be reattached where it was torn away. He thinks about tossing it in the air, toward where it came from, as he looks up at the tear in the tree.</p>
+    <p>&ldquo;Anything, except for that,&rdquo; says the dragon. &ldquo;Anything... except for that.&rdquo;</p>
+    <p>Eeo looks at the branch and he sees that the tip is burning with desire and fire and wants and wishes and power, so he touches it to the ground and then drags it along the dirt. Where he drags it, new leaves sprout and little mini pine trees and whole acorns pop out of the ground, and then the acorns pop open and crickets and ants crawl out. Then the crickets split open and mushrooms grow from the crickets’ split open backs and dandelions spill from the heads of the mushrooms.</p>
+    <p>&ldquo;Good, good, you see how to use it, but not so hard. You’re making things pop out of things and that’s no good. A softer touch, please.&rdquo; The dragon takes the branch from Eeo’s hand and shows him how. He drags it through the air, just above the ground, with intention. The flowers and dandelions and mushrooms that Eeo made grow up to meet the branch. And ants and crickets fall out of its shining tip. Seahorses, soaked in water bubbles, bobble up through cracks in the dirt where the flowers are growing.</p>
+    <p>&ldquo;See,&rdquo; says the dragon. &ldquo;Everything has a need. And we magicians fulfill that need whether we want to or not. We’re always working, always guiding, always reaching for the next highway upon which the gloss of life rests and must be forced back onto the main pass-way.&rdquo; He hands the wand back to Eeo and Eeo takes it and drags it along the trunk of a tree. He unzips the tree so it can breathe, and butterflies and birds and faeries fly out of it.</p>
+    <p>&ldquo;What's that?&rdquo; Eeo says. He can hear a faint and distant burbling sound, like a huge ocean boiling over, as well as thunder and wild rain storming on the other side of the thick bark, ready to rise through the opening and plunder this fair ground. He zips the tree back up as soon as he can. The tree bulges and bellows and water trickles out of the crack that's left over. There's a huge bulge and a scar left in the tree.</p>
+    <p>The dragon looks at Eeo, impressed, and says, &ldquo;That scar will never heal, but that’s okay. Perhaps it will serve as a sign to the next wizard of all the life that’s trapped in there, just waiting to overrun this world. That’s a whole new world in there, you know, a flood so big no one here now would ever forget it.&rdquo;</p>
+    <p>He pauses for effect. &ldquo;These are very old trees, here.&rdquo;</p>
+    <p>&ldquo;What would you have done if I would've let it out?&rdquo; Eeo asks.</p>
+    <p>&ldquo;I would have flown away.&rdquo;</p>
+    <p>&ldquo;But what about the flood?&rdquo;</p>
+    <p>&ldquo;The world will have its way, but dragons will survive.&rdquo;</p>
+    <p>Eeo looks at him incredulously.</p>
+    <p>&ldquo;That’s what I think, anyways,&rdquo; says the dragon.</p>
+    <p>Eeo takes the wand and points it at the dragon, threateningly, like he wants to open him up with his next thought.</p>
+    <p>&ldquo;Wo there, what are you doing? Be careful.&rdquo; The dragon smiles.</p>
+    <p>But Eeo persists: &ldquo;Tell me true, what is your deepest desire?&rdquo;</p>
+    <p>&ldquo;To cook your stone.&rdquo;</p>
+    <p>Eeo thinks about this for a while. Then he relaxes his arm and lets the wand rest at his side. He asks, casually, knowing he can’t do a thing if the dragon resists: &ldquo;But promise me you won’t.&rdquo;</p>
+    <p>&ldquo;Okay,&rdquo; says the dragon. &ldquo;I won’t.&rdquo;</p>
+    <p>&ldquo;Promise.&rdquo;</p>
+    <p>&ldquo;I promise.&rdquo;</p>
+    <p>Eeo thinks he sees two more tiny horns grow from the top of the dragon's head, but they're barely visible if they're there at all.</p>
+    <p>Eeo and the dragon spend the next seven nights together, with the dragon teaching Eeo magic and training him how to tell if someone is lying or not. He even teaches him about what dragons are made of and how to make the elementary particles. In the end, Eeo is happy that he's becoming a magician and the dragon is happy to have someone to talk to.</p>
+    <p>On the eighth day, the dragon says, &ldquo;Well, now you’re officially a magician.&rdquo;</p>
+    <p>Eeo spends the eighth day digging for gold and the ninth through the eleventh day learning how to make magic potions. On the twelfth day he learns how to draw symbols in the dirt that summon tree creatures and insects. And on the thirteenth day, he almost dies fighting a dragon from a neighboring grotto.</p>
+    <p>On the fourteenth day, Eeo meets a princess. Her name is Rish. She comes at him with a knife, swings around with a sword, and would have cut his head off, except they'd both stumbled back into one of Eeo’s incantations, which was built to offer a protection spell around Eeo. She quickly destroys it though and Eeo does a lot more running through the underbrush before he arrives where the dragon is sitting.</p>
+    <p>&ldquo;Help!&rdquo; Eeo says.</p>
+    <p>&ldquo;No,&rdquo; says the dragon, with his eyes closed. &ldquo;This is a test.&rdquo;</p>
+    <p>So Eeo runs some more and finds a loose branch and quickly draws on the ground until he summons about a thousand fluorescent butterflies, each of which was hidden in a piece of the world around him. They all fly up together and perch on his shoulders and arms and cover his whole body. When the princess comes upon him, she hesitates.</p>
+    <p>Then she says, &ldquo;What are you doing?&rdquo;</p>
+    <p>Eeo says, &ldquo;Would you dare to destroy such magnificent wonders?&rdquo;</p>
+    <p>Rish says, &ldquo;Yes, but I don’t need to,&rdquo; as she forces her blade through the throng of butterflies and touches his throat with the tip. &ldquo;Now, come out from under there and die honorably.&rdquo;</p>
+    <p>Instead of complying, he touches her blade with his finger and a single butterfly daintily crawls onto it and, as it does, the sword disintegrates and falls to the floor as ash.</p>
+    <p>She looks at her blade with fierce eyes and cries out, &ldquo;RAAAAAAWR,&rdquo; as she rushes toward him with her other, smaller, blade. But before she knows it, she's in a tightly forming cage made of butterflies and her knife blade is disintegrated. She freezes in place. She can tell instinctively that, if she moves about threateningly, the butterflies won’t hesitate to disintegrate her too.</p>
+    <p>The dragon comes out through a nearby patch of pines and says, &ldquo;Very good, Eeo, but what would you do now if I wasn’t here?&rdquo; Eeo is still covered in butterflies, so he can’t move either.</p>
+    <p>&ldquo;Wait for them to fly away, I guess,&rdquo; says Eeo.</p>
+    <p>&ldquo;But they won’t, you’re threatening their home.&rdquo; Indeed, Eeo knows this, he's stepping on a puffin pageant and is very close to crushing it.</p>
+    <p>&ldquo;I could try to explain myself and offer her up as food for them to eat.&rdquo;</p>
+    <p>&ldquo;Yes, let’s see how that works…&rdquo; says the dragon, sarcastically.</p>
+    <p>&ldquo;Oh, I know, I could spit out one of the acorns I’ve been carrying around and hope it grows when it hits the ground. You know, as a token of my good faith.&rdquo; He proceeds to whisper, &ldquo;Grow, grow, ancient stone, and overwhelm the soil.&rdquo;</p>
+    <p>He spits out an acorn and it grows into a tiny flower. One of the butterflies that's on his nose flies down to inspect the flower. Then, quite suddenly, all the butterflies fly up and away into the trees. Eeo breathes in deeply and quickly removes his foot from the puffin pageant. Then, he bends down and gives it a kiss. It reciprocates and his lips turn bright red.</p>
+    <p>&ldquo;And now you still have the same problem you started with.&rdquo;</p>
+    <p>Eeo turns back to look at furious Rish and sizes her up. He shrugs, &ldquo;But she’s only got her two mitts on her now. That’s coozy.&rdquo;</p>
+    <p>With that, she rushes him and knocks him straight out with her right fist. The dragon has to bargain three gold coins for Eeo’s life and she only gives him up because he was such an easy challenge.</p>
+    <p>When Eeo wakes, he hears the dragon and Rish discussing his fate.</p>
+    <p>&ldquo;He’s too weak, he doesn’t stand a chance against my father — he didn’t even slow me down out there. He’ll get us both killed.&rdquo;</p>
+    <p>&ldquo;You said you needed a magician and I got you a magician. That was the deal. He knows the rules of magic. They’re etched in his heart.&rdquo; And then he whispers, so Eeo can hardly hear, &ldquo;I didn’t even have to teach him, I just woke it up.&rdquo;</p>
+    <p>Rish protests: &ldquo;But it’s not the right kind of magic. I need someone who knows killing magic, not this weaselly, peasley, growth magic.&rdquo;</p>
+    <p>The dragon responds, &ldquo;How can you know what you’ll need before you even start your quest? Take him along and see how far you get this time around. Here, see: look what he can do.&rdquo;</p>
+    <p>Eeo is already halfway through making an invisibility potion and there are ants and butterflies helping him gather herbs and spices for a balm he'll use for healing the cuts and bruises he’d sustained barreling through the forest.</p>
+    <p>&ldquo;I won’t go with her,&rdquo; he says, glancing over his shoulder. &ldquo;She’s deadly. She’ll get me dead. I can feel it.&rdquo;</p>
+    <p>&ldquo;You could use a little death in you,&rdquo; the dragon says. &ldquo;Bring some of your magic back to this world for a change. A little decay wouldn’t hurt every once in a while.&rdquo;</p>
+    <p>&ldquo;What does that even mean?&rdquo;</p>
+    <p>&ldquo;What I mean is that you two will be good for each other. She knows how to kill things and you know how to grow things. You’re complementary!&rdquo;</p>
+    <p><a href="/a-boy-meets-a-dragon-3/"><i class="fa fa-angle-double-right"></i> Continue to Chapter 3</a></p>
+  </div>
+</div>
+{% endblock %}

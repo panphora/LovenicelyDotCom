@@ -1,0 +1,115 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}Searching for scraps | A Boy Meets a Dragon | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">A Boy Meets a Dragon</h1>
+    <h3 class="mb1">Chapter 3</h3>
+    <h2 class="mb8">Searching for scraps</h2>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Audio version:</div>
+      <div id="jplayer_abmad_chap3" class="jp-jplayer"></div>
+      <div id="jplayer_abmad_chap3_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/audio/a-boy-meets-a-dragon/chapter-3/a-boy-meets-a-dragon-chapter-3.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-3/xlarge.jpg" media="(min-width: 1800px)"><!-- 2560 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-3/large.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-3/medium.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-3/small.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images/a-boy-meets-a-dragon/chapter-3/large.jpg" alt="Rish and Eeo talk">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+    Illustration by David Miranda
+  </div>
+  <div class="main-text-container">
+    <p>That night they all sit down to talk and the princess starts talking about her family. She says that she was raised eating mushrooms in a forest by a frog princess who lives there. And she hates her parents. Her mother doesn’t understand anything she talks about because they don’t speak the same language and she says her father was always out fighting wars, so he never had time to care for the castle and its inhabitants. Rish practiced swordplay since she was 7 and she always wanted to go off to war with her father, to once and for all take back control of the kingdom. But her father would just say he was going hunting and then disappear for months.</p>
+    <p>Rish tells them she felt this wedge forming in her heart and before she knew it, she had fallen out of love with her parents. It was a strange feeling, like floating in the air somewhere above her body, while standing alone in their family’s ball room. Everything felt open and empty and free. She tells them it wasn't that day, but weeks, perhaps months later, as she started to get more in touch with how she really felt, that she decided she needed to take control of the kingdom and exile her parents.</p>
+    <p>&ldquo;But what will you do with your mother when you find her?&rdquo; Eeo asks.</p>
+    <p>&ldquo;Well, she’ll have to learn how to live with the pleasant folk.&rdquo;</p>
+    <p>&ldquo;And what if she can’t.&rdquo; Eeo asks.</p>
+    <p>&ldquo;She’ll manage.&rdquo;</p>
+    <p>&ldquo;Well then,&rdquo; the dragon says, it’s settled, &ldquo;you’ll help her go to war and win back her people’s hearts and minds so they can live into infinity with prosperous futures and undying love for each other and all living beings.&rdquo;</p>
+    <p>&ldquo;No,&rdquo; Eeo declares, &ldquo;I want a better reason for going to war than the fact that she hates her parents. People are going to die, you know.&rdquo;</p>
+    <p>&ldquo;Listen,&rdquo; says Rish, &ldquo;I’ve been trying to do this ever since I was a teenager and you’re just the latest magician I’ve found. I’ll find other magicians after you and they’ll be even better than you and we’ll kill even more people than you and I ever did. You have a choice now: you can try preventing some deaths by doing the magic parts your way or you can let me storm out of here even more angry than I came and in more of a killing mood than I’ve ever been!&rdquo;</p>
+    <p>There's a brief silence. The dragon rests his head and puffs a little smoke.</p>
+    <p>&ldquo;How many people have you killed?&rdquo; Eeo asks, raising his eye brows.</p>
+    <p>&ldquo;One,&rdquo; Rish says, seriously.</p>
+    <p>&ldquo;Ha! Ha ha!&rdquo; Then Eeo stops laughing for a second. &ldquo;Who?&rdquo;</p>
+    <p>&ldquo;My father’s secretary. He was a hermit crab.&rdquo;</p>
+    <p>Eeo looks at her in wonder. &ldquo;You killed a hermit crab and you expect me to believe that you’re some kind of killing machine on the loose! You’re outrageous!&rdquo;</p>
+    <p>&ldquo;That’s not all.&rdquo; says the dragon. &ldquo;Tell him the whole story.&rdquo;</p>
+    <p>&ldquo;Okay,&rdquo; the princess says, but you have to really listen.</p>
+    <p>Eeo stops smiling and looks at her and nods. Eeo loves stories.</p>
+    <p>Rish begins: &ldquo;It was late at night. It was really late at night and me and Mr. Gimroy were playing checkers together. And then I got this really big sneeze coming on and I said, ’Duck, Gimroy! Duck!&rdquo; And then I let out the biggest sneeze of my life and it almost blew away Mr. Gimroy and the checkerboard and everything all together, but luckily he was safe.</p>
+    <p>&ldquo;Or so I thought… But then I checked on Mr. Gimroy and he was dead. He never came out of his shell again or breathed another word. And from that moment on, my mother has clamored around the house saying things like, &ldquo;she’s got the voice of death I tell ya!&rdquo; But it’s in that stupid foreign tongue she speaks, so it sounds more like, ‘Homma homma heshey noises ricketaw!’ and the only way I even found out that she was talking about me and Mr. Gimroy was because one of the servants told me during dinner after she started saying it a lot. And I regretted the whole thing and I never want to kill anything again... but I will if that’s what it takes to overthrow my father, The Foul King!&rdquo; She says this last part with derision caught in her throat, leaking up like magma.</p>
+    <p>&ldquo;Oh, wow, I’m sorry you lost him that way.&rdquo;</p>
+    <p>&ldquo;Ya, me too.&rdquo;</p>
+    <p>&ldquo;So anyways, why do you hate your father so much?&rdquo;</p>
+    <p>Rish says, &ldquo;I don’t want to talk about it,&rdquo; and looks away, blushing.</p>
+    <p>&ldquo;Well, you’re gonna have to if you expect me to come with you.&rdquo;</p>
+    <p>But Rish stays quiet. And she continues to be quiet for the rest of the night.</p>
+    <p>The next day, Eeo is picking at something near a tree, trying to see if he can get a little fungus to learn how to crawl up a tree — because he’s of the opinion that anything can learn how to do anything and he wants to understand how to teach things to behave in ways they wouldn’t normally behave. He’s picking at it with a stick, from a distance, kind of half-heartedly trying to teach it a new trick, but he’s not having much luck. The fungus is just kind of sticking to the stick.</p>
+    <p>When he presses it against the tree, he feels like maybe he sees it crawl a little, like a worm, so he bends down and looks at it closer. That’s when Rish interrupts. She comes in from behind him, from the forest. She’s standing behind the campfire they’ve been sitting around every night. There’s no camp fire lit right now and all the logs and the stones they sit on are laid around the fire.</p>
+    <p>&ldquo;Hey Eeo,&rdquo; she says.</p>
+    <p>&ldquo;Huh...?&rdquo; He says. And he turns around.</p>
+    <p>&ldquo;Eeo,&rdquo; she says, &ldquo;I want to tell you something.&rdquo;</p>
+    <p>&ldquo;Well, okay,&rdquo; he says. &ldquo;As long as it won’t hurt me.&rdquo;</p>
+    <p>&ldquo;Don't worry so much, Eeo, I’m not here to hurt you.&rdquo; And she kind of flaps her hand in the air like she’s trying to show him that the breeze is just going by without harming anything, but she kind of just flaps her hand up and down and her gesture doesn't really turn out how she wants. But she doesn't pay attention to that, she just keeps talking: &ldquo;Come over here, Eeo, I want to tell you something about myself.&rdquo;</p>
+    <p>This is kind of an awkward situation for her, she doesn't really do this kind of thing… well, she does do this kind of thing sometimes, but she doesn't really understand how it’s supposed to work. They both sit down. He sits on one log and she sits on another. And she says, &ldquo;So, Eeo, I want to tell you about my family. And about why I want to kill my father, but first I want to tell you a little bit about the world and the way it works for me, because I feel like if you understand how the world works for me, you'll have a better idea of why a girl like me, who might seem at first pretty graceful and harmless, would want to do something so banal as to kill another human being.&rdquo;</p>
+    <p>She says, &ldquo;The truth is: I don't really want to kill him. I never wanted to kill anyone in my whole life. But the way the world works for me is that I have these nightmares and these nightmares don't come up just during the night. They’re kind of, like, all around me, all the time, and I know they’re really out there, in that other people feel them too, but for one reason or another, no one talks about them. And the way the world works, for me, is that I feel these nightmares more than other people or at least I think I must because I feel like I need to talk about them more than anyone else does and whenever I try to broach the subject, people always give me really strange looks and I get the impression that I’m just not explaining things the right way.&rdquo;</p>
+    <p>Eeo looks at her and he says, &ldquo;Well, I’m not quite sure what you're talking about to be honest, but I'm willing to believe you, if you can give a better explanation.&rdquo;</p>
+    <p>&ldquo;Well,&rdquo; Rish says, &ldquo;that’s what I'm doing, so please don't interrupt me.&rdquo;</p>
+    <p>She continues, and Eeo goes back to listening: &ldquo;Throughout my whole life I’ve reached into the power of these nightmares because I know they give me power and I’ve seen them give power to other people too, like my father and mother, and to the world I used to live in with them. And… um… I use it to… I use the power to try to make a clear path for myself. And I know when I do, I end up hurting people. But I've convinced myself that, in the end, it will all be worth it.</p>
+    <p>&ldquo;Now, the thing is is these nightmares also have a power that comes from somewhere else and it’s from a subtle place or entity, but it has some intelligence to it. And it, well... the more you use the powers in the nightmares, the more power this intelligence has over you. Now, sure, most of the time things feel fine. Most of the time, I feel like these nightmares aren't activated. Like they don't hold a lot of power in the world. But sometimes I feel like they’re all around me and like they’re opening themselves up to me and it's almost like I don’t have a choice, like I have to choose at least one to grab into and bring something up.</p>
+    <p>&ldquo;And the thing is: I know this power isn’t good and I know it doesn’t bring goodness into the world, but it does have a taste of violence and it usually lets me cut a slight hole in the fabric. Or even stitch things up — they’re tools and weapons that you can use to slice or threaten or move things around. And the people who taught me how to use these particular tools are my parents. And my father was always the best at using them. He was practiced at it. I felt like he didn’t like using them, but I also got the impression he was good at using more than one at the same time, or using them one after another to build something that wasn’t there before.</p>
+    <p>&ldquo;Me, I might use them to cut a path, but he would cut a path and then use the fabric left over from creating that path in building something else. He would show it to the people around him and then he would use their reactions to it and cut them up and add them on to the structure, really moving things around and almost playing with people’s emotions and reactions in order to build something new — something that would seem totally real and participatory to the people who were gathered around him. They were always mesmerized and not really sure what he was doing to them.</p>
+    <p>&ldquo;It always disturbed me. But I didn’t ever know another way of being. So I use these same tools myself. And, although I don’t seem like it sometimes, I’m a very vicious person. There have been times in my life where I have meticulously used these tools, gathered from the nightmares around me, on myself. I’ve cut away parts of myself and fashioned myself into a different type of creature than people would imagine me to be based on my appearance. &rdquo;</p>
+    <p>Eeo raises his eye brows, half curious, half in agreement.</p>
+    <p>&ldquo;For example,&rdquo; she says, &ldquo;I have sharper eyes than most. I see the darkness as well as the light. And I’ve been inside the dreams and nightmares of other people. I can see their true faces…&rdquo; She looks away, &ldquo;Sometimes.&rdquo;</p>
+    <p>Rish pauses, hesitating before reaching inside herself to tell Eeo something she hasn’t told anyone before.</p>
+    <p>&ldquo;Now, the cruelest thing you can do, when you see someone’s true face, is to look at them straight in the eyes and take in all of their features, everything they are, all the details about how they feel about the world and even some of their deepest feelings about certain memories or people — the way they feel about the brush of the wind, for example. And you look at them, and you tell them, to their face, either with anger or with the utmost severity, that their true face is not their true face. And that’s all it takes. If they believe you, if you did your job correctly, if you wielded your tools to cut off pieces of them and inspected them closely — and you have your mark down true — that is the surest way of gaining power over someone and that is the cruelest cut you can make against them.</p>
+    <p>&ldquo;And that, that sight, that connection that a person has to their own sight, to their own view of the world: that deep, emotional, visceral, natural feeling that you know — that you just know. If that is — if there is mistrust planted between you and that — you can… you can feel… you can know what it’s like for someone to try to make you theirs — for someone to try to cut through your ever-evolving boundaries and understandings in order to insert a little piece of themselves… or to try to make you feel like the face you’re wearing is just a mask. And that’s what my father and mother did to me. They sat me down when I was young and they told me, they told me that…&rdquo;</p>
+    <p>Rish sighs, looks down, blinks, and then looks up at Eeo with lips pursed and eyes piercing.</p>
+    <p>&ldquo;They told I was a lower class of animal and that I had stolen the skin of their daughter and crawled inside of it and made myself look just like her. They told me they didn’t quite see me as their daughter and that if they ever found out I wasn’t really her, they would do worse than kill me.</p>
+    <p>&ldquo;Now, let me just quickly explain to you… my world, and how it came to be. I am not a killer. I am not someone who fights with swords, although I am practiced at it. I am one who will look you in the eyes and deny you to yourself. And not because I have done the same thing to myself and not because it was done to me, but because I can.</p>
+    <p>&ldquo;Because it was done to me, I have that power now, I have that knowledge. So now, when I have the opportunity to take something that’s not mine, but is there, floating in the world, and I have my knives at the ready by my side, hidden in the nightmares you cannot see, I take out my scissors made of glass and I shove them where no one knows to expect it. And I slowly cut around the back of your head and free you from that nasty feeling known as responsibility. And I show you there can be a brighter way, if only you’ll let go.</p>
+    <p>&ldquo;The problem is, Eeo, I don’t understand what love is. It’s never made sense to me. I think, if you showed it to me, I wouldn’t know what it was, I wouldn’t know what I was looking at. I might not even see anything there. But you, Eeo, I see you, and I know you have it. And I know you’ve never lost it in your whole life. Whereas me, I’ve lost it many, many times. And I want you to guide me. I don’t want to force you or cajole you or push you. I want this to be your own choice.</p>
+    <p>&ldquo;I want to talk to you as one child of earth to another. I want to ask you: will you go on this adventure with me, to avenge me on my father, who has learned the art of sticking real knives down people’s throats to sever their tongues and speaking organs from their bodies, so they have no ability to speak or to express their right to speak. And he is surrounded by these people, people who he has orally castrated to the point they do not know if they have their own voice or if their voice is his own. He has done it to elders. He has done it to his friends. He has done it to my pets. He slit my mother’s tongue right down the middle so that she can no longer speak in her native tongue. He has corrupted the very nature of power and he is so, so satisfied with his kingdom.</p>
+    <p>&ldquo;Eeo, I don’t want to lie to you. He will look you in the eyes and he will tear your soul out and he will eat it. He will eat it in front of you, but you will not be able to see. You will just be able to feel him devouring you. And he will. He will do that to you without my help. But I think, with our powers combined, and the help of some of our friends, we can overcome him. And maybe I can feel pure again, like I won’t need these nightmares and voices beside me, always begging me to use them against my will. Maybe, if we kill him, people will be able to see again, people will be able to see through the cloud of his power — the terror that he forces down our throats. &rdquo;</p>
+    <p>Rish sighs, &ldquo;and, oh my geez, I just want everyone to have their tongues back so they can speak normal and that’s why it made me so sad and upset when my mother said I had the voice of death because my father never cut my tongue out and I felt like she was saying he should have or something.&rdquo; Rish is crying at this point. &ldquo;Anyways, that’s the whole story, now will you come with me or not?&rdquo;</p>
+    <p>&ldquo;What about your father’s friends? Does he cut their tongues out too?&rdquo;</p>
+    <p>&ldquo;No, he just slices them down the middle so they talk with a lisp.&rdquo;</p>
+    <p>&ldquo;Oh. Ojay. Ull um witchu.&rdquo;</p>
+    <p>&ldquo;Not funny. But good. Glad to have you along.&rdquo; Then Rish turns and walks into the forest to find somewhere to sleep.</p>
+    <p><a href="/a-boy-meets-a-dragon-4/"><i class="fa fa-angle-double-right"></i> Continue to Chapter 4</a></p>
+  </div>
+</div>
+{% endblock %}
