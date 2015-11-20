@@ -31,6 +31,11 @@
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="application-name" content="Love nicely.">
+
+    <script>
+      document.createElement( "picture" );
+    </script>
+
     {% block head %}{% endblock %}
   </head>
   <body class="{% block bodyClass %}{% endblock %}">
