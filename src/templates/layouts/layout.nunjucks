@@ -4,13 +4,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="Cache-control" content="no-cache">
+
 		<title>{% block title %}{% endblock %}</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/styles/main.css" />
+
     <!-- typekit fonts -->
     <script src="//use.typekit.net/aha4qzk.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 		<!-- http://realfavicongenerator.net/ -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -30,13 +31,10 @@
 		<meta name="msapplication-TileColor" content="#ffc40d">
 		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 		<meta name="application-name" content="Love nicely.">
-
-		<!-- all scripts on this page go here -->
-		<script src="/js/jquery-1.11.1.js"></script>
-		<script src="/js/lovenicely.js"></script>
-		<!-- picture fill responsive images script -->
-		<script src="/js/picturefill.min.js" async></script>
 		{% block head %}{% endblock %}
 	</head>
-	{% block body %}{% endblock %}
+	<body class="{% block bodyClass %}{% endblock %}">
+		{% block content %}{% endblock %}
+	</body>
+	<script src="/scripts/bundle.js" async></script>
 </html>
