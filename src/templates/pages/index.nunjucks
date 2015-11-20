@@ -1,123 +1,90 @@
 {% extends "layout.nunjucks" %}
 
+{% block title %}Love nicely{% endblock %}
+
 {% block bodyClass %}front-page{% endblock %}
 
 {% block content %}
-<div class="stretch-header"></div>
-<div class="catchphrase-bg"></div>
-<div class="container clearfix">
-  <div class="clearfix header-container">
-    <span class="stripe-container">
-      <span class="stripe"></span>
-    </span>
-    <a href="/" class="wide-logo no-underline">Love Nicely</a>
-    <div class="logo-text-container">
-      <a href="/" class="logo-text no-underline">love nicely</a>
-      <span class="logo-text-mobile">love nicely</span>
-    </div>
-    <ul class="main-menu">
-      <li><a href="/submissions">Submissions</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/">Home</a></li>
-    </ul>
+<div class="thumbnails-container clearfix">
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/a-boy-meets-a-dragon-chapter-5/">
+      <img class="story-thumbnail" src="/images/front-page/in-which-mr-scrummy-returns-from-the-brink.jpg">
+      <div class="content">
+        <div class="story-date">09/24/15</div>
+        <div class="story-title">In which Mr. Scrummy returns from the brink</div>
+        <div class="story-summary">The fifth chapter of <i>A Boy Meets a Dragon</i>, in which Thursday learns to heal himself.</div>
+      </div>
+    </a>
   </div>
-  <div class="clearfix catchphrase-container">
-    <div class="col col-12 catchphrase">
-      <span class="subtitle-text"></span>
-      <i class="fa fa-refresh refresh-icon"></i>
-    </div>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/a-boy-meets-a-dragon-chapter-4/">
+      <img class="story-thumbnail" src="/images/front-page/gather-your-popcorn.png">
+      <div class="content">
+        <div class="story-date">06/11/15</div>
+        <div class="story-title">Gather your popcorn</div>
+        <div class="story-summary">The fourth chapter of <i>A Boy Meets a Dragon</i>, in which Rish uncovers someone living inside the dragon.</div>
+      </div>
+    </a>
   </div>
-  <h3 class="stories-header"></h3>
-  <div class="clearfix main-content">
-    <div class="thumbnails-container clearfix">
-      <div class="thumbnail-container mb4 col col-12 md-col-4">
-        <a class="story-container" href="/a-boy-meets-a-dragon-chapter-5/">
-          <img class="story-thumbnail" src="/images/front-page/in-which-mr-scrummy-returns-from-the-brink.jpg">
-          <div class="content">
-            <div class="story-date">09/24/15</div>
-            <div class="story-title">In which Mr. Scrummy returns from the brink</div>
-            <div class="story-summary">The fifth chapter of <i>A Boy Meets a Dragon</i>, in which Thursday learns to heal himself.</div>
-          </div>
-        </a>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/a-boy-meets-a-dragon-chapter-3/">
+      <img class="story-thumbnail" src="/images/front-page/searching-for-scraps.png">
+      <div class="content">
+        <div class="story-date">05/10/15</div>
+        <div class="story-title">Searching for scraps</div>
+        <div class="story-summary">The third chapter of <i>A Boy Meets a Dragon</i>, in which Rish tells Eeo about her journey and her life.</div>
       </div>
-      <div class="thumbnail-container mb4 col col-12 md-col-4">
-        <a class="story-container" href="/a-boy-meets-a-dragon-chapter-4/">
-          <img class="story-thumbnail" src="/images/front-page/gather-your-popcorn.png">
-          <div class="content">
-            <div class="story-date">06/11/15</div>
-            <div class="story-title">Gather your popcorn</div>
-            <div class="story-summary">The fourth chapter of <i>A Boy Meets a Dragon</i>, in which Rish uncovers someone living inside the dragon.</div>
-          </div>
-        </a>
-      </div>
-      <div class="thumbnail-container mb4 col col-12 md-col-4">
-        <a class="story-container" href="/a-boy-meets-a-dragon-chapter-3/">
-          <img class="story-thumbnail" src="/images/front-page/searching-for-scraps.png">
-          <div class="content">
-            <div class="story-date">05/10/15</div>
-            <div class="story-title">Searching for scraps</div>
-            <div class="story-summary">The third chapter of <i>A Boy Meets a Dragon</i>, in which Rish tells Eeo about her journey and her life.</div>
-          </div>
-        </a>
-      </div>
-      <div class="thumbnail-container mb4 col col-12 md-col-4">
-        <a class="story-container" href="/a-boy-meets-a-dragon-chapter-2/">
-          <img class="story-thumbnail" src="/images/front-page/where-is-the-flood.png">
-          <div class="content">
-            <div class="story-date">04/28/15</div>
-            <div class="story-title">Where is the flood?</div>
-            <div class="story-summary">The second chapter of <i>A Boy Meets a Dragon</i>, in which Eeo gets to know the world of magic.</div>
-          </div>
-        </a>
-      </div>
-      <div class="thumbnail-container mb4 col col-12 md-col-4">
-        <a class="story-container" href="/a-boy-meets-a-dragon-chapter-1/">
-          <img class="story-thumbnail" src="/images/front-page/meetings-and-wanderers.png">
-          <div class="content">
-            <div class="story-date">04/13/15</div>
-            <div class="story-title">Meetings and Wanderers</div>
-            <div class="story-summary">The first chapter of <i>A Boy Meets a Dragon</i>, in which a boy meets a dragon.</div>
-          </div>
-        </a>
-      </div>
-      <div class="thumbnail-container mb4 col col-12 md-col-4">
-        <a class="story-container" href="/save-your-heart/">
-          <img class="story-thumbnail" src="/images/front-page/save-your-heart.png?v=2">
-          <div class="content">
-            <div class="story-date">12/20/14</div>
-            <div class="story-title">Save Your Heart</div>
-            <div class="story-summary">A story about two friends who find the courage to trust each other completely.</div>
-          </div>
-        </a>
-      </div>
-      <div class="thumbnail-container mb4 col col-12 md-col-4">
-        <a class="story-container" href="/a-dream-about-gems/">
-          <img class="story-thumbnail" src="/images/front-page/dream-about-gems.png">
-          <div class="content">
-            <div class="story-date">10/05/14</div>
-            <div class="story-title">A Dream About Gems</div>
-            <div class="story-summary">A story about a girl who goes to work on the edge of a waterfall and harvests gems of magnificent value.</div>
-          </div>
-        </a>
-      </div>
-      <div class="thumbnail-container mb4 col col-12 md-col-4">
-        <a class="story-container" href="/lumberjack-graves/">
-          <img class="story-thumbnail" src="/images/front-page/lumberjack-graves.png">
-          <div class="content">
-            <div class="story-date">08/01/14</div>
-            <div class="story-title">Lumberjack Graves Dug Deep in the Ocean Floor</div>
-            <div class="story-summary">A story about a boy on an alien planet who struggles to figure things out and help the people work together.</div>
-          </div>
-        </a>
-      </div>
-    </div>
+    </a>
   </div>
-  <div class="clearfix footer">
-    <div class="col col-12">
-      <div class="footer-img"></div>
-      <div class="license">This work is in the Public Domain.</div>
-      <div style="margin-top: 5px;"><a href="http://eepurl.com/044zn">Subscribe for updates</a></div>
-    </div>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/a-boy-meets-a-dragon-chapter-2/">
+      <img class="story-thumbnail" src="/images/front-page/where-is-the-flood.png">
+      <div class="content">
+        <div class="story-date">04/28/15</div>
+        <div class="story-title">Where is the flood?</div>
+        <div class="story-summary">The second chapter of <i>A Boy Meets a Dragon</i>, in which Eeo gets to know the world of magic.</div>
+      </div>
+    </a>
+  </div>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/a-boy-meets-a-dragon-chapter-1/">
+      <img class="story-thumbnail" src="/images/front-page/meetings-and-wanderers.png">
+      <div class="content">
+        <div class="story-date">04/13/15</div>
+        <div class="story-title">Meetings and Wanderers</div>
+        <div class="story-summary">The first chapter of <i>A Boy Meets a Dragon</i>, in which a boy meets a dragon.</div>
+      </div>
+    </a>
+  </div>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/save-your-heart/">
+      <img class="story-thumbnail" src="/images/front-page/save-your-heart.png?v=2">
+      <div class="content">
+        <div class="story-date">12/20/14</div>
+        <div class="story-title">Save Your Heart</div>
+        <div class="story-summary">A story about two friends who find the courage to trust each other completely.</div>
+      </div>
+    </a>
+  </div>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/a-dream-about-gems/">
+      <img class="story-thumbnail" src="/images/front-page/dream-about-gems.png">
+      <div class="content">
+        <div class="story-date">10/05/14</div>
+        <div class="story-title">A Dream About Gems</div>
+        <div class="story-summary">A story about a girl who goes to work on the edge of a waterfall and harvests gems of magnificent value.</div>
+      </div>
+    </a>
+  </div>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/lumberjack-graves/">
+      <img class="story-thumbnail" src="/images/front-page/lumberjack-graves.png">
+      <div class="content">
+        <div class="story-date">08/01/14</div>
+        <div class="story-title">Lumberjack Graves Dug Deep in the Ocean Floor</div>
+        <div class="story-summary">A story about a boy on an alien planet who struggles to figure things out and help the people work together.</div>
+      </div>
+    </a>
   </div>
 </div>
 {% endblock %}

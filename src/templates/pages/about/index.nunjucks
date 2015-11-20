@@ -1,0 +1,21 @@
+{% extends "layout.nunjucks" %}
+
+{% block title %}About | Love nicely{% endblock %}
+
+{% block content %}
+<div class="about-page-content">
+  <p style="font-size: 22px;">Welcome to Love nicely.</p>
+  <p>A place for fantasy, science fiction, and other dream-like ways of seeing the world.</p>
+  <p>The goal of <b>Love nicely</b> is to help people grow. I believe that sharing about our inner-most experiences can help us to look beyond ourselves, if only for an instant.</p>
+  <p>The future is a marvelous and terrifying place. I think stories can give us the means to step into it with a little less terror and a little more awe.</p>
+  <p>If you have a story you want to share, please hop over to the <a href="/submissions">submissions</a> page.</p>
+  <p>Sincerely,<br>David Miranda</p>
+  <p style="margin: 40px 0 0 0;"><br>My other websites:</p>
+  <ul style="margin: .4em 0;">
+    <li><a href="http://centralcircles.com/">Central Circles</a></li>
+    <li><a href="https://artisfy.com/">Artisfy</a></li>
+  	<li><a href="http://thinklens.com/">Thinklens</a></li>
+  	<li><a href="http://panphora.com/">Panphora</a></li>
+  </ul>
+</div>
+{% endblock %}
