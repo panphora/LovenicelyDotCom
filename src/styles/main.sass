@@ -65,6 +65,9 @@ body
 //   font-weight: 300
 //   margin: 0
 
+.clear
+	clear: both
+
 h1 
   font-size: 48px
   line-height: 1.2em
@@ -860,12 +863,42 @@ a
   font-size: 30px
   margin-bottom: 20px
 
-.about-page-content 
+.front-facing-page-content 
 	p
 		font-size: 18px
 		margin-bottom: 1em
 	ul
 		font-size: 18px
+
+.button
+	display: inline-block
+	position: relative
+	color: #666
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.8)
+	text-decoration: none
+	text-align: center
+	padding: 8px 18px
+	font-size: 12px
+	font-weight: 700
+	font-family: sans-serif
+	border-radius: 4px
+	border: 1px solid #bcbcbc
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%)
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%)
+	background-image: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%)
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%)
+	background-image: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%)
+
+	&.small
+		padding: 4px 12px
+
+	&:hover
+		color: #222
+
+
+.uploaded-document
+	margin-top: 8px
+
 
 .story-col 
   text-align: center
@@ -965,20 +998,18 @@ form.standard-form
   height: 4.5em
 
 .fieldline.submission 
-  border: 1px solid #bbb
-  padding: 10px
-  background: #E6E6E6
+  padding: 0 15px
+  margin-bottom: 24px
 
-.main-contact-form form button, form.standard-form button 
+.main-contact-form form button
   border: 1px solid #333
   background: white
   border-radius: 3px
   padding: .3em .7em
-  transition: all .3s linear
 
-.main-contact-form form button:hover, form.standard-form button:hover 
-  border-color: #4F804F
-  background: #6FD06F
+.main-contact-form form button:hover
+  background: #333
+  color: white
 
 /* responsive */
 

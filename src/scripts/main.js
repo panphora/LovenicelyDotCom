@@ -1,70 +1,71 @@
 var $ = require('jquery');
+var filepicker = require('filepicker-js');
 require('jplayer');
 require('picturefill');
 
 $(function () {
 
-	if ($("#jplayer_lumberjack_graves").length) {
-		$("#jplayer_lumberjack_graves").jPlayer({
-			ready: function(event) {
-				$(this).jPlayer("setMedia", {
-					title: "Lumberjack Graves Dug Deep in the Ocean Floor",
-					mp3: "/audio/lumberjack-graves.mp3",
-					oga: "/audio/lumberjack-graves.ogg"
-				});
-			},
-			play: function() { // Avoid multiple jPlayers playing together.
-				$(this).jPlayer("pauseOthers");
-			},
-			timeFormat: {
-				padMin: false
-			},
-			swfPath: "js",
-			supplied: "mp3,oga",
-			cssSelectorAncestor: "#jplayer_lumberjack_graves_container",
-			smoothPlayBar: false,
-			remainingDuration: true,
-			keyEnabled: true,
-			keyBindings: {
-				// Disable some of the default key controls
-				muted: null,
-				volumeUp: null,
-				volumeDown: null
-			},
-			wmode: "window"
-		});
-	}
+  if ($("#jplayer_lumberjack_graves").length) {
+    $("#jplayer_lumberjack_graves").jPlayer({
+      ready: function(event) {
+        $(this).jPlayer("setMedia", {
+          title: "Lumberjack Graves Dug Deep in the Ocean Floor",
+          mp3: "/audio/lumberjack-graves.mp3",
+          oga: "/audio/lumberjack-graves.ogg"
+        });
+      },
+      play: function() { // Avoid multiple jPlayers playing together.
+        $(this).jPlayer("pauseOthers");
+      },
+      timeFormat: {
+        padMin: false
+      },
+      swfPath: "js",
+      supplied: "mp3,oga",
+      cssSelectorAncestor: "#jplayer_lumberjack_graves_container",
+      smoothPlayBar: false,
+      remainingDuration: true,
+      keyEnabled: true,
+      keyBindings: {
+        // Disable some of the default key controls
+        muted: null,
+        volumeUp: null,
+        volumeDown: null
+      },
+      wmode: "window"
+    });
+  }
 
-	if ($("#jplayer_save_your_heart").length) {
-		$("#jplayer_save_your_heart").jPlayer({
-			ready: function(event) {
-				$(this).jPlayer("setMedia", {
-					title: "Save Your Heart",
-					mp3: "/audio/save-your-heart.mp3",
-					oga: "/audio/save-your-heart.ogg"
-				});
-			},
-			play: function() { // Avoid multiple jPlayers playing together.
-				$(this).jPlayer("pauseOthers");
-			},
-			timeFormat: {
-				padMin: false
-			},
-			swfPath: "js",
-			supplied: "mp3,oga",
-			cssSelectorAncestor: "#jplayer_save_your_heart_container",
-			smoothPlayBar: false,
-			remainingDuration: true,
-			keyEnabled: true,
-			keyBindings: {
-				// Disable some of the default key controls
-				muted: null,
-				volumeUp: null,
-				volumeDown: null
-			},
-			wmode: "window"
-		});
-	}
+  if ($("#jplayer_save_your_heart").length) {
+    $("#jplayer_save_your_heart").jPlayer({
+      ready: function(event) {
+        $(this).jPlayer("setMedia", {
+          title: "Save Your Heart",
+          mp3: "/audio/save-your-heart.mp3",
+          oga: "/audio/save-your-heart.ogg"
+        });
+      },
+      play: function() { // Avoid multiple jPlayers playing together.
+        $(this).jPlayer("pauseOthers");
+      },
+      timeFormat: {
+        padMin: false
+      },
+      swfPath: "js",
+      supplied: "mp3,oga",
+      cssSelectorAncestor: "#jplayer_save_your_heart_container",
+      smoothPlayBar: false,
+      remainingDuration: true,
+      keyEnabled: true,
+      keyBindings: {
+        // Disable some of the default key controls
+        muted: null,
+        volumeUp: null,
+        volumeDown: null
+      },
+      wmode: "window"
+    });
+  }
 
   if ($("#jplayer_abmad_chap1").length) {
     $("#jplayer_abmad_chap1").jPlayer({
@@ -221,91 +222,117 @@ $(function () {
     });
   }
 
-	$('.main-contact-me-link').click(function (event) {
-		event.preventDefault();
+  $('.main-contact-me-link').click(function (event) {
+    event.preventDefault();
 
-		if (!$('.main-contact-form').is(':visible')) {
-			$('.main-contact-form').slideDown();
-		} else {
-			$('.main-contact-form').slideUp();
-		}
-	});
+    if (!$('.main-contact-form').is(':visible')) {
+      $('.main-contact-form').slideDown();
+    } else {
+      $('.main-contact-form').slideUp();
+    }
+  });
 });
 
 var subtitles = [
-	"Stories about that time you got trapped in your parents' basement.",
-	"Stories about that time you waited, with every breath, for a meteorite to crash into the earth.",
-	"Stories about that time you forgot you had a body.",
-	"Stories about that time you got lost in a maze and realized it was a maze.",
-	"Stories about that time you left with them even though they weren't your friends any more.",
-	"Stories about that time everyone in the room was laughing except the person you had been a moment ago.",
-	"Stories about that time the night sky fell down all around you and it tasted like a new memory.",
-	"Stories about that time an adult taught you how to completely ignore a child.",
-	"Stories about that time you could feel the rotation of the earth.",
-	"Stories about that time you forgave everyone.",
-	"Stories about that time you understood someone that no one else understood.",
-	"Stories about that time you recognized that the players on the stage weren't the ones creating the play.",
-	"Stories about that time you noticed your parents didn't see something because they didn't want to.",
-	"Stories about that time your heart felt like it was burning.",
-	"Stories about that time you licked the tears off every face in the room.",
-	"Stories about that time you heard the ticking of his heart.",
-	"Stories about that time you rode an oversized duckling into the sunset.",
-	"Stories about that time you went sailing and forgot the shore.",
-	"Stories about that time you saw true darkness, loved it, and were surprised when it took hold of you.",
-	"Stories about that time you tied a knot just so you could try to get it undone again.",
-	"Stories about that time you wished upon a star and believed in the wish more than the star.",
-	"Stories about that time you went swimming with wild animals and the air smelled like blood.",
-	"Stories about that time you fell in love with a princess who was actually a wise old woman in disguise.",
-	"Stories about that time you fled from ghosts who couldn't touch you and sat on a throne of thorns for weeks.",
-	"Stories about that time you wanted to crawl under your feelings, but you knew they would give you away.",
-	"Stories about that time you weren't afraid of anything, and then you were afraid of that.",
-	"Stories about that time you pretended to be a tree and lost all your leaves when autumn came.",
-	"Stories about that time you built a palace and ruled over it with kind devotion.",
-	"Stories about that time you learned magic and forgot everyone's names.",
-	"Stories about that time you opened three doors in a row and each one revealed a brand new world.",
-	"Stories about that time you walked through a botanical garden and pretended like you had designed it.",
-	"Stories about that time you stepped from a neighbor's yard into your own without tripping over the fence."
-	]
+  "Stories about that time you got trapped in your parents' basement.",
+  "Stories about that time you waited, with every breath, for a meteorite to crash into the earth.",
+  "Stories about that time you forgot you had a body.",
+  "Stories about that time you got lost in a maze and realized it was a maze.",
+  "Stories about that time you left with them even though they weren't your friends any more.",
+  "Stories about that time everyone in the room was laughing except the person you had been a moment ago.",
+  "Stories about that time the night sky fell down all around you and it tasted like a new memory.",
+  "Stories about that time an adult taught you how to completely ignore a child.",
+  "Stories about that time you could feel the rotation of the earth.",
+  "Stories about that time you forgave everyone.",
+  "Stories about that time you understood someone that no one else understood.",
+  "Stories about that time you recognized that the players on the stage weren't the ones creating the play.",
+  "Stories about that time you noticed your parents didn't see something because they didn't want to.",
+  "Stories about that time your heart felt like it was burning.",
+  "Stories about that time you licked the tears off every face in the room.",
+  "Stories about that time you heard the ticking of his heart.",
+  "Stories about that time you rode an oversized duckling into the sunset.",
+  "Stories about that time you went sailing and forgot the shore.",
+  "Stories about that time you saw true darkness, loved it, and were surprised when it took hold of you.",
+  "Stories about that time you tied a knot just so you could try to get it undone again.",
+  "Stories about that time you wished upon a star and believed in the wish more than the star.",
+  "Stories about that time you went swimming with wild animals and the air smelled like blood.",
+  "Stories about that time you fell in love with a princess who was actually a wise old woman in disguise.",
+  "Stories about that time you fled from ghosts who couldn't touch you and sat on a throne of thorns for weeks.",
+  "Stories about that time you wanted to crawl under your feelings, but you knew they would give you away.",
+  "Stories about that time you weren't afraid of anything, and then you were afraid of that.",
+  "Stories about that time you pretended to be a tree and lost all your leaves when autumn came.",
+  "Stories about that time you built a palace and ruled over it with kind devotion.",
+  "Stories about that time you learned magic and forgot everyone's names.",
+  "Stories about that time you opened three doors in a row and each one revealed a brand new world.",
+  "Stories about that time you walked through a botanical garden and pretended like you had designed it.",
+  "Stories about that time you stepped from a neighbor's yard into your own without tripping over the fence."
+  ]
 
 
 var subtitleCache = [];
 
 function addSubtitleToCache (subtitle) {
-	if (subtitleCache.length > 10) {
-		subtitleCache.shift();
-	}
+  if (subtitleCache.length > 10) {
+    subtitleCache.shift();
+  }
 
-	subtitleCache.push(subtitle);
+  subtitleCache.push(subtitle);
 }
 
 function addARandomSubtitle () {
-	var subtitle = subtitles[Math.floor(subtitles.length * Math.random())];
+  var subtitle = subtitles[Math.floor(subtitles.length * Math.random())];
 
-	if (subtitleCache.indexOf(subtitle) === -1) {
-		$('.subtitle-text').text(subtitle);
-		addSubtitleToCache(subtitle);
-	} else {
-		addARandomSubtitle();
-	}
+  if (subtitleCache.indexOf(subtitle) === -1) {
+    $('.subtitle-text').text(subtitle);
+    addSubtitleToCache(subtitle);
+  } else {
+    addARandomSubtitle();
+  }
 }
 
 
 $(function () {
   var isMobile = $(document).width() < 800;
 
-	$('.refresh-icon').hover(function () {
-		$(this).addClass('animate-spin');
-	}, function () {
-		$(this).removeClass('animate-spin');
-	});
+  $('.refresh-icon').hover(function () {
+    $(this).addClass('animate-spin');
+  }, function () {
+    $(this).removeClass('animate-spin');
+  });
 
-	addARandomSubtitle();
+  addARandomSubtitle();
 
-	$('.refresh-icon').click(function () {
-		addARandomSubtitle();
-	});
+  $('.refresh-icon').click(function () {
+    addARandomSubtitle();
+  });
 
   addAbilityToEditParagraphs(isMobile);
+
+
+
+  filepicker.setKey("A79adXgYvTEmIsdknA7MAz");
+
+  $('.choose-document').click(function (event) {
+    filepicker.pick(
+     {
+        services: ['COMPUTER']
+      },
+      function(Blob){
+        // url, filename
+        if (Blob.url) {
+          $('.submission-doc').val(Blob.url)
+        }
+
+        if (Blob.filename) {
+          $('.uploaded-document .doc-name').text(Blog.filename);
+          $('.uploaded-document').show();
+        }
+      },
+      function(FPError){
+        //console.log(FPError.toString());
+      }
+    );
+  });
 });
 
 

@@ -3,7 +3,7 @@
 {% block title %}About | Love nicely{% endblock %}
 
 {% block content %}
-<div class="about-page-content">
+<div class="front-facing-page-content">
   <p style="font-size: 22px;">Welcome to Love nicely.</p>
   <p>A place for fantasy, science fiction, and other dream-like ways of seeing the world.</p>
   <p>The goal of <b>Love nicely</b> is to help people grow. I believe that sharing about our inner-most experiences can help us to look beyond ourselves, if only for an instant.</p>
