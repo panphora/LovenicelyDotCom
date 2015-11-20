@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="audio-download-container">
-        <a class="audio-download" href="/download?filePath=/audio/lumberjack-graves.mp3">Download MP3</a>
+        <a class="audio-download" href="/audio/lumberjack-graves.mp3">Download MP3</a>
       </div>
     </div>
   </div>
@@ -118,10 +118,7 @@
     <p>&ldquo;Momma says it’s enchanted with anti-witching spells. She says that’s why you can’t touch it. Here, try.&rdquo; He handed it to me before I could refuse. He was right, it was burning hot to the touch.</p>
     <p>&ldquo;Alright, alright, please don’t burn me!&rdquo; I laughed.</p>
     <p>We walked along the path into the orchards that spanned out for miles. This was certainly going to be some kind of adventure.</p>
-    <p class="divider">
-        <span class="line"></span>
-        <span class="diamond"></span>
-    </p>
+    <div class="story-section-separator"></div>
     <p>Two hours down the main path and we still hadn’t found anyone. The trees were picked clean of fruit, but that was really no surprise. We kept walking.</p>
     <p>&ldquo;Mister Maple, sir, can I be a tree when I grow up?&rdquo;</p>
     <p>&ldquo;Young Mr. Tuff, of course you can, but why would you want to be a tree?&rdquo;</p>
@@ -137,10 +134,7 @@
     <p>&ldquo;Oh, but then where did her belly come from? I suppose I could have been a rabbit before, mind you, it’s really all the same to me. Rabbits all the way down, tortoises all the way down, eggs all the way down, it’s whatever way you’ll have it, young master. Old Mr. Elephant says we all came from the ocean.&rdquo;</p>
     <p>&ldquo;Do you believe him?&rdquo;</p>
     <p>&ldquo;I believe what I see and I haven’t seen anything come out of the ocean in a long time. I think we’d better start focusing on solid ground again, though.&rdquo; My roots had started to come up a little more easily just talking that talk and I was getting concerned I might have to start heading back soon. I wanted to find someone, <em>anyone</em>, before that happened, but the water was getting thin and my sneakers weren’t holding it in like they used to. I wondered where the orchard mongers were, and the orchard pickers, and the orchard willowers.</p>
-    <p class="divider">
-        <span class="line"></span>
-        <span class="diamond"></span>
-    </p>
+    <div class="story-section-separator"></div>
     <p>We walked for ten more minutes before I started getting really tired.</p>
     <p>&ldquo;Ooh, look, Mr. Maple! It’s a geeseling!&rdquo; It certainly was &mdash; one that had flown from the castle kingdom, I supposed, from way up in the clouds. It was almost grown into a child Tuff’s age now, and golden brown, but around these parts it was illegal to feed or touch such a thing.</p>
     <p>&ldquo;Let’s turn around now, young Tuff, we’ll see if we can see anyone on our way back, okay?&rdquo;</p>
@@ -163,10 +157,7 @@
     <p>&ldquo;Yes.&rdquo;</p>
     <p>I felt roots grow from the tops of my shoulders all the way through my body into the bottom of my heels, so the hard ground pressed against my heels with vigor and life force. The water started flowing back up through me, and the trees around me started shining a little brighter.</p>
     <p>First project, I thought: start building an ozone around these parts of the country, or orchard picking is going to get pretty dangerous. During the walk home, I focused on the life energy beating through the heels of my feet and my breath coming and going through my nostrils. I couldn’t wait to get home.</p>
-    <p class="divider">
-        <span class="line"></span>
-        <span class="diamond"></span>
-    </p>
+    <div class="story-section-separator"></div>
     <p>&ldquo;It felt like being betrayed by my own kind, Mephie. I didn’t know if the sky was falling or if the backs of the trees would turn around to face me again. I felt utterly hopeless. Of course I thought about leaving the boy behind.&rdquo;</p>
     <p>&ldquo;How . . . how could you? Then all of the rumors about you are true?&rdquo;</p>
     <p>&ldquo;Yes,&rdquo; I said, holding her gaze.</p>
