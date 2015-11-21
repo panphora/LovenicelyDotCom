@@ -26,5 +26,5 @@ replace the text `"` with the text `&rdquo;`
 # audio quality
 
 44100 Hz sample type
-192 kbps
+128 kbps
 bit depth 24

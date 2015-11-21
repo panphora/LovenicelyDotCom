@@ -43,9 +43,6 @@
     <div class="catchphrase-bg"></div>
     <div class="container clearfix">
       <div class="clearfix header-container">
-        <span class="stripe-container">
-          <span class="stripe"></span>
-        </span>
         <a href="/" class="wide-logo no-underline">Love Nicely</a>
         <div class="logo-text-container">
           <a href="/" class="logo-text no-underline">love nicely</a>
