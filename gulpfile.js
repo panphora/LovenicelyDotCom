@@ -90,37 +90,41 @@ gulp.task('build', function (done) {
 	runSequence('public', 'images', 'styles', 'scripts', 'nunjucks', done);
 });
 
-gulp.task('clean:images', function (done) {
+gulp.task('clean:images', function () {
 	return del([
 		'dist/images/**/*'
 	]);
 });
 
-gulp.task('clean:styles', function (done) {
+gulp.task('clean:styles', function () {
 	return del([
 		'dist/styles/**/*'
 	]);
 });
 
-gulp.task('clean:scripts', function (done) {
+gulp.task('clean:scripts', function () {
 	return del([
 		'dist/scripts/**/*'
 	]);
 });
 
-gulp.task('clean:favicon', function (done) {
+gulp.task('clean:favicon', function () {
 	return del([
 		'dist/public/**/*'
 	]);
 });
 
-gulp.task('clean:public', function (done) {
+gulp.task('clean:public', function () {
 	return del([
 		'dist/public/**/*'
 	]);
 });
 
-gulp.task('clean:all', ['clean:images', 'clean:styles', 'clean:scripts']);
+gulp.task('clean:all', function () {
+	return del([
+		'dist/**/*'
+	]);
+});
 
 gulp.task('watch', function () {
 	gulp.watch('src/templates/**/*.nunjucks', ['nunjucks']);

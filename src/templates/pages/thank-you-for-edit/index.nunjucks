@@ -1,0 +1,11 @@
+{% extends "layout.nunjucks" %}
+
+{% block title %}Thank you! | Love nicely{% endblock %}
+
+{% block content %}
+<div class="front-facing-page-content">
+  <p>Thank you for submitting an edit suggestion!</p>
+  <p>I'll strongly consider adding it to the story.</p>
+  <p><a class="return-to-main-site-link" href="/">Return to the main site</a>
+</div>
+{% endblock %}

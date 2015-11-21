@@ -335,11 +335,10 @@ $(function () {
   });
 });
 
-
-
 function generateFormHtml (pId, originalText) {
   var formHtmlArr = [];
-  formHtmlArr.push('<form class="edit-p-form clearfix" action="/paragraph-edit" method="POST">');
+  formHtmlArr.push('<form class="edit-p-form clearfix" accept-charset="UTF-8" action="https://formkeep.com/f/35abd7c64c18" method="POST">');
+  formHtmlArr.push('<input type="hidden" name="utf8" value="✓">');
   formHtmlArr.push('<input name="pageTitle" type="hidden" value="' + document.title + '">');
   formHtmlArr.push('<input name="pId" type="hidden" value="' + pId + '">');
   formHtmlArr.push('<h4>Send me your suggested changes</h4>');
