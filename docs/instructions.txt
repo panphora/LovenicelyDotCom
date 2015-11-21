@@ -1,0 +1,30 @@
+# when adding a new story
+
+front page requirements
+	image
+	date
+	title
+	description
+
+story page
+	title
+	headings/subheadings
+	large images (4 versions)
+	audio in mp3 and ogg
+	text
+
+dont forget
+	link the previous chapter to the new chapter
+
+
+# to format smart quotes
+
+replace the regular expression `(")(\w)` with the text `&ldquo;$2`
+replace the text `"` with the text `&rdquo;`
+
+
+# audio quality
+
+44100 Hz sample type
+192 kbps
+bit depth 24
