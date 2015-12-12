@@ -16,11 +16,19 @@ var runSequence = require('run-sequence');
 var nunjucksRender = require('gulp-nunjucks-render');
 var del = require('del');
 
+var fs = require('fs');
+var s3 = require('gulp-s3');
+var awsCreds = JSON.parse(fs.readFileSync('./aws.json'));
+
 var server;
 var options = minimist(process.argv);
 var environment = options.environment || 'development';
 var isProduction = environment === 'production';
 
+gulp.task('deploy', function () {
+	return gulp.src('dist/**/*')
+		.pipe(s3(awsCreds));
+});
 
 gulp.task('nunjucks', function () {
   nunjucksRender.nunjucks.configure(['src/templates/layouts/']);

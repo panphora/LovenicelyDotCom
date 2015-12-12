@@ -40,3 +40,8 @@ dont forget
 44100 Hz sample type
 128 kbps
 bit depth 24
+
+
+# deploy
+
+run task: `gulp deploy`
