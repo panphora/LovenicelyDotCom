@@ -1,0 +1,156 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}In which stones fashion stones into stones | A Boy Meets a Dragon | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">A Boy Meets a Dragon</h1>
+    <h3 class="mb1">Chapter 6</h3>
+    <h2 class="mb8">In which stones fashion stones into stones</h2>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Audio version:</div>
+      <div id="jplayer_abmad_chap6" class="jp-jplayer"></div>
+      <div id="jplayer_abmad_chap6_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/audio/a-boy-meets-a-dragon/chapter-6/a-boy-meets-a-dragon-chapter-6.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-6/xlarge.jpg" media="(min-width: 1800px)"><!-- 2660 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-6/large.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-6/medium.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-6/small.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images/a-boy-meets-a-dragon/chapter-6/large.jpg" alt="Gahedrial">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+    Illustration by David Miranda
+  </div>
+  <div class="main-text-container">
+    <p style="color: #999;">/// Two days and one tree-swinging, butt-wiggling party later ///</p>
+		<p>&ldquo;Okay!&rdquo; says Eeo, &ldquo;It’s time to set off on our journey!&rdquo;</p>
+		<p>&ldquo;Wait,&rdquo; says Thursday, &ldquo;I forgot my bureau.&rdquo; Thursday goes into the woods and comes back with a large wooden bureau strapped to his back.</p>
+		<p>&ldquo;How can you even carry that?&rdquo; Rish asks.</p>
+		<p>&ldquo;I’m as strong as a dragon,&rdquo; says Thursday.</p>
+		<p>&ldquo;Okay, so which way do we go?&rdquo; Rish asks.</p>
+		<p>Eeo picks up a stick and shaves off its branches. &ldquo;I can fashion this stick into a river seeker and we can follow the flow of the water.&rdquo;</p>
+		<p>&ldquo;No,&rdquo; Thursday says, &ldquo;I know a shortcut.&rdquo; He heads straight towards a thicket of trees and knocks them in either direction with his bureau, trudging along seemingly aimlessly. Eeo and Rish follow him. He spits firey fire on the path in front of them to clear it down. The fire is molten and it burns itself as it falls, and it burns the forest to dark, black ash behind them.</p>
+		<p>They step through a clearing, vines hanging from up above, where they encounter a vast plain of ice and snow.</p>
+		<p>&ldquo;Ahh, I remember this place.” says Thursday, “We don’t want to go this way.&rdquo; He backs up, forcing Eeo and Rish to back up too, and takes out a big rock from near the path. He places the rock on the ground in a little clearing. It spins around once, stops, and then spins around again. He picks it up and places it back on the pile. &ldquo;Okay, now it’s safe,” he says.</p>
+		<p>They forge ahead on the same path, except now, ahead of them, is a vast earthen plain full of giant boulders. There’s a hill over to their right and a stream that runs under the hill and off into the distance.</p>
+		<p>&ldquo;Come, follow me,&rdquo; Thursday says. He starts running across the plain at a remarkable clip. Eeo and Rish start after him. Rish wants to stop and see where the stream is coming from, but she follows behind Thursday and Eeo silently, quickly. </p>
+		<p>As they run, the earth around them starts to swerve and squeeze. In some places earth-rich mud wells up to the surface, forming mini-volcanoes. Each volcano kisses the air and leaves a drop of mud behind, which quickly sinks back into the dry earth again. But more and more keep popping up until the whole plain is covered with little hills of mud.</p>
+		<p>&ldquo;Hurry, we’re almost there!” Thursday yells from up ahead. The boulders ahead of them start to roll together into a giant pile and the mini-volcanoes are still sputtering up mud, each trying to form into a boulder itself. The boulders ahead of them start to push together into one big mass and then they all sink together into the earth before finally arising as a giant mud golem. His face is arched and cut sharp on the side like the stone it’s formed from and his eyes are bulgy and wide. He looks out at the world with a mystical tenderness. A soft lightness shines from his eyes, like he’s afraid to touch anything too deeply with his gaze. </p>
+		<p>He looks at Rish first.</p>
+		<p>&ldquo;What is your name, young girl.&rdquo;</p>
+		<p>&ldquo;I am Rish, daughter of Yolumair, may peace be with you.&rdquo;</p>
+		<p>&ldquo;And to you. I am Gahedrial, son of the nearest mountain, I am a mud warrior.&rdquo;</p>
+		<p>&ldquo;We seek your guidance, Gahedrial. We would know of things long hidden to the minds of men. We would know the secrets of the forest and the mountains here. We are travelers, fresh from The Grove of Forgetting and The Forest of the Everlasting.&rdquo;</p>
+		<p>&ldquo;It’s strange,&rdquo; says Gahedrial, “No one told me you’d be coming this way. Usually, I get some warning... These are my sisters and brothers.&rdquo; He points behind them to three towering structures that have started to form into golems almost as big as he is. We would like you to stay for dinner in our abode. We will tell you what you wish to know. Come with me.&rdquo;</p>
+		<p>A giant, flat, silver rock-face rises from the ground in front of where they’re standing, begging them to step on it. It quivers as they walk upon it and then it sinks into the ground. The earth swallows them with a gulp. Everything is dark and empty for a moment, each scrape and whisper echoing against the small, cavernous space.</p>
+		<p>After a minute, the ground releases them and they can breathe again. Now they can see why the ground above seemed to move so strangely: below the ground there are giant arms and hands reorganizing everything in one giant, infinite room. Everything is coated in a golden hue and there are lots of strange-moving, strange-looking creatures sliding in and about on earthen shelves, which float in the air, held up by the arms that reach down from above.</p>
+		<p>All the creatures they see hop from shelf to shelf, onto pillars and to the cliffs of the walls behind them, polishing the cliff-sides and propping up stones that glimmer in a flickering light that seems to have no source. All the walls are lined with silver plates and the cavern looks like it has no bottom, like it keeps going down into darkness forever. There are red-hued stones just before the cavern hits the impenetrable darkness of the pit below and they reflect the light in this place and shine with a slightly ruby color.</p>
+		<p>Rish looks over the edge of their platform. The arm that's carrying them down starts to crack from above and they feel their platform falter, but then an oily drip of water comes from above, slides along the arm as if looking for something, and seals the crack. This makes their ride even smoother than it was before. </p>
+		<p>They're carried down, down, across the giant cavern and onto a platform that’s cut into a cliff face, which has been fashioned into a giant, open, ancient-looking room. It is there that they see a table set for dinner.</p>
+		<p>There are at least 30 seats, but no one sitting at them. Rish and Eeo and Thursday sit down at the end closest to them, with Thursday at the base of the table. And they wait.</p>
+		<p>A few minutes pass and no one comes.</p>
+		<p>Rish gets up and walks to the wall at the far end of the room. There’s a doorway in it. She looks into it and around the corner. &ldquo;Wo!” she says, “That looks amazing.&rdquo; She scuttles back to the table and sits down. Thursday asks her what she saw.</p>
+		<p>&ldquo;Not much,&rdquo; she says, &ldquo;but this place is gigantic. That hallway opens up into another room just as big as this one and I think there’s an underground lake in it.&rdquo;</p>
+		<p>Eeo takes the shimmering stone out of his pocket and spins it on the table. It makes a wushing sound and sinks into the table. He sticks his arm in after it, but it’s gone. </p>
+		<p>&ldquo;Hey!&rdquo; he yells at the table, &ldquo;Give that back. That doesn’t belong to you!&rdquo;</p>
+		<p>The table dries up and collapses. They all stand up. All their chairs collapse and crumble beside them.</p>
+		<p>&ldquo;What the heck!” yells Eeo, “Where’s my stone?&rdquo; He looks at the ground into which everything’s disappeared and walks around a little.</p>
+		<p>&ldquo;Is this it?&rdquo; asks Thursday. He points down at the ground where there’s a stone spinning under a plate of clear glass. It’s surrounded by rushing water that's flowing through and around it. The stone is glowing white.</p>
+		<p>A glass-plated compartment rises up from the ground and water falls out of it. The stone settles on top of the pillar and slows its spinning until it stops. The glass falls away and disappears and Eeo snatches his stone and clenches it to his chest.</p>
+		<p>&ldquo;Let’s get out of here. I don’t like this place.” he says.</p>
+		<p>&ldquo;How?&rdquo; asks Rish.</p>
+		<p>&ldquo;Come, follow me.&rdquo; He heads toward the door in the wall, but it slides closed and seals up. </p>
+		<p>A voice comes from the wall: &ldquo;You made a misstep, young prince, you should never have shown me that stone.&rdquo;</p>
+		<p>&ldquo;Oh, come out and face me at least!&rdquo; says Eeo. </p>
+		<p>A faceless man made of mud comes out from the wall and Eeo steps back.</p>
+		<p>&ldquo;I am this place. I am Gahedrial. You can trust me.&rdquo; he says.</p>
+		<p>&ldquo;What just happened? Why did you take it?&rdquo; Eeo protests.</p>
+		<p>&ldquo;We needed to test it. That’s a spirit stone. That has the power to blend together spirit realms and spirit energies. It’s not meant for an ordinary human to carry. It will corrupt your soul. It was in need of a cleaning, so we cleaned it for you, but it’s still just as dangerous. It’ll take your energy and blend you with what’s around you.</p>
+		<p>&ldquo;Before you know it, you won’t be able to tell the difference between yourself and where you’re at. Everything will blend together. And then you’ll be lost to time. Your memory will start to fade. Your identity will slowly collapse and disappear. Your ideas of what’s important will fade as if they never made much sense to you in the first place, worn away by the hard, shiny surface of that stone.&rdquo;</p>
+		<p>&ldquo;On the other hand,&rdquo; Thursday says, &ldquo;It could help you grow in power and strength, nurturing that small seedling in your heart until it grows into a strong tree with long roots. I think Gahedrial here might be telling you a one-sided story because he wants that stone for himself.&rdquo;</p>
+		<p>The walls shiver and quake.</p>
+		<p>&ldquo;Don’t trust what that dragon says,&rdquo; says the mud creature, &ldquo;He’s been a dragon for so long, he thinks of the world in terms of power and obedience. He would make a nature mage out of you, but at times it might be hard for you to tell who’s in control: are you opening the world with your creative powers or is it drawing you along like a pencil on paper? Have you not felt the worlds mix? Have you not felt a loss of something?&rdquo;</p>
+		<p>Eeo responds: &ldquo;Sometimes, when I practice magic, I feel a heavy longing inside my body, like I’m giving something up into the world. I didn’t know it was related to the stone. But I think it’s part of me now. I think we’re connected.”</p>
+		<p>&ldquo;You are, it’s true,&rdquo; says Gahedrial, &ldquo;But I could undo that connection for you. Set you on your way to being a mage without that stone by your side, diluting your blood with its tempestuous waters, watering you down, turning you into aether more than man.&rdquo;</p>
+		<p>&ldquo;No... thank you.&rdquo; says Eeo.</p>
+		<p>&ldquo;Is there nothing I can bargain for that stone?&rdquo; asks Gahedrial.</p>
+		<p>&ldquo;No,&rdquo; says Eeo. </p>
+		<p>As he’s been holding it, white lines have started forming up his arm. He can feel his blood hardening and crumbling, over and over again. The stone knows it’s in danger.</p>
+		<p>&ldquo;Fine, let’s enjoy our meal then.&rdquo;</p>
+		<p>The table comes back and the seats are prepared again, but everything seems off. Mud people come from the other room, through the wall, and present lavish meats and poultry and fish and apples and oranges and fruits of every color. But they are silent.</p>
+		<p>Gahedrial sits at the head of the table, far away from his guests, silent, and watches. No one eats. No one starts to eat. Everyone just stays there, with food laid out before them, silent. Rish takes an apple and is about to bite into it, but Thursday looks at her and shakes his head. She gently puts it down on the plate in front of her.</p>
+		<p>A few minutes pass with glances exchanged between the 3 guests.</p>
+		<p>&ldquo;I want to tell you a story,&rdquo; says Gahedrial, at last. &ldquo;Perhaps it will soothe my frayed nerves.&rdquo; As he says ‘frayed’, the floor vibrates with the stutter of a field of crickets.</p>
+		<p>&ldquo;I am very old. When I was young, this land was young and there were no secrets. Mountains and rivers reformed around each other. Rivers of lava flowed freely through the earth and all her arteries. Mountains that arose one day would fall into the earth the next day and the earth shifted around itself at will, giant shelves colliding with other giant shelves of rock and subsuming each other.</p>
+		<p>&ldquo;There was a lot of change back then, but there was also a lot that remained the same. The flow stayed the same. One river meeting one river or one mountain coming up again from the dust would say hello to other mountains that were nearby. Everyone knew each other and the whole dance felt like it was planned in advance. That’s how orderly everything seemed.</p>
+		<p>&ldquo;Certain things would happen again and again. The hills would climb on top of each other, trying to form a new mountain, and a stream of lava would pour down on them like ocean waves and they would collapse under a nearby mountain.</p>
+		<p>&ldquo;Birds and animals were our friends in those days. They would pray to us and guard our sacred spots. Where a garden would arise, they would post leopard guards and the birds would fly for miles telling their friends about the new place. Sometimes, mountains and hills would spring into being around places full of magic, places where new life was forming. They held things we hadn’t seen before. Sometimes whole cities would grow from nothing and be swallowed back into the earth.</p>
+		<p>&ldquo;Many civilizations grew into consciousness and then were swallowed up again. Many bones nourished the earth. There was hardly any water then because it was buried so far below the earth — and lakes and ponds were rare. My people, the people from my mountain, one of the first three mountains, the ones that had been around for the longest without being subsumed again, were the people who first made friends with the water. And that’s how we came to become mud warriors and mud people.</p>
+		<p>&ldquo;What you have there, child, is a stone from back in those days, someone who survived the giant collapse and the ice ages, buried away in one secret pocket or another. I washed her out as a favor, partly to her and partly to you, but mostly to feel close to her again. She’s a rickety old woman and won’t take much in the way of nuisances. She’s older than our remembered time by a long-shot. She knows secrets I don’t know.</p>
+		<p>&ldquo;When I tried to take her away from you right then, well, I feel bad about that now. I was testing you, but I was also testing myself. I was testing you to see how dearly you had attached yourself to her, to see if there was a way I could pry you two apart. But I was mostly testing myself. I wanted to see if I could let her go and let her be free. Such a stone is powerful, mostly in what she means to us.</p>
+		<p>&ldquo;I could be respected among my people if I acquired such a stone. But I would also be reviled. It’s a funny thing, that stone. It means so much to us, but it’s such a plain thing. What could I do with it? Almost nothing. Perhaps wake a sleeping volcano or call a meteor to earth. Nothing earth shifting, nothing big. Nothing like the old days.</p>
+		<p>&ldquo;But I would like to feel that way again. To feel the touch. I lied to you earlier about it damaging you. She could hurt you, sure, but she won’t as long as you don’t mistreat her. The main thing to worry about is the living ground, like the earth in this place. Such places will try to swallow you and keep you. I’m even thinking about it right now: what could I do to distract you and keep you here a little longer? What could I do to keep you here forever? But such thoughts are fleeting. The karma of that stone would defeat anyone who put his hands on it through evil means.&rdquo;</p>
+		<p>&ldquo;Good story,&rdquo; Rish interrupts, “Now what about those secrets unknown to the rest of humanity? The ones you promised to tell us.&rdquo;</p>
+		<p>&ldquo;My my, this girl knows what she wants. I’ll get to those later, after I explain where you’ll be going next. There are dungeons under the ground, long forgotten to the rest of humanity. They house beings of magnificent power, beings that hold the keys to other worlds. This man Thursday knows what I’m talking about. They are the key keepers and the betrayers.</p>
+		<p>&ldquo;When it came time for all the council of the world to decide on whether or not to birth human beings, these beings wanted to start the whole project over. They wanted to go back to the first whisper, before time, before darkness, before there was anything to talk about. It is known as the great emptiness, before there was such a thing as war.</p>
+		<p>&ldquo;War is what started it all. And war is what doomed them to their unearthly fate, conjuring black magic in their lonely cells far beneath the surface of the earth, in lost pockets of black diamond crystal, where fire is the purest color orange. They know the secrets of the dark. They know what it means to be scarred by the land. They know what it takes to destroy a man from the inside out, with a whisper. They carry those secrets in their hearts, heavy burdens. Those secrets keep them weighed down. And so they stay in their underground lair.</p>
+		<p>&ldquo;They couldn’t get up to the surface of the earth, even if they wanted to. They’re too heavy. They’re lost in the tiny cycles of ever-death. Have you ever met a gnarlywag?&rdquo;</p>
+		<p>Eeo shakes his head.</p>
+		<p>&ldquo;Gnarlywags start out as little parasites that attach themselves to the backs of fishes. Any fish will do. And then they devour that fish. And then they move on to the next. But a funny thing happens when two gnarlywags attach themselves to the same fish at the same time. One of them starts devouring the other and then the other one starts devouring him. Once the fish is gone, there’s nothing to eat except each other and they’ll go around and around like that, becoming longer and thinner with each time through until they both die of starvation.</p>
+		<p>&ldquo;It’s like that in the prisons under the earth. They don’t know it, but they’ve eaten all there is to eat. They gave up on this world, up here, so there’s nothing left for them until the whole thing is reborn, which won’t be for a very long time. They talk endlessly in circles about who’s the greatest mage of all time and about how the world will end. And sometimes they even talk about their past loves. How her cheeks shimmered in the daylight or what her lips felt like on theirs.</p>
+		<p>&ldquo;But everything they say is filled with death. Everything they do is a repeat of what they did hundreds of thousands of years ago. They are beyond age, beyond old, beyond dead. It’s not that they’ve lost the light of life, it’s that they took a little of it and thought it was so precious that they decided to keep it to the exclusion of all else.</p>
+		<p>&ldquo;And it dragged them down to the depths because the light of life is rambunctious, too heavy for the hands of mortals. It was like flirting with the flares of the sun. And there they stay. So there they stay. What is the light they captured? No one knows. What is light? No one really knows. You can talk about it, sure. And they do, believe me, but it’s been so long since they’ve said anything new about it — it’s hard for them to tell the difference between the colors of experience any more. Many of them talk in terms of good and evil instead, even though they're not even aware of it.</p>
+		<p>&ldquo;Many of them believe a lot of fantastic things, anything you can imagine, really. But what makes them dead? Why are they trapped in ever-death? What’s the essential reason? What’s the main thing that drags them down into the depths of the earth? If I could guess, I’d say it’s the way they use words. They talk about things like they’re already dead or dying. They talk about things as if their words have essential meaning and permanence, but no value or life.</p>
+		<p>&ldquo;They’ll say one thing that seems of the utmost importance one day and then the next day or the next hour or the next minute, it will be as if it was never said. That’s what happens when your spirit is so damned tired that the only thing it can think to do is escape your body. But you can’t let it go because you haven’t died yet. So you compromise. They compromise on everything.</p>
+		<p>&ldquo;Ask them to sell you their souls and they’ll scream at you as if you threatened their children, but ask them to spend an eternity under the weight of not knowing who their parents are or where they come from or where they are and they’ll agree: it’s a good deal. They're soulless not because they choose the dark and not because they like death and not because they betrayed human beings, but because they do not fashion life. They let it slip out of their hands every time they get a grasp on it. They can’t hold onto it long enough to make a decision or even to tell you their name.&rdquo;</p>
+		<p>&ldquo;Then why are we going there?&rdquo; asks Eeo.</p>
+		<p>&ldquo;You’re going there because they are wise and you need to rescue them. They will help Rish conquer her father. They will show you the way to the crystalline palace. If you can wake them up, they will guide you through this world into a world full of real magic, one that vibrates with colors that taste like candy to your eyes.</p>
+		<p>&ldquo;They know, in their hearts, how to unlock a human heart. But they will not be easy to wake up. It will require more than strength or courage or intelligence. It will require sacrifice. It will require the deepest kind of supreme knowing that you can muster. You will have to fashion the power to fashion souls, wrap them up tight so they don’t unravel, and stick them in a substance that has grown achy and rubbery from age. It will be a tremendous undertaking.&rdquo;</p>
+		<p>&ldquo;What do you mean by a soul?&rdquo; asks Rish.</p>
+		<p>&ldquo;Well, here’s where we get to the part about the secrets of humanity, dear girl. You are oftly eager to know, so I won’t spare you. I told you that I was around when the earth was first being formed, it’s true, but there’s a secret: it was a human being who fashioned me. You human beings have been around since the beginning of time and you will be around until it ends. Such is the way with all conscious beings who exist in time.</p>
+		<p>&ldquo;The secret you don’t know is that there are subtle vibrations that almost completely mask your individual presences, waves that rush over your timelines at epochs and are responsible for the high and low tides that cause global traumas and trends of understanding. There were human beings before there were human beings, fashioning the first and the last human beings who will ever live. These first human beings were ghosts, mere time chasers, who only wanted to have some say in the way the world was to become. But they got too busy too fast and before they knew it there were other human beings fashioning them.</p>
+		<p>&ldquo;It got to be such a race that some of them started calling themselves gods and some of them started forming powerful groups who would all work together and some of them started working to destroy the whole enterprise. But this was all in the spirit realm and the effects on earth were hardly noticeable.</p>
+		<p>&ldquo;A bird who would start chirping a different song. A mountain would rock slowly  from side to side. Everyone knew something big was coming, but the first humans didn’t start showing up until millions of years later. And they had planned the whole thing out. They had planned what each soul was going to say to each other soul throughout all time. And everyone had their marks and their places and everything was set to go. Some people refused to play the game and I already told you what happened to them. But the ones that stayed, they got parts to play in the big drama of life. These were called souls.</p>
+		<p>&ldquo;And each one had to be fashioned and used in order for it to maintain its rightful place and its fate and its vigor. Some people didn’t use their souls like they had agreed to when they were mere spirit and some people got to thinking that they could escape their fate by thinking a lot or by doing things oppositely as they were supposed to, but all this did was tighten or loosen the fabric of relationships. It didn't damage the essential structure. This thing had gotten so complicated that it was impossible to unfasten yourself. Everyone played their part, there was no choice about it. Even dying or killing yourself didn’t really disrupt anything. A hole was made in the fabric. It got dragged down into the aether. And another soul popped up nearby and filled it in. Not a replacement, just another relationship, another way of seeing, another actor in the play.</p>
+		<p>&ldquo;And so that’s my big secret: you are not yourself. You are a million hands working throughout time to fashion your own soul and you must use it in order to perfect it and to live how you were meant to live. But the fabric will not be disrupted. And such is the beauty of the whole process that you’ll even end up knowing some things before you know them and you’ll figure out some things just after you need them, and it will still all somehow fit together in a way that makes sense.&rdquo;</p>
+		<p>&ldquo;Well, this doesn’t make much sense to me. What am I then, in your estimation, if what you say is true?&rdquo; asks Rish.</p>
+		<p>&ldquo;If I had to guess, you're descended from the line of Athena. There was a line of gods and goddesses marked by one major event. There was a mother of a child who wasn’t born yet and she was dead and had lived many times. She was destined to come back and nurture her child into reality. But she used all her accumulated power and guile and defied her fate to become his mother and instead became his guardian, as a spirit, forever giving up her earthly existence.</p>
+		<p>&ldquo;She was called Athena. And her story became famous even though her line faded and almost became dust. You might be descended from her cousin. If I had to guess, this is what I would guess. You have the eyes of someone buried deep under the earth for centuries. Someone who knows that anger, righteous anger, is at the proper center of a human heart. Not love, but a cool, sweet, distant, calculating anger that comes along every so often and washes everything clean. Every other feeling and thought is just some in-between thing. You mark an ending. I can see this at least. You push the sentences at the end of the book.&rdquo;</p>
+		<p>Rish looks skeptical, but hopeful.</p>
+		<p>&ldquo;What am I?? Do me next!&rdquo; says Eeo. But the shimmering stone shakes in his pocket.</p>
+		<p>Gahedrial says, “Your fate, young prince, is yet to be known. You have some darkness in you yet, darkness which I could remove but choose not to. You will cry for all you have lost before this is over. It’s not in my power to tell you how much you’ve lost already. Peace be with you, young mage, young warrior. I doubt you’ll find true peace before your grave.&rdquo;</p>
+		<p>&ldquo;Uegh, that was terrible,&rdquo; Eeo says.</p>
+		<p>&ldquo;This is for you, princess.&rdquo; Gahedrial puts his finger on the table and little crystals slither from the far corners to find his touch and they gather and gather until they form a small crystal at the end of a shimmering necklace, all embossed in the table. He picks the necklace up. The crystal pendant has wavy lines coming out from it, like a small sun radiating wavy, unstable light. Rish gets up and walks over to him and he drapes it around her neck.</p>
+		<p>&ldquo;Now, be off with you. And remember the hands of humans are at work. They orchestrated this meeting between human and mountain. May your journey go well.&rdquo; He opens up the passageway that he had closed to them. It opens onto a sun bleached ocean of grass that extends to the horizon. Everything is blue and green and bright and wonderful. </p>
+		<p>They start walking toward the underworld.</p>
+  </div>
+</div>
+{% endblock %}

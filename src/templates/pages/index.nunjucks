@@ -7,6 +7,16 @@
 {% block content %}
 <div class="thumbnails-container clearfix">
   <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/a-boy-meets-a-dragon-6/">
+      <img class="story-thumbnail" src="/images/front-page/in-which-stones-fashion-stones.png">
+      <div class="content">
+        <div class="story-date">12/12/15</div>
+        <div class="story-title">In which stones fashion stones into stones</div>
+        <div class="story-summary">The sixth chapter of <i>A Boy Meets a Dragon</i>, in which the compadres meet a new friend.</div>
+      </div>
+    </a>
+  </div>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-5/">
       <img class="story-thumbnail" src="/images/front-page/in-which-mr-scrummy-returns-from-the-brink.jpg">
       <div class="content">

@@ -222,6 +222,37 @@ $(function () {
     });
   }
 
+  if ($("#jplayer_abmad_chap6").length) {
+    $("#jplayer_abmad_chap6").jPlayer({
+      ready: function(event) {
+        $(this).jPlayer("setMedia", {
+          title: "In which stones fashion stones into stones",
+          mp3: "/audio/a-boy-meets-a-dragon/chapter-6/a-boy-meets-a-dragon-chapter-6.mp3",
+          oga: "/audio/a-boy-meets-a-dragon/chapter-6/a-boy-meets-a-dragon-chapter-6.ogg"
+        });
+      },
+      play: function() { // Avoid multiple jPlayers playing together.
+        $(this).jPlayer("pauseOthers");
+      },
+      timeFormat: {
+        padMin: false
+      },
+      swfPath: "js",
+      supplied: "mp3,oga",
+      cssSelectorAncestor: "#jplayer_abmad_chap6_container",
+      smoothPlayBar: false,
+      remainingDuration: true,
+      keyEnabled: true,
+      keyBindings: {
+        // Disable some of the default key controls
+        muted: null,
+        volumeUp: null,
+        volumeDown: null
+      },
+      wmode: "window"
+    });
+  }
+
   $('.main-contact-me-link').click(function (event) {
     event.preventDefault();
 

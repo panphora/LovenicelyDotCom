@@ -10,17 +10,29 @@ story page
 	title
 	headings/subheadings
 	large images (4 versions)
+		generated with grunt for now
 	audio in mp3 and ogg
 	text
+
+audio
+	add playback functionality to js file
+		todo: make this unnecessary
 
 dont forget
 	link the previous chapter to the new chapter
 
 
-# to format smart quotes
+# format text
 
-replace the regular expression `(")(\w)` with the text `&ldquo;$2`
-replace the text `"` with the text `&rdquo;`
+	## smart quotes
+
+	replace the regular expression `(")(\w)` with the text `&ldquo;$2`
+	replace the text `"` with the text `&rdquo;`
+
+	## ellipsis
+
+	replace text "…" with "..."
+
 
 
 # audio quality
