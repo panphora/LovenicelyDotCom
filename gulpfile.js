@@ -95,7 +95,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('build', function (done) {
-	runSequence('public', 'images', 'styles', 'scripts', 'nunjucks', done);
+	runSequence('favicon', 'public', 'images', 'styles', 'scripts', 'nunjucks', done);
 });
 
 gulp.task('clean:images', function () {
@@ -172,7 +172,7 @@ function handleError (error) {
 
 function reload () {
 	if (server) {
-		return browserSync.reload({stream: true});
+		return browserSync.stream();
 	}
 
 	return gutil.noop();

@@ -2,53 +2,11 @@
 @import 'basscss'
 @import 'jplayer.flat-audio'
 
-/* responsive thumbnails on home page */
-
-.thumbnail-container 
-  float: left
-
-.thumbnail-container .info 
-  color: #777777
-  line-height: 1.7em
-
-.thumbnail-container .info .fa 
-  color: #555
-  margin-right: 2px
-
-.thumbnail-container:nth-of-type(3n + 1) 
-  text-align: left
-  clear: both
-
-.thumbnail-container:nth-of-type(3n + 1) .thumbnail, .thumbnail-container:nth-of-type(3n + 1) .info 
-  margin-right: 20px
-
-.thumbnail-container:nth-of-type(3n + 2) 
-  text-align: center
-
-.thumbnail-container:nth-of-type(3n + 2) .thumbnail, .thumbnail-container:nth-of-type(3n + 2) .info 
-  margin-left: 10px
-  margin-right: 10px
-
-.thumbnail-container:nth-of-type(3n + 3) 
-  text-align: right
-
-.thumbnail-container:nth-of-type(3n + 3) .thumbnail, .thumbnail-container:nth-of-type(3n + 3) .info 
-  margin-left: 20px
-
-@media (max-width: 52em) 
-  .col.thumbnail-container 
-    margin-bottom: 2rem
-    text-align: center
-
-  .col.thumbnail-container .thumbnail, .col.thumbnail-container .info 
-    margin-left: 0
-    margin-right: 0
-    
-
 /* defaults and helpers */
 
 html 
   box-sizing: border-box
+  overflow-y: scroll;
 
 *, *:before, *:after 
   box-sizing: inherit
@@ -126,6 +84,48 @@ picture
   width: 12%
   left: 44%
   top: 50%
+
+/* responsive thumbnails on home page */
+
+.thumbnail-container 
+  float: left
+
+.thumbnail-container .info 
+  color: #777777
+  line-height: 1.7em
+
+.thumbnail-container .info .fa 
+  color: #555
+  margin-right: 2px
+
+.thumbnail-container:nth-of-type(3n + 1) 
+  text-align: left
+  clear: both
+
+.thumbnail-container:nth-of-type(3n + 1) .thumbnail, .thumbnail-container:nth-of-type(3n + 1) .info 
+  margin-right: 20px
+
+.thumbnail-container:nth-of-type(3n + 2) 
+  text-align: center
+
+.thumbnail-container:nth-of-type(3n + 2) .thumbnail, .thumbnail-container:nth-of-type(3n + 2) .info 
+  margin-left: 10px
+  margin-right: 10px
+
+.thumbnail-container:nth-of-type(3n + 3) 
+  text-align: right
+
+.thumbnail-container:nth-of-type(3n + 3) .thumbnail, .thumbnail-container:nth-of-type(3n + 3) .info 
+  margin-left: 20px
+
+@media (max-width: 52em) 
+  .col.thumbnail-container 
+    margin-bottom: 2rem
+    text-align: center
+
+  .col.thumbnail-container .thumbnail, .col.thumbnail-container .info 
+    margin-left: 0
+    margin-right: 0
 
 /*
  *
