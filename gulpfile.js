@@ -21,24 +21,6 @@ var options = minimist(process.argv);
 var environment = options.environment || 'development';
 var isProduction = environment === 'production';
 
-gulp.task('nunjucks', function () {
-  nunjucksRender.nunjucks.configure(['src/templates/layouts/']);
-
-  return gulp.src('src/templates/pages/**/*.nunjucks')
-    .pipe(nunjucksRender())
-    .pipe(cachebust.references())
-    .pipe(gulp.dest('dist'))
-    .pipe(reload());
-});
-
-gulp.task('images', function () {
-	return gulp.src('src/images/**/*.{gif,png,jpg}')
-		.pipe(imagemin())
-		.pipe(cachebust.resources())
-		.pipe(gulp.dest('dist/images'))
-		.pipe(reload());
-});
-
 gulp.task('favicon', function () {
 	return gulp.src('src/favicon/**/*.*')
 		.pipe(gulp.dest('dist'))
@@ -50,6 +32,14 @@ gulp.task('public', function () {
 	return gulp.src('src/public/**/*')
 		.pipe(gulp.dest('dist'))
 		.pipe(reload());
+});
+
+gulp.task('images', function () {
+  return gulp.src('src/images/**/*.{gif,png,jpg}')
+    .pipe(imagemin())
+    .pipe(cachebust.resources())
+    .pipe(gulp.dest('dist/images'))
+    .pipe(reload());
 });
 
 gulp.task('styles', function () {
@@ -78,6 +68,16 @@ gulp.task('scripts', function() {
 		.pipe(reload());
 });
 
+gulp.task('nunjucks', function () {
+  nunjucksRender.nunjucks.configure(['src/templates/layouts/'], {watch: false});
+
+  return gulp.src('src/templates/pages/**/*.nunjucks')
+    .pipe(nunjucksRender())
+    .pipe(cachebust.references())
+    .pipe(gulp.dest('dist'))
+    .pipe(reload());
+});
+
 gulp.task('server', function () {
 	server = express();
 	server.use(express.static('dist'));
@@ -86,7 +86,10 @@ gulp.task('server', function () {
 });
 
 gulp.task('build', function (done) {
-	runSequence('favicon', 'public', 'images', 'styles', 'scripts', 'nunjucks', done);
+	runSequence(
+    ['favicon', 'public', 'images'], 
+    ['styles', 'scripts', 'nunjucks'], 
+    done);
 });
 
 gulp.task('clean:images', function () {
