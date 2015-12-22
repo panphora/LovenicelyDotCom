@@ -27,7 +27,6 @@ gulp.task('favicon', function () {
 		.pipe(reload());
 });
 
-// audio, font
 gulp.task('public', function () {
 	return gulp.src('src/public/**/*')
 		.pipe(gulp.dest('dist'))
