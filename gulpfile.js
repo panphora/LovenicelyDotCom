@@ -87,7 +87,8 @@ gulp.task('server', function () {
 gulp.task('build', function (done) {
 	runSequence(
     ['favicon', 'public', 'images'], 
-    ['styles', 'scripts', 'nunjucks'], 
+    ['styles', 'scripts'], 
+    'nunjucks', 
     done);
 });
 
@@ -155,8 +156,6 @@ gulp.task('watch', function () {
 gulp.task('default', function (done) {
 	runSequence('clean:all', 'build', 'watch', 'server', done);
 });
-
-
 
 function handleError (error) {
 	console.log(error.toString());
