@@ -38,7 +38,7 @@
 
     {% block head %}{% endblock %}
   </head>
-  <body class="{% block bodyClass %}{% endblock %}">
+  <body class="front-facing-page {% block bodyClass %}{% endblock %}">
     <div class="stretch-header"></div>
     <div class="catchphrase-bg"></div>
     <div class="container clearfix">
@@ -49,6 +49,7 @@
           <span class="logo-text-mobile">love nicely</span>
         </div>
         <ul class="main-menu">
+          <li><a href="/contact">Contact</a></li>
           <li><a href="/submissions">Submissions</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/">Home</a></li>

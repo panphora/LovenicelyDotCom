@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class="front-facing-page-content">
-  <p>Send me a message :)</p>
+  <p style="font-size: 22px; margin-bottom: -26px;">Send me a message:</p>
   <form accept-charset="UTF-8" action="https://formkeep.com/f/8790803098f9" method="POST" class="clearfix standard-form clear" style="margin-top: 3rem;">
     <input type="hidden" name="utf8" value="✓">
     <div class="fieldline">
