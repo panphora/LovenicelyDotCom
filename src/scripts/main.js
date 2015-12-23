@@ -10,8 +10,7 @@ $(function () {
       ready: function(event) {
         $(this).jPlayer("setMedia", {
           title: "Lumberjack Graves Dug Deep in the Ocean Floor",
-          mp3: "/audio/lumberjack-graves.mp3",
-          oga: "/audio/lumberjack-graves.ogg"
+          mp3: "/audio/lumberjack-graves.mp3"
         });
       },
       play: function() { // Avoid multiple jPlayers playing together.
@@ -21,7 +20,7 @@ $(function () {
         padMin: false
       },
       swfPath: "js",
-      supplied: "mp3,oga",
+      supplied: "mp3",
       cssSelectorAncestor: "#jplayer_lumberjack_graves_container",
       smoothPlayBar: false,
       remainingDuration: true,
@@ -41,8 +40,7 @@ $(function () {
       ready: function(event) {
         $(this).jPlayer("setMedia", {
           title: "Save Your Heart",
-          mp3: "/audio/save-your-heart.mp3",
-          oga: "/audio/save-your-heart.ogg"
+          mp3: "/audio/save-your-heart.mp3"
         });
       },
       play: function() { // Avoid multiple jPlayers playing together.
@@ -52,7 +50,7 @@ $(function () {
         padMin: false
       },
       swfPath: "js",
-      supplied: "mp3,oga",
+      supplied: "mp3",
       cssSelectorAncestor: "#jplayer_save_your_heart_container",
       smoothPlayBar: false,
       remainingDuration: true,
@@ -72,8 +70,7 @@ $(function () {
       ready: function(event) {
         $(this).jPlayer("setMedia", {
           title: "Meetings and Wanderers",
-          mp3: "/audio/a-boy-meets-a-dragon/chapter-1/a-boy-meets-a-dragon-chapter-1.mp3",
-          oga: "/audio/a-boy-meets-a-dragon/chapter-1/a-boy-meets-a-dragon-chapter-1.ogg"
+          mp3: "/audio/a-boy-meets-a-dragon/chapter-1/a-boy-meets-a-dragon-chapter-1.mp3"
         });
       },
       play: function() { // Avoid multiple jPlayers playing together.
@@ -83,7 +80,7 @@ $(function () {
         padMin: false
       },
       swfPath: "js",
-      supplied: "mp3,oga",
+      supplied: "mp3",
       cssSelectorAncestor: "#jplayer_abmad_chap1_container",
       smoothPlayBar: false,
       remainingDuration: true,
@@ -103,8 +100,7 @@ $(function () {
       ready: function(event) {
         $(this).jPlayer("setMedia", {
           title: "Where is the flood?",
-          mp3: "/audio/a-boy-meets-a-dragon/chapter-2/a-boy-meets-a-dragon-chapter-2.mp3",
-          oga: "/audio/a-boy-meets-a-dragon/chapter-2/a-boy-meets-a-dragon-chapter-2.ogg"
+          mp3: "/audio/a-boy-meets-a-dragon/chapter-2/a-boy-meets-a-dragon-chapter-2.mp3"
         });
       },
       play: function() { // Avoid multiple jPlayers playing together.
@@ -114,7 +110,7 @@ $(function () {
         padMin: false
       },
       swfPath: "js",
-      supplied: "mp3,oga",
+      supplied: "mp3",
       cssSelectorAncestor: "#jplayer_abmad_chap2_container",
       smoothPlayBar: false,
       remainingDuration: true,
@@ -134,8 +130,7 @@ $(function () {
       ready: function(event) {
         $(this).jPlayer("setMedia", {
           title: "Searching for scraps",
-          mp3: "/audio/a-boy-meets-a-dragon/chapter-3/a-boy-meets-a-dragon-chapter-3.mp3",
-          oga: "/audio/a-boy-meets-a-dragon/chapter-3/a-boy-meets-a-dragon-chapter-3.ogg"
+          mp3: "/audio/a-boy-meets-a-dragon/chapter-3/a-boy-meets-a-dragon-chapter-3.mp3"
         });
       },
       play: function() { // Avoid multiple jPlayers playing together.
@@ -145,7 +140,7 @@ $(function () {
         padMin: false
       },
       swfPath: "js",
-      supplied: "mp3,oga",
+      supplied: "mp3",
       cssSelectorAncestor: "#jplayer_abmad_chap3_container",
       smoothPlayBar: false,
       remainingDuration: true,
@@ -165,8 +160,7 @@ $(function () {
       ready: function(event) {
         $(this).jPlayer("setMedia", {
           title: "Gather your popcorn",
-          mp3: "/audio/a-boy-meets-a-dragon/chapter-4/a-boy-meets-a-dragon-chapter-4.mp3",
-          oga: "/audio/a-boy-meets-a-dragon/chapter-4/a-boy-meets-a-dragon-chapter-4.ogg"
+          mp3: "/audio/a-boy-meets-a-dragon/chapter-4/a-boy-meets-a-dragon-chapter-4.mp3"
         });
       },
       play: function() { // Avoid multiple jPlayers playing together.
@@ -176,7 +170,7 @@ $(function () {
         padMin: false
       },
       swfPath: "js",
-      supplied: "mp3,oga",
+      supplied: "mp3",
       cssSelectorAncestor: "#jplayer_abmad_chap4_container",
       smoothPlayBar: false,
       remainingDuration: true,
@@ -196,8 +190,7 @@ $(function () {
       ready: function(event) {
         $(this).jPlayer("setMedia", {
           title: "In which Mr. Scrummy returns from the brink",
-          mp3: "/audio/a-boy-meets-a-dragon/chapter-5/a-boy-meets-a-dragon-chapter-5.mp3",
-          oga: "/audio/a-boy-meets-a-dragon/chapter-5/a-boy-meets-a-dragon-chapter-5.ogg"
+          mp3: "/audio/a-boy-meets-a-dragon/chapter-5/a-boy-meets-a-dragon-chapter-5.mp3"
         });
       },
       play: function() { // Avoid multiple jPlayers playing together.
@@ -207,7 +200,7 @@ $(function () {
         padMin: false
       },
       swfPath: "js",
-      supplied: "mp3,oga",
+      supplied: "mp3",
       cssSelectorAncestor: "#jplayer_abmad_chap5_container",
       smoothPlayBar: false,
       remainingDuration: true,
@@ -227,8 +220,7 @@ $(function () {
       ready: function(event) {
         $(this).jPlayer("setMedia", {
           title: "In which stones fashion stones into stones",
-          mp3: "/audio/a-boy-meets-a-dragon/chapter-6/a-boy-meets-a-dragon-chapter-6.mp3",
-          oga: "/audio/a-boy-meets-a-dragon/chapter-6/a-boy-meets-a-dragon-chapter-6.ogg"
+          mp3: "/audio/a-boy-meets-a-dragon/chapter-6/a-boy-meets-a-dragon-chapter-6.mp3"
         });
       },
       play: function() { // Avoid multiple jPlayers playing together.
@@ -238,7 +230,7 @@ $(function () {
         padMin: false
       },
       swfPath: "js",
-      supplied: "mp3,oga",
+      supplied: "mp3",
       cssSelectorAncestor: "#jplayer_abmad_chap6_container",
       smoothPlayBar: false,
       remainingDuration: true,
