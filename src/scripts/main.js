@@ -332,7 +332,7 @@ $(function () {
   addAbilityToEditParagraphs(isMobile);
 
 
-
+  // for submission form
   filepicker.setKey("A79adXgYvTEmIsdknA7MAz");
 
   $('.choose-document').click(function (event) {
