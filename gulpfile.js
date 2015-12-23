@@ -85,11 +85,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('build', function (done) {
-	runSequence(
-    ['favicon', 'public', 'images'], 
-    ['styles', 'scripts'], 
-    'nunjucks', 
-    done);
+	runSequence('clean:all', 'favicon', 'public', 'images', 'styles', 'scripts', 'nunjucks', done);
 });
 
 gulp.task('clean:images', function () {
@@ -132,7 +128,7 @@ gulp.task('watch', function () {
 	gulp.watch('src/templates/**/*.nunjucks', ['nunjucks']);
 
 	gulp.watch('src/images/**/*.{gif,png,jpg}', function () {
-		runSequence('clean:images', 'images', 'nunjucks');
+		runSequence('clean:images', 'images', 'styles', 'scripts', 'nunjucks');
 	});
 
 	gulp.watch('src/favicon/**/*', function () {
@@ -140,12 +136,11 @@ gulp.task('watch', function () {
 	});
 
 	gulp.watch('src/public/**/*', function () {
-		runSequence('clean:public', 'public', 'nunjucks');
+		runSequence('clean:public', 'public', 'styles', 'scripts', 'nunjucks');
 	});
 
 	gulp.watch('src/styles/**/*.sass', function () {
 		runSequence('clean:styles', 'styles', 'nunjucks');
-		reload();
 	});
 
 	gulp.watch('src/scripts/**/*.js', function () {
@@ -154,7 +149,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', function (done) {
-	runSequence('clean:all', 'build', 'watch', 'server', done);
+	runSequence('build', 'watch', 'server', done);
 });
 
 function handleError (error) {
