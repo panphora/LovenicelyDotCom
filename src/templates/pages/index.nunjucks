@@ -6,7 +6,7 @@
 
 {% block content %}
 <div class="thumbnails-container clearfix">
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-7/">
       <img class="story-thumbnail" src="/images/front-page/seeing-sight-and-the-seen.png">
       <div class="content">
@@ -16,7 +16,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-6/">
       <img class="story-thumbnail" src="/images/front-page/in-which-stones-fashion-stones.png">
       <div class="content">
@@ -26,7 +26,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-5/">
       <img class="story-thumbnail" src="/images/front-page/in-which-mr-scrummy-returns-from-the-brink.jpg">
       <div class="content">
@@ -36,7 +36,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-4/">
       <img class="story-thumbnail" src="/images/front-page/gather-your-popcorn.png">
       <div class="content">
@@ -46,7 +46,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-3/">
       <img class="story-thumbnail" src="/images/front-page/searching-for-scraps.png">
       <div class="content">
@@ -56,7 +56,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-2/">
       <img class="story-thumbnail" src="/images/front-page/where-is-the-flood.png">
       <div class="content">
@@ -66,7 +66,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-1/">
       <img class="story-thumbnail" src="/images/front-page/meetings-and-wanderers.png">
       <div class="content">
@@ -76,7 +76,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/save-your-heart/">
       <img class="story-thumbnail" src="/images/front-page/save-your-heart.png?v=2">
       <div class="content">
@@ -86,7 +86,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/a-dream-about-gems/">
       <img class="story-thumbnail" src="/images/front-page/dream-about-gems.png">
       <div class="content">
@@ -96,7 +96,7 @@
       </div>
     </a>
   </div>
-  <div class="thumbnail-container mb4 col col-12 md-col-4">
+  <div class="thumbnail-container col col-12 md-col-4">
     <a class="story-container" href="/lumberjack-graves/">
       <img class="story-thumbnail" src="/images/front-page/lumberjack-graves.png">
       <div class="content">

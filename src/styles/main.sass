@@ -1,6 +1,7 @@
 @import 'normalize'
 @import 'basscss'
 @import 'jplayer.flat-audio'
+@import 'btn'
 
 /* defaults and helpers */
 
@@ -89,6 +90,8 @@ picture > img
   top: 50%
 
 
+.front-facing-page .main-content
+  margin-top: 72px
 
 @media (max-width: 1100px)
   .front-facing-page .main-content
@@ -100,6 +103,7 @@ picture > img
 
 .thumbnail-container 
   float: left
+  margin-bottom: 4.5rem
 
 .thumbnail-container .info 
   color: #777777
@@ -844,6 +848,22 @@ form.standard-form
 .main-contact-form form button:hover
   background: #333
   color: white
+
+
+.subscribe-form
+  border-radius: 5px
+  background: #FBEDB7
+  padding: 30px
+  margin-top: 30px
+  text-align: center
+  .label-container
+    margin-bottom: 4px
+  .input-container
+    margin-bottom: 12px
+    input
+      width: 100%
+      max-width: 300px
+      border: 1px solid #222
 
 /* responsive */
 

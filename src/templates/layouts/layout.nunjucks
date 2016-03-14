@@ -61,14 +61,22 @@
           <i class="fa fa-refresh refresh-icon"></i>
         </div>
       </div>
-      <h3 class="stories-header"></h3>
       <div class="clearfix main-content">
         {% block content %}{% endblock %}
         <div class="clearfix footer">
           <div class="col col-12">
             <div class="footer-img"></div>
-            <div class="license">Artwork created by artists other than David Miranda is copyrighted. Everything else on this website is <a href="https://github.com/panphora/LovenicelyDotCom">Public Domain</a>.</div>
-            <div style="margin-top: 5px;"><a href="http://eepurl.com/044zn">Subscribe for updates</a></div>
+            <div class="license">Illustrations created by people other than David Miranda is under copyright. Everything else is in the <a href="https://github.com/panphora/LovenicelyDotCom">Public Domain</a>.</div>
+            <form class="subscribe-form" action="https://tinyletter.com/lovenicely" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/lovenicely', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+              <div class="label-container">
+                <label for="tlemail">Would you like to receive updates?</label>
+              </div>
+              <div class="input-container">
+                <input placeholder="Email address" type="text" name="email" id="tlemail" />
+              </div>
+              <input type="hidden" value="1" name="embed"/>
+              <button class="nice-simple-button btn-ltblue subscribe-button" type="submit">Subscribe</button>
+            </form>
           </div>
         </div>
       </div>
