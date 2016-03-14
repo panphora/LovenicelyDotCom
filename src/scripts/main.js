@@ -245,6 +245,36 @@ $(function () {
     });
   }
 
+  if ($("#jplayer_abmad_chap7").length) {
+    $("#jplayer_abmad_chap7").jPlayer({
+      ready: function(event) {
+        $(this).jPlayer("setMedia", {
+          title: "Seeing, sight, and the seen",
+          mp3: "/audio/a-boy-meets-a-dragon/chapter-7/a-boy-meets-a-dragon-chapter-7.mp3"
+        });
+      },
+      play: function() { // Avoid multiple jPlayers playing together.
+        $(this).jPlayer("pauseOthers");
+      },
+      timeFormat: {
+        padMin: false
+      },
+      swfPath: "js",
+      supplied: "mp3",
+      cssSelectorAncestor: "#jplayer_abmad_chap7_container",
+      smoothPlayBar: false,
+      remainingDuration: true,
+      keyEnabled: true,
+      keyBindings: {
+        // Disable some of the default key controls
+        muted: null,
+        volumeUp: null,
+        volumeDown: null
+      },
+      wmode: "window"
+    });
+  }
+
   $('.main-contact-me-link').click(function (event) {
     event.preventDefault();
 
@@ -288,7 +318,8 @@ var subtitles = [
   "Stories about that time you learned magic and forgot everyone's names.",
   "Stories about that time you opened three doors in a row and each one revealed a brand new world.",
   "Stories about that time you walked through a botanical garden and pretended like you had designed it.",
-  "Stories about that time you stepped from a neighbor's yard into your own without tripping over the fence."
+  "Stories about that time you stepped from a neighbor's yard into your own without tripping over the fence.",
+  "Stories about that time you disappeared and felt everything at once."
   ]
 
 

@@ -1,0 +1,9 @@
+{
+  "name": "sample-grunt-thing",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-image-resize": "^0.7.1",
+    "gulp-rename": "^1.2.2"
+  }
+}

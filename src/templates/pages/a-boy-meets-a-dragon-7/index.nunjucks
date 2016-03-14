@@ -1,0 +1,176 @@
+{% extends "story-layout.nunjucks" %}
+
+{% block title %}Seeing, sight, and the seen | A Boy Meets a Dragon | Love nicely{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="center">
+    <h1 class="mb4">A Boy Meets a Dragon</h1>
+    <h3 class="mb1">Chapter 7</h3>
+    <h2 class="mb8">Seeing, sight, and the seen</h2>
+  </div>
+  <div class="mb6 audio-container">
+    <div>
+      <div class="audio-callout text-center">Audio version:</div>
+      <div id="jplayer_abmad_chap7" class="jp-jplayer"></div>
+      <div id="jplayer_abmad_chap7_container" class="jp-flat-audio">
+        <div class="jp-play-control jp-control">
+          <a class="jp-play jp-button"></a>
+          <a class="jp-pause jp-button"></a>
+        </div>
+        <div class="jp-bar">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+            <div class="jp-details"><span class="jp-title"></span></div>
+            <div class="jp-timing"><span class="jp-duration"></span></div>
+          </div>
+        </div>
+        <div class="jp-no-solution">
+          Media Player Error<br />
+          Update your browser or Flash plugin
+        </div>
+      </div>
+      <div class="audio-download-container">
+        <a class="audio-download" href="/audio/a-boy-meets-a-dragon/chapter-7/a-boy-meets-a-dragon-chapter-7.mp3">Download MP3</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mbpoint5">
+  <picture>
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-7/xlarge.jpg" media="(min-width: 1800px)"><!-- 2660 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-7/large.jpg" media="(min-width: 800px)"><!-- 1400 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-7/medium.jpg" media="(min-width: 400px)"><!-- 640 -->
+    <source srcset="/images/a-boy-meets-a-dragon/chapter-7/small.jpg" media="(min-width: 200px)"><!-- 320 -->
+    <img class="fit" srcset="/images/a-boy-meets-a-dragon/chapter-7/large.jpg" alt="Gahedrial">
+  </picture>
+</div>
+<div class="container">
+  <div class="main-illustrator-credits-container">
+  Illustration by <a href="http://choodraws.tumblr.com/">Choo</a>
+  </div>
+  <div class="main-text-container">
+    <p>The journey is easy at first. Days pass without trouble.</p>
+    <p>On the third day, Eeo finds some pine cones and suggests they set up camp. He claims spirits like the smell of burning pine cones.</p>
+    <p>Here they are, sitting around the fire: Rish, Eeo, and Thursday. Eeo has a pine cone on the end of a tree branch and it’s sparkling as it burns.</p>
+    <p>&ldquo;Rish,&rdquo; he says, &ldquo;What’s the matter?&rdquo;</p>
+    <p>&ldquo;What do ya mean?&rdquo; says Rish.</p>
+    <p>&ldquo;Something’s been bugging you since our meeting with Gahedrial... I can tell.&rdquo;</p>
+    <p>&ldquo;How?&rdquo; she asks.</p>
+    <p>&ldquo;Because you look angry,&rdquo; says Thursday, smiling.</p>
+    <p>&ldquo;Well, I am. Didn’t you notice that that guy treated us like crap and we didn’t even get any good stories out of him? He just told us that the hands of human beings are manipulating all our actions and predestining us to do certain things and go certain places. And then he sent us on this stupid mission to the underworld. I don’t want to go to the underworld.&rdquo; She pauses for a second and looks at Eeo. &ldquo;Do you want to go to the underworld, Eeo?&rdquo;</p>
+    <p>Eeo shakes his head.</p>
+    <p>&ldquo;Thursday, why are we going to the underworld?&rdquo;</p>
+    <p>&ldquo;I dunno. Seems like the place to go,&rdquo; he says.</p>
+    <p>&ldquo;Well, I think it’s going to be boring and it’s going to smell terrible and we’re not even going to see any dead people. Gahedrial claims these people we’re going to see are just ordinary cursed people. People who didn’t live up to their fate or whatever. Their souls disappeared and they got tied to the mantle core or whatever. I don’t want to talk to people like that.&rdquo;</p>
+    <p>&ldquo;Let’s just skip it then,&rdquo; says Eeo.</p>
+    <p>&ldquo;What do you think, Thursday?&rdquo;</p>
+    <p>&ldquo;Well, I’d worry about the fate thing. I mean, if he’s right and fate’s at work, we could end up meeting those underworlders anyways. I mean, we could even end up becoming just like ‘em because we defied our fate.&rdquo;</p>
+    <p>&ldquo;See,&rdquo; says Rish, &ldquo;That’s the thing that pisses me off the most. It’s like we don’t have a choice. This is supposed to be an adventure of risk and discovery! We can’t just go along with every old mountain that comes along, no matter how old he is. For all we know, it’s a trap and he just wants to steal that stone of yours again, Eeo.&rdquo;</p>
+    <p>The stone shakes in Eeo’s pocket.</p>
+    <p>&ldquo;That’s it,&rdquo; he says, &ldquo;I’m not going. You convinced me.&rdquo;</p>
+    <p>Thursday flickers and becomes a dragon again, temporarily, and then he flickers back to human form, like a TV screen stuttering on a channel change.</p>
+    <p>&ldquo;Whatever you guys want, I’m game, but we’ll probably end up going anyway. There’ll probably be some circuitous route, but we’ll end up there all the same.&rdquo;</p>
+    <p>&ldquo;I don’t think so...&rdquo; says Rish. &ldquo;I don’t think this one’s going to end up like that. I think that’s the plot, sure, but it’s going to fail —&rdquo;</p>
+    <p>A little girl crawls out of their campfire and sits beside Eeo. She’s still burning, covered in fire.</p>
+    <p>She looks up at Eeo and says, &ldquo;Hello.&rdquo;</p>
+    <p>&ldquo;Hello little fire girl,&rdquo; he says, &ldquo;What are you doing? Where did you come from!&rdquo;</p>
+    <p>&ldquo;I’m an apostrophe,&rdquo; says the little fiery ball of cuteness.</p>
+    <p>&ldquo;What does that mean?&rdquo; says Rish.</p>
+    <p>&ldquo;I’m an apostrophe. My mother sent me. She said some kids were in trouble and they’d need someone like me.&rdquo;</p>
+    <p>&ldquo;Well, who are you? What do you do?&rdquo; asks Thursday.</p>
+    <p>&ldquo;I already told you. I’m nothing fancy. Just an apostrophe. And I like your adventure and the way it’s shaping up, so I’m going to come along with you.&rdquo;</p>
+    <p>&ldquo;But you’re just small,&rdquo; says Thursday.</p>
+    <p>&ldquo;And you’re evil,&rdquo; says Milk, the apostrophe.</p>
+    <p>Thursday zips his mouth and looks at Rish and then at Eeo.</p>
+    <p>&ldquo;I think you might be evil now,&rdquo; says Rish, playfully, and points at Thursday, &ldquo;which would make us evil by extension.&rdquo;</p>
+    <p>&ldquo;Do you think that means we’re on one of those evil adventures now, the ones no one ever reads about?&rdquo; asks Eeo.</p>
+    <p>&ldquo;Ya, probably, but we never really had a choice. We’ve got a dark lord as a dragon who wouldn’t mind if the whole world got destroyed. And a boy magician who doesn’t know why he’s on this adventure in the first place. And me, I just want to destroy my father for practically no reason.&rdquo;</p>
+    <p>&ldquo;Didn’t you say he cut people’s tongues out?&rdquo; says Thursday.</p>
+    <p>&ldquo;Well, ya, there’s that...&rdquo;</p>
+    <p>&ldquo;Maybe this baby’s just messing with us,&rdquo; says Thursday.</p>
+    <p>&ldquo;Ya, maybe you’re the evil one, baby,&rdquo; Eeo says, looking at her piercingly.</p>
+    <p>The little girl looks up at him incredulously.</p>
+    <p>&ldquo;Although that doesn’t really bode well for us either,&rdquo; says Rish.</p>
+    <p>&ldquo;Listen,&rdquo; says Milk. &ldquo;There’s no need to fuss. Thursday is just evil, it’s simple. It doesn’t make much difference. It’s just the kind of guy he is. You two are mostly good. And I’m mostly good too. That dragon’s been through a lot though, man. Like, eons of suffering. Do you know what an eon is? Do you know what happens when a universe collapses? He’s been though that. That kind of stuff turns you inside out. It feels like your own mother stuck a knife in your back and it splintered into a thousand pieces.&rdquo;</p>
+    <p>&ldquo;Who are you??&rdquo; says Thursday.</p>
+    <p>&ldquo;I’m me.&rdquo; says the apostrophe. &ldquo;I’m just a wee child. Haven’t had much of a chance to become something real yet, but I’m working on it.&rdquo; The fire on her skin has started to cool off now and you can see parts of her skin, pink, naked, and pure. She has long hair, down past her shoulders and a pudgy little face. Her eyes are slitted and slanted and terse.</p>
+    <p>&ldquo;You said your mother sent you...&rdquo; says Thursday, &ldquo;Who’s she?&rdquo;</p>
+    <p>&ldquo;My mother is a queen!&rdquo; Milk says, &ldquo;She comes from words. She comes from the place where words have meaning. You guys were talking in such a way that you left an opening. An opening just large enough for an apostrophe to get through. So I came. I liked what you were talking about. I like travelers who are lost. I could stay here all day just listening to you.&rdquo;</p>
+    <p>&ldquo;Well, you came at a good time,&rdquo; says Rish. &ldquo;We’re trying to decide what to do next.&rdquo;</p>
+    <p>&ldquo;Why do you need to decide?&rdquo; asks Milk. &ldquo;Why not just let things happen?&rdquo;</p>
+    <p>&ldquo;Well, because we’re supposed to be on an adventure. We’re supposed to be on our way to defeat my father,&rdquo; says Rish.</p>
+    <p>&ldquo;That can wait. Let’s talk about other things.&rdquo;</p>
+    <p>&ldquo;Like what?&rdquo; asks Eeo.</p>
+    <p>&ldquo;Anything,&rdquo; says Milk.</p>
+    <p>They all quietly look at Milk until they understand she’s being serious. Minutes pass.</p>
+    <p>&ldquo;How about time?&rdquo; says Thursday. &ldquo;I’ve been wanting to talk with someone about time for a long time.&rdquo;</p>
+    <p>&ldquo;Why do you care about time, Thursday?&rdquo; Rish asks.</p>
+    <p>&ldquo;Because I’ve been in it for so long and I still can’t decide if I like it or not. It’s the package that everything comes in, right? But on the other hand, some people say it doesn’t exist.&rdquo;</p>
+    <p>&ldquo;Who says it doesn’t exist?&rdquo; asks Milk.</p>
+    <p>&ldquo;People like those people trapped in the underworld. And people like my mother. And some people here and there who I knew back in The Forest with No Name.&rdquo; says Thursday.</p>
+    <p>&ldquo;Well, I think it exists,&rdquo; says Eeo, &ldquo;it’s like a seesaw.&rdquo;</p>
+    <p>&ldquo;How so?&rdquo; says Rish.</p>
+    <p>&ldquo;Well, it has an odd way of creating a balance between you and whatever you’re experiencing. It tries to get inside of you, force you to do things, force you to explore things you wouldn’t have before you got wrapped up in it. It’s like diving down a rabbit hole. Where does time go? It follows right behind you. And everything has a funny way of coming out alright on the other end.&rdquo;</p>
+    <p>&ldquo;I don’t think it’s like a seesaw,&rdquo; says Rish. &ldquo;I like to think about it as a giant ball that expands and contracts. It’s like something you roll around in while everything else comes tumbling about with you. You know about time dilation? It’s what those people do who live on that planet — the orange planet with the black sun. They say that time comes in different shapes for everyone. And sometimes it’s possible to get caught in a shape you can’t get out of. And some of them even opened up a sky tunnel and disappeared into the substance of time, shot into the past or the future or whatever you want to call it, as if they never existed at all. The only record of them are those impenetrable manuscripts they left behind.&rdquo;</p>
+    <p>&ldquo;I know the ones your talking about,&rdquo; says Thursday. &ldquo;Let’s please talk about something else. I don’t like the thought of those things.&rdquo;</p>
+    <p>&ldquo;Why not?&rdquo; Eeo asks. &ldquo;Now you’ve got me curious.&rdquo;</p>
+    <p>Thursday looks at Eeo harshly. &ldquo;I don’t like where you’re headed, boy.&rdquo;</p>
+    <p>&ldquo;Thursday, it’s okay, I’ll explain it to him,&rdquo; says Rish. &ldquo;You don’t have to say a word.</p>
+    <p>&ldquo;A long time ago, Eeo, there were people who were experts in time dynamics. They’re the people who originally invented human beings, or so the myth goes. They could reach in one place and grab anything they wanted from any other place in time or space. It ended up they got really rich and powerful. But powerful isn’t even the right word for it.</p>
+    <p>&ldquo;At some point in history there were devices invented for turning boys into girls and girls into boys. And in another part of history there was a device invented for making living creature live forever. And in yet another part, there was a genetic disease going around that made it possible for one creature to know exactly what another creature was feeling and thinking, blending their identities together. Each of these devices on their own made it quite confusing and sometimes stressful just existing.</p>
+    <p>&ldquo;But all of these things made it into the same time zone because of the people experimenting with time dynamics — and they started seeing things that no one has ever seen before. They started seeing beyond the veil.</p>
+    <p>&ldquo;The veil is supposed to be what time and space are made out of, their substance. It’s kind of like the curtain of impartiality that scientists are supposed to stand behind when conducting an experiment, if you want to think about it that way. And there are beings of light that exist in two-dimensional space, or true reality, beyond this plane — and they’re responsible for making a lot of things work that to us just seem to automatically make sense. Some people think they’re what makes it possible to experience something and think about it at the same time.</p>
+    <p>&ldquo;Anyways, the dynamicers started seeing these two dimensional creatures and they made requests of them. But they weren’t kind requests, they were more like: ‘Show us what we want to see or we’ll find a way to use you as fuel for our next set of experiments.’</p>
+    <p>The beings of light were so powerful that they could change the veil at will. They call it ‘lifting the veil’. Each time the veil is lifted it’s supposed to reveal a truer and more potent reality. When the veil is lifted up enough times, a lot of people report waking up in a hospital in a completely different reality, surrounded by their loved ones who are all glad to see them. Except they’re not people you recognize, they’re your true friends, your spiritual counterparts that you’ve been looking for all your life and existing beside without realizing it.</p>
+    <p>&ldquo;And then you get up and continue living your life as if nothing happened. You start remembering your ‘old’ life, the life you were sucked away from when you were constantly pulled down into a lower form of reality, which you realize now was just a poor metaphor for your new life. And things go on...</p>
+    <p>&ldquo;The time dynamicers though, they had power over the beings of light because they could see them, and they made them do things. They made them pull back the veil too many times and for too many people at once and too quickly, so reality had a hard time catching up and adapting.</p>
+    <p>&ldquo;Whole worlds started getting created at an alarming rate. And they ended up with a lot of Pandoras, which is never a good thing... Pandoras are a waste, but they’re also the most sensible path if you have infinite power like they did. With a Pandora, the first thing that happens is you flash through all of your past and future lives really quickly, like a chain reaction. And then you come back to the world that’s the most real to you, most likely the world where you started. And you’re full of power, all the power you collected from those other worlds.</p>
+    <p>&ldquo;Then, most likely, you stop believing in everything at once. And wherever you are starts to split off from everything else. This is how dragons get created, in a sense, except they keep it inside, bubbling up, and get all torn up in there. </p>
+    <p>&ldquo;And this is why humans were invented. This is also why people disappear sometimes and no one seems to remember them a few hours later.</p>
+    <p>&ldquo;Because when a little piece of the world splits apart, sometimes a soul or two gets torn to shreds in between and you end up with memories that never existed for you and souls that don’t know which body to go in.</p>
+    <p>&ldquo;I heard about one man who got stranded in the vast desert between worlds. And a girl who went out to find him and ended up getting stranded in the dream worlds.</p>
+    <p>&ldquo;And a lot of people know about these worlds, but they don’t say a word because they’re one of those natural secrets. You never know if saying something would cause another split or a lift of the veil, and then you wouldn’t really just be telling the truth or discussing philosophy or whatever, you’d be leading someone to creating more destruction and who knows where it’ll ever end.</p>
+    <p>&ldquo;So, the people who come into contact with the worlds beyond this one, usually just keep their mouths shut. But the dynamicers were different. They were so satiated with worlds and they had created so many Pandoras, that their planet was becoming unreal. You’ve heard of the dream worlds, right? Those planets full of endless shifting sands?</p>
+    <p>&ldquo;Well, those are tame compared with what happened to K’tho. K’tho had people that were inside of other people. And they had this game called the God game that no one wanted to play, but everyone was involved in because they couldn’t come face to face with the reality that there’s no underlying true reality. And they had rooms that didn’t exist or existed sometimes and they had the light beings taking these rooms and chopping them up and feeding them into new universes that were being created all the time. </p>
+    <p>&ldquo;It was a universe factory.</p>
+    <p>&ldquo;Except, usually, new universes get created when there’s something truly new that’s come into the world, something worth exploring, something that needs another universe just to comprehend it. These newly forming universes are guided by the beings of light and usually they just become a dream or a feeling or sometimes a work of art. But with the dynamicers, they were just bored. Worse than bored. They were hinged onto something similar to the love of death. There was a parasite that got to them. It wasn’t the love of death exactly, no, although they had that too. And it wasn’t the love of delirium, although they had that one too. It was something like fear.</p>
+    <p>&ldquo;They would say things like, ‘And this is all there is,’ when they arrived in a new universe, as if they already knew all of it and it was just one of many finite possibilities of existence — as if they were trapped in an iron cage of their own ideas at the same time as they were being dragged through a river of endless possibility. And, when someone did something worth noticing, they would say, &ldquo;This, how you are right now, is how you always are.&rdquo; And before they ate, they would say, &ldquo;We will become the food we eat.&rdquo; And other strange stuff like that.</p>
+    <p>&ldquo;It was a sickness of the mind. Let me say it like this: they were in a love-hate relationship with the universe. They were the light beings' predators and the light beings are responsible for everything. They were what some people call the coming darkness, the next great night. Which is really supposed to be like another great flood, except it’s really the end this time. If it comes, and it probably will, no one knows if this old contraption of a universe is ever going to get started up again.</p>
+    <p>&ldquo;But the temporary solution was — and let me tell you this because this is why Thursday was so upset — the temporary solution was to let the dynamicers become artificers. They live with the beings of light now, in worlds made of pure light. And everything is good there. No one wants for anything. Imagine something and it’s yours. Traveling between worlds is easy there. They build cities in days with mere thoughts and dreams, and they sell some people there on the idea that they’re actually in heaven and then they feed off of their energy, turning it back into light, discarding them when they’re done.</p>
+    <p>&ldquo;But let me explain the downside. We send a few people every year, people who get too close to the realms of light. We send them up to these new artificers, up in the sky, and their souls are vaporized. They’re more than killed — they’re made non-existent. People’s memories of them fade more quickly than normal. And their reality, their soul, their ideas and constructs and emotional structure — no matter how complicated or interconnected they were — are used as the fuel for the world of light. Their bodies are decomposed and vaporized to provide energy for the cities and castles being built. And their dreams are disassembled to fuel that one dream... Everything they were is recycled.</p>
+    <p>The fact that this process exists, now as a natural part of existence, makes it hard for some people to find meaning here at all. It’s as if the meaninglessness of early K’tho has spread throughout the universe, as if they are a parasite polluting the whole enterprise.</p>
+    <p>&ldquo;In the end, the whole process makes some sense, even though no one really likes it. It’s only the people who spend a lot of time worshipping and thinking about the light that are taken and they get to become part of it. But, on the other hand, in a world where anything is possible and nothing is substantial, where are... the rules, the what, the where, the how. There’s literally nothing that actually exists there... It’s mind-boggling.&rdquo; </p>
+    <p>Rish stops talking and wipes her forehead.</p>
+    <p>&ldquo;I’m glad you talked about this,&rdquo; says Milk, &ldquo;because there’s a plan to save the world. My momma thought of it and it’s part of why she let me come here.&rdquo;</p>
+    <p>&ldquo;Oh ya, what’s your plan little Milk?&rdquo; asks Thursday, with a tiny hint of derision.</p>
+    <p>&ldquo;Well, it’s called Uripiday. And it’s a planet. And the people there love dreams. There are some people there who love dreams too much. And there are some people who love dreams just the right amount. And there are some people who know the true power of dreams and work to prevent them from destroying the universe. Those people are making another universe, a different universe from this one, one that’s going to be safe from monsters like the artificers and time dilators and humans and dragons. They really know what they’re doing.&rdquo;</p>
+    <p>Thursday says, &ldquo;Many have tried. But this is an old story. Many universes have tried to come into being separate from this one and all of them have died. I think it might be necessary to recruit the help of the beings of light, but they may have already found their match. One day we will all meet oblivion, but until that day... oh, I have nothing really to say...&rdquo;</p>
+    <p>Rish says, &ldquo;It’s okay. we’re not responsible for the universe. We’re not even responsible for our own dreams. Let’s just focus on the next step. What are we going to do now?&rdquo;</p>
+    <p>&ldquo;I’m kinda okay with just hanging out here for now,&rdquo; says Eeo. &ldquo;I want to hear about this little apostrophe’s tale and about where she’s from.&rdquo;</p>
+    <p>They all agree.</p>
+    <p>Milk looks at them and then she begins in a loud, squeaky voice.</p>
+    <p>&ldquo;Well, I’m from language, obviously. I don’t do very much. I can slip in between things really easily. Like between conversations and the flames of a fire sometimes. But fire is a hard one because it’s so beautiful. I always get too close to where you get burned and end up getting lit up. I’m allergic to daffodils. I like kiddens. I want to work on saving the world.</p>
+    <p>&ldquo;Because even if you’re right, dragon, even if this all ends tomorrow, I still like fires and I still like my momma and I still want to see what happens. I think it’s fun, not know what’s gonna happen next.</p>
+    <p>&ldquo;I was raised in the dark. Languages don’t have much light to them. Maybe they’re as bright as candle light. And I’m just one apostrophe, not THE apostrophe or anything so important. And I like summertime. And I like heart beats. I think heart beats are my favorite thing right now, especially little bunny heartbeats. One time a bunny hiccuped and I came out. That’s how I was born. Do you like that story?&rdquo;</p>
+    <p>&ldquo;Yes,&rdquo; says Thursday, &ldquo;I like it. Tell us more.&rdquo;</p>
+    <p>&ldquo;Weeell, being part of language makes it hard to stay in one place. I can hear conversations happening millions of miles away and some of them are just dying for me to jump in. You know something people like? When I jump into the middle of their name. I could do it to you, Thursday. Then you’d be Thurrr’day.&rdquo; When she says this, she rolls the rrrr on her tongue like a whisper. &ldquo;Do you like how that sounds? Weird things happen when I jump in the middle of something and skip around. Doing it to Eeo,&rdquo; she gets up and walks over to Eeo and whispers in his ear, &ldquo;sounds like that.&rdquo; Eeo shivers and shakes his shoulders and smiles.</p>
+    <p>&ldquo;What’s it sound like?&rdquo; asks Rish. He looks at Milk and she says, &ldquo;Go ahead, tell her.&rdquo;</p>
+    <p>And he says, &rdquo;‘Eeee’uuuu,’ except like a cat might say it, so kind of like ‘Meee’uuuuu.’ I’m not doing it right.&rdquo;</p>
+    <p>&ldquo;Oh,&rdquo; says Milk, &ldquo;And my real name’s not Milk, that’s just what people call me. I’ve always wanted the name Watermelon though. Can you call me that instead?&rdquo;</p>
+    <p>&ldquo;Sure,&rdquo; says Eeo, &ldquo;we can do that.&rdquo; Rish nods too and Thursday just looks nonchalant. </p>
+    <p>Watermelon walks over to Rish and she says to her, &ldquo;I’m gonna tell you yours, but you have to keep this a secret, okay?&rdquo; Rish nods and Watermelon says something in her ear that smells like fresh cotton heated by the sun and tastes like salt and marigold powder. She doesn’t even remember what it sounds like afterwards. Something like &ldquo;R’ishhhhh&rdquo; with a really long rushing song at the end, like a lullaby.</p>
+    <p>&ldquo;Oh, and there’s another thing people like. They like it when I sing to them. Because I’m good at pronouncing every syllable. Did you know it’s hard to do that? But it’s soooOO important, at least where I come from, because every syllable has its own place and it’s real and it needs to be seen and it needs to be loved in order for it to exist, just like anything. Did you know that that’s how things not only become real, but become alive? They get noticed, loved or hated, and that’s when they take their first step into the world. It’s like the cheetah evolved from the word &ldquo;fast&rdquo;. &ldquo;Fast&rdquo; came into the world first and it wasn’t really well known, but as it got more and more attention, it started to grow. And sometimes we think bigger things are bigger because they’re more important, but it’s actually pretty marvelous if you look at it the other way around.&rdquo;</p>
+    <p>Watermelon continues... &ldquo;Words are small, but not small enough for people to actually say they don’t exist, like they say about time because time is super, super small. But words are small in a way that they can have a lot of power. Like when they came along at the beginning, before there was anything, and they were responsible for the first thing. Most people don’t know this, but it’s true. Most people believe that the world is just the world and that’s the way it is, but that’s because they haven’t challenged their minds. Some people have started to realize that you can’t even hear or see something, like a color or a sound, unless you have a word for it. But it goes deeper than that because most people think that words are sounds, but they're not.</p>
+    <p>She pauses.</p>
+    <p>&ldquo;See, I’m a child and I came out of that fire, right? And my mother, she’s a queen, a real queen somewhere out there,&rdquo; and she looks out into the air, blank eyed, &ldquo;and I know it doesn’t sound possible for people that believe in the here and now, but things don’t even naturally have a shape. They just kind of come about. It’s hard for humans to understand because they’re so slow and big. They don’t even see the Grand Patterns. They don’t even know about light and the power it has to shape their lives. But mostly, they don’t even know about the little things. What I’m talking about is words! But you don’t even know what words are, see what I’m saying?! It’s like a gamble before you put in your bet. Where is it? </p>
+    <p>&ldquo;But we don’t come from there. We come from beyond the sky, beyond the stars, beyond the darkness, we come from Asfedel.</p>
+    <p>&ldquo;We come from the time before time. We come from your butt and your eyes and everything in between. What do you think about when you think about that? Atoms? Molecules? But even those are part of the patterns we made. They’re not even important patterns. You know what’s more important than a molecule? Angerrrr. And yet I bet you think anger is a big thing, but it’s not. It’s one of those things that can’t even be properly described because it’s so small. You think a molecule or an atom could exist without anger? Well, you’d be wrong. Just like nothing could exist without words and language.</p>
+    <p>&ldquo;It’s like you think the world was destined to make sense for you, but you’ve got the wrong idea. What do I mean when I say language came first? I mean that time exists. I mean that dreamers never come up with new things, they’re just explorers. You know what exists? Look at language. Where do words come from? They come from the gut because nothing else can speak them. You can’t think about what you’re going to say before you say it, you just say it, do you know what I mean? Language is the zeros and the ones. But zeros and ones are bigger than things like anger and love. Much bigger. Anger and love can form entire universes in a thumbprint. You think zeros and ones can do that? There’s no way! There’s too much inherent contradiction! You think the universe goes around creating complicated things that can’t understand themselves?! Ha! No way! Everything is simple...&rdquo;</p>
+    <p>&ldquo;I don’t understand,&rdquo; says Thursday, both out loud and with an incredulous expression on his face.</p>
+    <p>&ldquo;Ya, what’s language even mean to you?&rdquo; says Eeo.</p>
+    <p>&ldquo;When you mentioned your mother, you looked somewhere, but I couldn’t tell where you were looking.&rdquo; says Rish &ldquo;Where is she?&rdquo;</p>
+    <p>&ldquo;Here, I’ll show you,&rdquo; says Watermelon, and she disappears.</p>
+  </div>
+</div>
+{% endblock %}

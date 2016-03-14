@@ -7,6 +7,16 @@
 {% block content %}
 <div class="thumbnails-container clearfix">
   <div class="thumbnail-container mb4 col col-12 md-col-4">
+    <a class="story-container" href="/a-boy-meets-a-dragon-7/">
+      <img class="story-thumbnail" src="/images/front-page/seeing-sight-and-the-seen.png">
+      <div class="content">
+        <div class="story-date">03/13/16</div>
+        <div class="story-title">Seeing, sight, and the seen</div>
+        <div class="story-summary">The seventh chapter of <i>A Boy Meets a Dragon</i>, in which a conversation detours.</div>
+      </div>
+    </a>
+  </div>
+  <div class="thumbnail-container mb4 col col-12 md-col-4">
     <a class="story-container" href="/a-boy-meets-a-dragon-6/">
       <img class="story-thumbnail" src="/images/front-page/in-which-stones-fashion-stones.png">
       <div class="content">
