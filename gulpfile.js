@@ -46,7 +46,7 @@ gulp.task('styles', function () {
 		.pipe(sass({
 			sourceComments: isProduction ? false : 'map'
 		})).on('error', handleError)
-		.pipe(isProduction ? concat() : gutil.noop()) // shouldnt this always run?
+		// .pipe(isProduction ? concat() : gutil.noop()) // shouldnt this always run?
 		.pipe(isProduction ? minifyCss() : gutil.noop())
 		.pipe(cachebust.references())
 		.pipe(cachebust.resources())
