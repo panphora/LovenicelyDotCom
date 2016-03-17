@@ -1,4 +1,26 @@
-# when adding a new story
+1. formatting the text
+===============
+
+# smart quotes
+
+replace the regular expression `(")(\w)` with the text `&ldquo;$2`
+replace the text `"` with the text `&rdquo;`
+
+# ellipsis
+
+replace text "…" with "..."
+
+
+2. audio quality
+===========
+
+44100 Hz sample type
+128 kbps
+bit depth 24
+
+
+3. adding a story to the site
+====================
 
 front page requirements
 	image (size: 270 x 274)
@@ -22,26 +44,33 @@ dont forget
 	link the previous chapter to the new chapter
 
 
-# format text
+4. deploy
+=======
 
-	## smart quotes
-
-	replace the regular expression `(")(\w)` with the text `&ldquo;$2`
-	replace the text `"` with the text `&rdquo;`
-
-	## ellipsis
-
-	replace text "…" with "..."
+push to github (codeship takes care of the rest)
 
 
+5. share a new story
+===============
 
-# audio quality
+images
+	for facebook
+		cover?
+		post
+	for twitter
+	for instagram
+	for soundcloud
 
-44100 Hz sample type
-128 kbps
-bit depth 24
+audio
+	for soundcloud
 
+text
+	for facebook
+	for twitter
+	for instagram
+	for soundcloud
+	for youtube
 
-# deploy
+link
+	chX.abmad.co
 
-push to github
