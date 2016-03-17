@@ -60,6 +60,7 @@ images
 	for twitter
 	for instagram
 	for soundcloud
+	for email
 
 audio
 	for soundcloud
@@ -70,6 +71,7 @@ text
 	for instagram
 	for soundcloud
 	for youtube
+	for email
 
 link
 	chX.abmad.co
