@@ -66,7 +66,7 @@
         <div class="clearfix footer">
           <div class="col col-12">
             <div class="footer-img"></div>
-            <div class="license">Illustrations created by people other than David Miranda is under copyright. Everything else is in the <a href="https://github.com/panphora/LovenicelyDotCom">Public Domain</a>.</div>
+            <div class="license">Illustrations created by people other than David Miranda are copyrighted. Everything else is in the <a href="https://github.com/panphora/LovenicelyDotCom">Public Domain</a>.</div>
             <form class="subscribe-form" action="https://tinyletter.com/lovenicely" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/lovenicely', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
               <div class="label-container">
                 <label for="tlemail">Would you like to receive updates?</label>
