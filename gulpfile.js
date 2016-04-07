@@ -35,8 +35,7 @@ gulp.task('public', function () {
 
 gulp.task('images', function () {
   return gulp.src('src/images/**/*.{gif,png,jpg}')
-    .pipe(imagemin())
-    .pipe(cachebust.resources())
+    //.pipe(cachebust.resources())
     .pipe(gulp.dest('dist/images'))
     .pipe(reload());
 });
