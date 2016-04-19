@@ -378,7 +378,7 @@ $(function () {
         }
 
         if (Blob.filename) {
-          $('.uploaded-document .doc-name').text(Blog.filename);
+          $('.uploaded-document .doc-name').text(Blob.filename);
           $('.uploaded-document').show();
         }
       },
