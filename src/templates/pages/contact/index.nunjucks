@@ -5,8 +5,9 @@
 {% block content %}
 <div class="front-facing-page-content">
   <p style="font-size: 22px; margin-bottom: -26px;">Send me a message:</p>
-  <form accept-charset="UTF-8" action="https://formkeep.com/f/8790803098f9" method="POST" class="clearfix standard-form clear" style="margin-top: 3rem;">
-    <input type="hidden" name="utf8" value="✓">
+  <form action="https://formspree.io/wmwgdvqm" method="POST" class="clearfix standard-form clear" style="margin-top: 3rem;">
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_next" value="http://lovenicely.com/thank-you-for-contacting-me/" />
     <div class="fieldline">
       <label>Your name:<br> <input type="text" name="name"></label>
     </div>
